@@ -1,0 +1,34 @@
+﻿l_english:
+#设计
+#AP海军
+#超级防线/浴血
+#狂月
+
+###_[设计]	###########################################################################
+ AAR_DESIGN_leader_revive:0 "Човен душі"
+ AAR_DESIGN_tgt:0 "Локатор цілі"
+ AAR_DESIGN_tgt_WEBWAY:0 "Маяк навігації"
+ NAME_AAR_mega_WEBWAY_NEXUS:0 "[root.owner.GetName]'s Вебвей Нексус"
+ NAME_AAR_mega_WEBWAY_NODE:0 "[root.controller.GetName]'s Вебвей Нода"
+ NAME_AAR_mega_WEBWAY_BASE:0 "Сайт дослідження Вебвею"
+
+
+
+
+###_[AP海军]	###########################################################################
+ NAME_AAR_FLEET:0 "Експериментальний прототип флотилії"
+ NAME_AAR_ship:0 "Експериментальний прототип лінкора"
+
+
+###_[超级防线]	###################################################################
+
+########
+ AAR_NAME_sb_line_tower:0 "Автоматичний захист"
+ AAR_NAME_sb_line_skw_1:0 "Гравітаційний удар"
+ AAR_NAME_sb_line_skw_2:0 ""
+
+###浴血
+ AAR_name_BLOOD_garrison:0 "§EДержавна оборонна флотилія§!"
+
+###狂月
+ AAR_name_TITAN_biomoon_army:0 "Некротичний легіон"
