@@ -1,0 +1,177 @@
+﻿l_english:
+#_[测试]
+#_[UODtb/FW排序错误]
+#_[刷新领袖]
+#_[快速联系]
+#_[舰队面板/主界面]
+#_[产业革命/高级科研]
+
+
+
+
+###_[测试]
+ z_rts_var_cntr_flt_fraction:0 "护卫舰§B[root.RTS_var_cntr_expect_corvette]§!/驱逐舰§B[root.RTS_var_cntr_expect_destroyer]§!/巡洋舰§B[root.RTS_var_cntr_expect_cruiser]§!/战列舰§B[root.RTS_var_cntr_expect_battleship]§!"
+ z_rts_flg_cntr_flt_focus_corvette:0 "RTS_flg_cntr_build_focus_corvette"
+ z_rts_flg_cntr_flt_focus_destroyer:0 "RTS_flg_cntr_build_focus_destroyer"
+ z_rts_flg_cntr_flt_focus_cruiser:0 "RTS_flg_cntr_build_focus_cruiser"
+ z_rts_flg_cntr_flt_focus_battleship:0 "RTS_flg_cntr_build_focus_battleship"
+ 
+ z_fw_var_cntr_pressure:0 "压力测试[event_target:FW_tgt_NPC0.TEST_var_cpu_pressure]"
+ z_pr_btn_DB_cycle_ongoing:0 "PR自动循环进行中"
+
+
+
+
+###_[UODtb]
+ mb_modmenu_tooltip:0 "§HMod Menu§! mod not found!"
+ mb_galactic_nations_assembly_tooltip:0 "§HGalactic Nations Assembly§! mod not found!"
+ mb_quibble_propaganda_tooltip:0 "§HPropaganda and Espionage§! mod not found!"
+ mb_ruler_hobby_button_tooltip:0 "§HRuler Level System§! mod not found!"
+ 
+ FW_btn_FRONTED_link:0 "Welcome to §HDark Blue UI Overhaul§!"
+ z_ic_tip_subtitle:0 ""
+ 
+ z_mui_text_privacy:0 "Privacy"
+ z_mui_text_homepage:0 "Homepage"
+ z_mui_text_forum:0 "Forum"
+ z_mui_text_facebook:0 "Facebook"
+ z_mui_text_twitter:0 "Twitter"
+
+
+###_[FW排序错误]
+ MUI_btn_all_FW_sorting_error:0 "§HMOD Sorting Error (click for details)§!"
+ MUI_tip_FW_sorting_error:0 "You have installed §BCore Framework & Modmenu§!, but not put it below §BDark Blue UI§!. This will cause some buttons to be lost, please sort them in right order and restart the game. \n\nIf there is no special requirements:\n§BUI Overhaul Dynamic§! and §BDark Blue UI§! should be placed above §BCore Framework & Modmenu§! \nAll sub mods of §BUI Overhaul Dynamic§! and §BDark Blue UI§! should be placed together with their main mods. What's more, they also should be placed above §BCore Framework & Modmenu§!. \nOther kasako's mods which require the §BCore Framework & Modmenu§! should be placed below §BCore Framework & Modmenu§!."
+
+
+
+
+###_[刷新领袖]
+ REROLL:0 "Careers"
+ FIRE:0 "Dismiss all!"
+ MUI_option_REROLL_use_credits:0 "Use unity credits to give liquidated damages/each person §G$@REROLL_credits$§! Credits"
+ MUI_option_REROLL_use_influence:0 "Rely on influence to suppress public opinion/each person §B$@REROLL_influence$§! Point"
+ MUI_evt_ldr_roll.1.name:0 "Recruit a new batch of candidates for leaders!"
+ MUI_evt_ldr_roll.1.desc:0 "The new leader candidate list will be presented in your office the next day.\n$MUI_btn_REROLL_desc$"
+ MUI_evt_ldr_roll.2.name:0 "Recruit a new batch of candidates for the governorship"
+ MUI_evt_ldr_roll.2.desc:0 "The endless stars are full of unknowns, for a better future for the empire! We are in urgent need of a new group of talents!\n$MUI_btn_REROLL_desc$"
+ MUI_evt_ldr_roll.3.name:0 "Recruit a group of new scientist candidates"
+ MUI_evt_ldr_roll.4.name:0 "Recruit a new batch of candidates for commander"
+ MUI_evt_ldr_roll.5.name:0 "Recruit a batch of new army commander candidates"
+ MUI_btn_REROLL_desc:0 "§YAttention: Due to script limitations, the portrait cannot be redrawn. Invalid for non vanilla initial traits, but no additional costs will be incurred.§!"
+ MUI_btn_REROLL_all:0 "Reroll all"
+ MUI_btn_REROLL_admiral:0 "Reroll admirals"
+ MUI_btn_REROLL_general:0 "Reroll generals"
+ MUI_btn_REROLL_governor:0 "Reroll governors"
+ MUI_btn_REROLL_scientist:0 "Reroll scientists"
+ 
+
+
+
+###_[快速联系] 
+ # 弹出面板
+ MUI_opt_EXPRESS_non:0 ""
+ MUI_opt_EXPRESS_cancel:0 "§BFold Express Contact menu§!\nAnd you can click on any position to put away this menu."
+ MUI_btn_EXPRESS:0 "§BDark Blue UI: Express Contact§!"
+ MUI_btn_EXPRESS_folded:0 "$MUI_btn_EXPRESS$\nis currently in the §Hcollapse§! state, click to expand the communication tab."
+ MUI_btn_EXPRESS_unfolded:0 "$MUI_btn_EXPRESS$\nis currently in the §GExpand§! state, click to collapse the communication tab."
+ MUI_btn_EXPRESS_switch:0 "§BSwitch Contact§!\nSwitch to the next available contact in the current category."
+ MUI_failtip_EXPRESS_switch_non:0 "§RNo target to be contacted, use the button right side to switch a target first.§!"
+ MUI_failtip_EXPRESS_disabled:0 "Cannot contact the current faction"
+ MUI_failtip_EXPRESS_disabled_attacked:0 "We attacked and are hostile to this faction."
+ MUI_failtip_EXPRESS_disabled_engaged:0 "We are currently communicating with a faction of the current category."
+
+ ## 掠夺者 ####################
+ MUI_btn_EXPRESS_marauder:0 "§BExpress contact:§! $NUM_MARAUDER_EMPIRES$\nThey can provide us with powerful commander and mercenary services."
+ MUI_failtip_EXPRESS_target_root:0 "§RThe current marauders are starting military operations against us.§!"
+ ## 雇佣兵 ####################
+ MUI_btn_EXPRESS_mercenary:0 "§BExpress contact:§! $gov_mercenary_enclave$\n$gov_mercenary_enclave_desc$"
+ 
+ ## 贸易商 ####################
+ MUI_btn_EXPRESS_trader:0 "§BExpress contact:§! Traders\n§H1.$leviathans.100.name$: §!They can provide us with £exotic_gases£§G$exotic_gases$§!.\n§H2.$leviathans.103.name$:§! They can provide us with £volatile_motes£§R$volatile_motes$§!.\n§H3.$leviathans.104.name$:§! They can provide us with £rare_crystals£§Y$rare_crystals$§!."
+ # XuraCorp
+ MUI_btn_EXPRESS_trader_1:0 "§BExpress contact:§! $leviathans.100.name$\nThey can provide us with £exotic_gases£§G$exotic_gases$§!."
+ # Riggans
+ MUI_btn_EXPRESS_trader_2:0 "§BExpress Contact:§! $leviathans.103.name$\nThey can provide us with £volatile_motes£§R$volatile_motes$§!."
+ # Muutagan
+ MUI_btn_EXPRESS_trader_3:0 "§BExpress Contact:§! $leviathans.104.name$\nThey can provide us with £rare_crystals£§Y$rare_crystals$§!."
+ ## 策展人 ####################
+ MUI_btn_EXPRESS_curator:0 "§BExpress contact:§! $gov_curator_enclave$\nThey can provide us with scientific research assistance and can act as consultants."
+ ## 艺术家 ####################
+ MUI_btn_EXPRESS_artist:0 "§BExpress contact:§! $gov_artist_enclave$\nThey can provide us with cultural support and hold art festivals."
+ MUI_failtip_EXPRESS_disabled_artist_ignore:0 "They are currently busy with other things and they have no time to talk to us."
+ ## 打捞者 ####################
+ MUI_btn_EXPRESS_salvager:0 "§BExpress contact:§! $gov_salvager_enclave$\n$gov_salvager_enclave_desc$"
+
+ ## 行商舰队 ####################
+ MUI_btn_EXPRESS_caravaneer:0 "§BExpress contact:§! Caravaneers\n§H0.$NAME_Caravaneer_Home$: §! They will sell us some special products and provide lucky draws.\n§H1.$NAME_Caravaneer_Fleet1$:§! They will sell randomly selected items at the price of random options, and the transactions they encounter with this trader are completely dependent on their fortune.\n§H2.$NAME_Caravaneer_Fleet2$:§! An idealist business group that believes in Numa, the goddess of wealth. They have the unique technology to drill holes on any livable planet to obtain huge wealth (Add special mineral vein "Numa's Breath"), and can provide a special temple "Numa Shrine\n§H3.$NAME_Caravaneer_Fleet3$:§! This is a compatriot of the Caravaneer clan. They don’t sell garbage-spread orbital bombing auxiliary components (by reducing planetary defense to increase bombing damage), garbage Processing center (building), rachi population, mechanical population (mechanical empire only), some leaders, etc."
+ #_[Drow's_Roulette]
+ MUI_btn_EXPRESS_caravaneer_base:0 "§BExpress contact:§! $NAME_Caravaneer_Home$\nThey will sell us some special products and provide lucky draws."
+ #_[Fangoli_Group]
+ MUI_btn_EXPRESS_caravaneer_fleet_1:0 "§BExpress contact:§! $NAME_Caravaneer_Fleet1$\nThey will sell randomly selected items at the price of random options, and the transactions they encounter with this trader are completely dependent on their faces."
+ #_[Numa_Order]
+ MUI_btn_EXPRESS_caravaneer_fleet_2:0 "§BExpress contact:§! $NAME_Caravaneer_Fleet2$\nThe Numa Order is an idealist business group that believes in Numa, the goddess of wealth. They have the unique technology to drill holes on any livable planet to obtain huge wealth (Add special mineral vein "Numa's Breath"), and can provide a special temple "Numa Shrine"
+ #_[Rachi_Industrial_Group]
+ MUI_btn_EXPRESS_caravaneer_fleet_3:0 "§BExpress Contact:§! $NAME_Caravaneer_Fleet3$\nCaravaneer_Fleet3$\n Caravaneer is a compatriot of the Caravaneer clan. They don’t sell garbage-spread orbital bombing auxiliary components (by reducing planetary defense to increase bombing damage), garbage Processing center (building), rachi population, mechanical population (mechanical empire only), some leaders, etc."
+
+ ## 虚境 ####################
+ MUI_btn_EXPRESS_shroud:0 "§BExpress Contact:§! Shroud\nThis is a sea of ​​psychic energy independent of the physical universe."
+ MUI_failtip_EXPRESS_disabled_shroud:0 "Shroud Communication is currently cooling down."
+ MUI_failtip_EXPRESS_shroud_CD:0 "We must wait §H[This.MUI_failtip_EXPRESS_shroud_CD] months§! to enter §M$utopia.3000.name$§!."
+ ## 虚境行者 ####################
+ MUI_btn_EXPRESS_shroudwalker:0 "§BExpress Contact:§! $gov_shroudwalker_enclave$\n$gov_shroudwalker_enclave_desc$"
+ 
+ ## 索菲亚（先驱者数据库） ####################
+ MUI_btn_EXPRESS_sophia:0 "§BExpress Contact:§!$NAME_ACOT_DATABANK$\nThe precursor database personality copy known as ‘Sophia’, who unveils the secrets of precursor technology and starship engineering to us."
+
+ #阿夸
+ MUI_btn_ec_KUAT:0 "$kuat_missions.title$\nSometimes the Kuat pop-up window will not appear when you click it, because the trigger conditions do not match."
+
+
+
+
+###_[舰队面板]  AAR网道/jumper冷却/红警展开
+ MUI_btn_flt_SWITCH_default: "§HPage 1: Kasako's MOD§!\n\n§YThis button can switch the fleet function button page. If you find that a MOD function that should have been supported does not appear, then he may be on another page.§!\n\nNow support:\n$MUI_tip_MOD_name_FW$\n$MUI_tip_MOD_name_AAR$\n"
+ MUI_btn_flt_SWITCH_mods: "§HPage 2: Other MOD§!\n\n§YThis button can switch the fleet function button page. If you find that a MOD function that should have been supported does not appear, then he may be on another page.§!\n\nNow support:\n$MUI_tip_MOD_name_AG$\n$MUI_tip_MOD_name_MO$\n$MUI_tip_MOD_name_KUAT$\n"
+ #MOD名
+ MUI_tip_MOD_name_FW: "§BCasako's Core Framework§!"
+ MUI_tip_MOD_name_AAR: "§BReworked Advanced Ascensions§!"
+ MUI_tip_MOD_name_AG: "§YAncient Empire§!"
+ MUI_failtip_btn_AG: "§R$MUI_tip_MOD_name_AG$ not activated§!"
+ SPTH_btn_flt_SKILL_fail: "§RNo SPTH skill componenet§!"
+ MUI_tip_MOD_name_MO: "§Y心灵终结主题MOD§!"
+ btn_flt_modMO_deploy_FAIL: "§R$MUI_tip_MOD_name_MO$ not activated§!"
+ MUI_tip_MOD_name_KUAT: "§YStar Wars: Kuat Ancient Empire§!"
+ MUI_failtip_btn_KUAT: "§R$MUI_tip_MOD_name_KUAT$ not activated§!"
+ #AAR网道
+ MUI_tip_AAR_webway_off: "$colossus$ Webway Activation §HDisabled§!\n\nChoose to disable or enable the ability to activate §YWebway Node§! via strategic starships such as $colossus$. \nIf off, popup window for webway activation will no longer show when a ship like $colossus$ entering the orbit of central star."
+ MUI_tip_AAR_webway_on: "$colossus$ Webway Activation §GEnabled§!\n\nChoose to disable or enable the ability to activate §YWebway Node§! via strategic starships such as $colossus$. \nIf off, popup window for webway activation will no longer show when a ship like $colossus$ entering the orbit of central star."
+ MUI_failtip_AAR_not_activited: "MOD §BReworked Advanced Ascension§! not activated."
+ MUI_failtip_AAR_no_AP_nav: "You don't have any FTL ascension perk from MOD §BReworked Advanced Ascension§!."
+ #jumper冷却
+ MUI_failtip_AAR_jumper_CD_recharge: "Twice jump §HPreparing§! or Jump drive §HCooling down§!."
+ MUI_tip_AAR_jumper_CD_ready: "Twice Jump §GReady§!\nPassive skill which allows ships to make an additional jumping."
+ #红警展开
+ mo_check_deploy_on: "Current Status: §HDeployed§!"
+ mo_check_deploy_off:0 "Current Status: §HNot Deployed§!"
+
+
+###_|主界面|
+ MUI_btn_TITLE_collection: "§BKasako's Collection§!"
+ MUI_btn_TITLE_discord: "§BKasako's Discord§!"
+
+
+
+
+###_[产业革命]
+ MUI_tip_PR_required:0 "§BProduction Revolution§! required"
+ PR_topbar_btn_var_cntr_man:0 "[root.PR_var_cntr_MAN]"
+ PR_topbar_btn_var_cntr_man_other_ui:0 "[root.owner.PR_var_cntr_MAN]"
+ PR_topbar_btn_var_cntr_non:0 "N/A"
+ PR_topbar_btn_var_cntr_man_tips:0 "§HEmpire Net Manpower§!\nThe number of pops converted into manpower under PR system.\n§YEmpire Total Manpower§!(Pop+Net Manpower):§G[root.PR_sloc_cntr_HC]§!\nClick to open $z_pr_evt_setting$"
+ PR_topbar_btn_var_cntr_man_tip_other:0 "§HEmpire Net Manpower§!\nThe number of pops converted into manpower under PR system.\n§YEmpire Total Manpower§!(Pop+Net Manpower):§G[root.owner.PR_sloc_cntr_HC]§!\nClick to open $z_pr_evt_setting$"
+
+
+###_[高级科研]
+ FW_tip_topbar_cntr_ATEC:0 "Monthly produces: §G[root.FW_var_cntr_ATEC_monthly_PRODUCES]§!\nMonthly upkeep: §R[root.FW_var_cntr_ATEC_monthly_UPKEEP]§!\nMonthly change: §H[root.FW_var_cntr_ATEC_monthly_CHANGE]§!\n------------§E\n§HAdvanced Research Project§! will cost §BAdvanced Tech Point§!.\nCompleting any §HCommon Technology§! will provide at least §Y10§! $ATEC_Points$.§!"
+ FW_tip_topbar_cntr_ATEC_var:0 "[root.FW_var_cntr_ATEC_show]"
+ FW_tip_topbar_cntr_ATEC_var_other:0 "[root.owner.FW_var_cntr_ATEC_show]"
