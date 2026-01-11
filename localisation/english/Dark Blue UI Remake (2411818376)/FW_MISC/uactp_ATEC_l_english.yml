@@ -1,0 +1,59 @@
+﻿l_english:
+#   MISC
+#   ATEC通用evts
+#   ATEC通用tips
+
+
+
+
+
+
+###_[MISC]    ########################################################################
+ ATEC_sr_CORE:0 "§BAdvanced Technology Point§!"
+ ATEC_sr_CORE_desc:1 "Сума різних технічних накопичень і досвіду з історії наукових досліджень, і використовуються для Advanced Research Projects.\nСистема буде рахувати новостворену технологію щороку. Кожна нова технологія надасть §G10§! $ATEC_sr_CORE$."
+ mod_FW_smod_cntr_ATEC_deficit_add:1 "$ATEC_sr_CORE$ Дефіцит"
+ mod_FW_smod_cntr_ATEC_ongoing:1 "Advanced research channel occupation"
+ mod_FW_smod_cntr_MTEC_ongoing:1 "Advantage maintain channel occupation"
+ ATEC_ec_CORE: "Advanced Research Projects"
+ mod_ATEC_ec_CORE_ATEC_sr_CORE_upkeep_add: "$ATEC_ec_CORE$ технічне обслуговування"
+
+
+
+
+###_[ATEC通用evts]    ########################################################################
+ ATEC_desc_Done:0 "Поточний дослідний проект завершено, і ви можете вибрати §Bпочати новий проект§! або §Hзупинити подальше дослідження§!."
+ ATEC_option_None:0 ""
+ ATEC_tip_NOTE_option_CONTINUE_title:0 "§WПочати новий проект§!"
+ ATEC_tip_NOTE_option_CONTINUE_desc:0 "§EПанель Advanced Research відкриється для вибору нового проекту.§!"
+ ATEC_tip_NOTE_option_STOP_title:0 "§YЗупинити подальше дослідження§!"
+ ATEC_tip_NOTE_option_STOP_desc:0 "§HЗакрити панель без активації нових команд.§!"
+
+
+
+
+###_[ATEC通用tips]    ########################################################################
+ FW_failtip_ATEC_no_cap: "§HAdvanced research channel є повний: §!§R[root.FW_var_cntr_ATEC_ongoing]§!/ §G[root.FW_var_cntr_ATEC_cap]§!\n§YСкасуйте будь-які поточні Advanced Research Projects, щоб продовжити.§!"
+ FW_failtip_ATEC_tech_tree_ongoing: "§HЄ поточні проекти в поточному tech tree.§!"
+ FW_failtip_MTEC_no_cap: "§HThe top-tech maintenance channel є повний: §!§R[root.FW_var_cntr_MTEC_ongoing]§!/ §G[root.FW_var_cntr_MTEC_cap]§!\n§YСкасуйте будь-які поточні Top-tech Maintenance Projects, щоб продовжити.§!"
+ 
+ ATEC_Points: "§BAdvanced Tech Point§!"
+ ATEC_tip_Points: "Щомісячна продукція: §G[root.FW_var_cntr_ATEC_monthly_PRODUCES]§!\nЩомісячне технічне обслуговування: §R[root.FW_var_cntr_ATEC_monthly_UPKEEP]§!\nЩомісячна зміна: §H[root.FW_var_cntr_ATEC_monthly_CHANGE]§!\n§YЗавершення будь-якої §BCommon Technology§! надасть щонайменше 10 $ATEC_Points$.§!"
+
+ ATEC_guide_Decline: "§ETechnology Decline:§!\nДеякі незавершені §HAdvanced Research Projects§! прогрес будуть衰退 з часом, як і деякі завершені. \nДля завершеного §HAdvanced Research Project§!, його назва кольору і колір іконки вершин трикутника визначають його衰退 індикатор. \n\n§BBlue§! означає ніколи не衰ти. \n§HYellow§! означає, що воно не буде衰ти під певними умовами. \n§RRed§! означає, що воно завжди буде衰ти, і такі проекти потребують постійного інвестування $ATEC_Points$ для підтримки їх прогресу."
+ ATEC_guide_Process: "§EResearch Progress:§!\nКлікніть на поточний §HAdvanced Research Project§! для паузи, але його прогрес буде збережений. \n§YПрогрес деяких проектів буде衰ти з часом у паузі. §!"
+ ATEC_guide_Difficult: "§HDifficulty Level:§!\nСкладність деяких дослідних проектів буде збільшуватися з §EResearch Progress§! збільшенням, чим вища складність, тим повільніше прогрес."
+ ATEC_guide_Cost: "§BResearch Costs:§!\nВсі §HAdvanced Research Projects§! коштують $ATEC_Points$. \n§YЗавершення будь-якої нормальної технології надасть 10 $ATEC_Points$, і деякі конкретні технології надасть більше $ATEC_Points$. §!"
+ ATEC_guide_Succed: "§GBreakthrough Probability:§!\nЗавершення деяких спеціальних подій або завдань може збільшити ймовірність прориву поточного проекту.\n§YПід час дослідження ймовірність прориву може також змінюватися динамічно, зазвичай зустрічаючи точки часто збільшує ймовірність прориву .§!"
+ ATEC_guide_Stuck: "§RStuck Points: §!\nЯкщо ймовірність прориву нижча за 100%, прогрес може бути застряглим. Чим нижча ймовірність прориву, тим легше зустріти застряглі точки. \n§YЗастряглі точки значно сповільнять прогрес дослідження. §!"
+
+ ATEC_tip_btn_Deficit: "Недостатньо $ATEC_Points$. \nПерегляньте поточні дослідні проекти в поточному tech tree, щоб переглянути деталі вимог."
+ ATEC_tip_btn_Stuck: "Зустрічаючи §RStuck Points§!, будь ласка, перевірте §GBreakthrough Probability§! поточного проекту. \n§HПримітка:§! Чим нижча ймовірність прориву, тим легше зустріти застряглі точки. Вам потрібно зважити вартість продовження поточного проекту і знайти способи збільшити ймовірність прориву."
+ 
+ ATEC_tip_Toggle: "Клікніть на §Ha project not under research§! для початку Advanced Research. \nКлікніть на §Ga project under research§! для зупинки Advanced Research, і прогрес дослідження буде збережений."
+ ATEC_tip_Process: "£ATEC_tip_Process£ Прогрес дослідження:"
+ ATEC_tip_Difficult: "£ATEC_tip_Difficult£ Рівень складності:"
+ ATEC_tip_Progress: "£ATEC_tip_Difficult£ Прорив:"
+ ATEC_tip_Cost: "£ATEC_tip_Cost£ Витрати дослідження:"
+ ATEC_tip_Succed: "£ATEC_tip_Succed£ Ймовірність прориву:"
+ ATEC_tip_Stuck: "£ATEC_tip_Stuck£ Поточні застряглі точки:"  #
+ ATEC_tip_Debug: "§YНедійсні дані будуть відображатися правильно після початку поточного проекту.§!"
