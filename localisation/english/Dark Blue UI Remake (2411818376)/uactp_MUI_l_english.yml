@@ -1,0 +1,168 @@
+﻿l_english:
+#_[测试]
+#_[UODtb/FW排序错误]
+#_[刷新领袖]
+#_[快速联系]
+#_[舰队面板/主界面]
+#_[产业革命/高级科研]
+
+###_[测试]
+ z_rts_var_cntr_flt_fraction:0 "Есмінці§B[root.RTS_var_cntr_expect_corvette]§!/Есмінці§B[root.RTS_var_cntr_expect_destroyer]§!/Крейсери§B[root.RTS_var_cntr_expect_cruiser]§!/Лінкори§B[root.RTS_var_cntr_expect_battleship]§!"
+ z_rts_flg_cntr_flt_focus_corvette:0 "RTS_flg_cntr_build_focus_corvette"
+ z_rts_flg_cntr_flt_focus_destroyer:0 "RTS_flg_cntr_build_focus_destroyer"
+ z_rts_flg_cntr_flt_focus_cruiser:0 "RTS_flg_cntr_build_focus_cruiser"
+ z_rts_flg_cntr_flt_focus_battleship:0 "RTS_flg_cntr_build_focus_battleship"
+ 
+ z_fw_var_cntr_pressure:0 "Тестування тиску[event_target:FW_tgt_NPC0.TEST_var_cpu_pressure]"
+ z_pr_btn_DB_cycle_ongoing:0 "Автоматичний цикл PR триває"
+
+
+###_[UODtb]
+ mb_modmenu_tooltip:0 "§HMod Menu§! модуль не знайдено!"
+ mb_galactic_nations_assembly_tooltip:0 "§HGalactic Nations Assembly§! модуль не знайдено!"
+ mb_quibble_propaganda_tooltip:0 "§HPropaganda and Espionage§! модуль не знайдено!"
+ mb_ruler_hobby_button_tooltip:0 "§HRuler Level System§! модуль не знайдено!"
+ 
+ FW_btn_FRONTED_link:0 "Ласкаво просимо до §HDark Blue UI Overhaul§!"
+ z_ic_tip_subtitle:0 ""
+ 
+ z_mui_text_privacy:0 "Конфіденційність"
+ z_mui_text_homepage:0 "Домашня сторінка"
+ z_mui_text_forum:0 "Форум"
+ z_mui_text_facebook:0 "Facebook"
+ z_mui_text_twitter:0 "Twitter"
+
+
+###_[FW排序错误]
+ MUI_btn_all_FW_sorting_error:0 "§HMOD Sorting Error (натисніть для деталей)§!"
+ MUI_tip_FW_sorting_error:0 "Ви встановили §BCore Framework & Modmenu§!, але не розмістили його нижче §BDark Blue UI§!. Це спричинить втрату деяких кнопок, будь ласка, впорядкуйте їх у правильному порядку та перезапустіть гру. \n\nЯкщо немає особливих вимог:\n§BUI Overhaul Dynamic§! і §BDark Blue UI§! повинні бути розміщені вище §BCore Framework & Modmenu§!. \nВсі підмоди §BUI Overhaul Dynamic§! і §BDark Blue UI§! повинні бути розміщені разом з основними модами. Що більше, вони також повинні бути розміщені вище §BCore Framework & Modmenu§!. \nІнші моди kasako, які вимагають §BCore Framework & Modmenu§!, повинні бути розміщені нижче §BCore Framework & Modmenu§!."
+
+
+###_[刷新领袖]
+ REROLL:0 "Кар'єри"
+ FIRE:0 "Видалити всіх!"
+ MUI_option_REROLL_use_credits:0 "Використовувати єдність кредитів для надання ліквідованої шкоди/кожній особі §G$@REROLL_credits$§! Кредити"
+ MUI_option_REROLL_use_influence:0 "Опиратися на вплив для придушення громадської думки/кожній особі §B$@REROLL_influence$§! Бали"
+ MUI_evt_ldr_roll.1.name:0 "Найняти нову партію кандидатів на керівників!"
+ MUI_evt_ldr_roll.1.desc:0 "Новий список кандидатів на керівників буде представлений у вашому офісі наступного дня.\n$MUI_btn_REROLL_desc$"
+ MUI_evt_ldr_roll.2.name:0 "Найняти нову партію кандидатів на губернаторів"
+ MUI_evt_ldr_roll.2.desc:0 "Безкінечні зірки повні невідомостей, для кращого майбутнього для імперії! Ми терміново потребуємо нової групи талантів!\n$MUI_btn_REROLL_desc$"
+ MUI_evt_ldr_roll.3.name:0 "Найняти групу нових кандидатів на вчених"
+ MUI_evt_ldr_roll.4.name:0 "Найняти нову партію кандидатів на командувачів"
+ MUI_evt_ldr_roll.5.name:0 "Найняти партію нових кандидатів на армійських командувачів"
+ MUI_btn_REROLL_desc:0 "§YУвага: через обмеження скриптів, портрет не може бути перерисований. Недійсний для не vanilla початкових ознак, але додаткові витрати не будуть понесені.§!"
+ MUI_btn_REROLL_all:0 "Перемішати всіх"
+ MUI_btn_REROLL_admiral:0 "Перемішати адміралів"
+ MUI_btn_REROLL_general:0 "Перемішати генералів"
+ MUI_btn_REROLL_governor:0 "Перемішати губернаторів"
+ MUI_btn_REROLL_scientist:0 "Перемішати вчених"
+
+
+###_[快速联系] 
+ # Випливаюча панель
+ MUI_opt_EXPRESS_non:0 ""
+ MUI_opt_EXPRESS_cancel:0 "§BЗгорнути меню швидкого контакту§!\nІ ви можете натиснути на будь-яке місце, щоб прибрати це меню."
+ MUI_btn_EXPRESS:0 "§BТемно-блакитний інтерфейс: Швидкий контакт§!"
+ MUI_btn_EXPRESS_folded:0 "$MUI_btn_EXPRESS$\nнаразі знаходиться у стані §Hзгортання§!, натисніть, щоб розгорнути вкладку зв'язку."
+ MUI_btn_EXPRESS_unfolded:0 "$MUI_btn_EXPRESS$\nнаразі знаходиться у стані §Gрозгортання§!, натисніть, щоб згорнути вкладку зв'язку."
+ MUI_btn_EXPRESS_switch:0 "§BПереключити контакт§!\nПереключитися на наступний доступний контакт у поточній категорії."
+ MUI_failtip_EXPRESS_switch_non:0 "§RНемає цілі для контакту, використовуйте кнопку праворуч, щоб переключити ціль спочатку.§!"
+ MUI_failtip_EXPRESS_disabled:0 "Неможливо зв'язатися з поточною фракцією"
+ MUI_failtip_EXPRESS_disabled_attacked:0 "Ми атакували і є ворогами цієї фракції."
+ MUI_failtip_EXPRESS_disabled_engaged:0 "Ми зараз спілкуємося з фракцією поточної категорії."
+
+ ## Мародери ####################
+ MUI_btn_EXPRESS_marauder:0 "§BШвидкий контакт:§! $NUM_MARAUDER_EMPIRES$\nВони можуть надати нам потужних командувачів і найманців."
+ MUI_failtip_EXPRESS_target_root:0 "§RПоточні мародери розпочали військові операції проти нас.§!"
+ ## Найманці ####################
+ MUI_btn_EXPRESS_mercenary:0 "§BШвидкий контакт:§! $gov_mercenary_enclave$\n$gov_mercenary_enclave_desc$"
+ 
+ ## Торговці ####################
+ MUI_btn_EXPRESS_trader:0 "§BШвидкий контакт:§! Торговці\n§H1.$leviathans.100.name$: §! Вони можуть надати нам £екзотичні гази£§G$екзотичні гази$§!.\n§H2.$leviathans.103.name$:§! Вони можуть надати нам £нестабільні частинки£§R$нестабільні частинки$§!.\n§H3.$leviathans.104.name$:§! Вони можуть надати нам £рідкісні кристали£§Y$рідкісні кристали$§!."
+ # XuraCorp
+ MUI_btn_EXPRESS_trader_1:0 "§BШвидкий контакт:§! $leviathans.100.name$\nВони можуть надати нам £екзотичні гази£§G$екзотичні гази$§!."
+ # Riggans
+ MUI_btn_EXPRESS_trader_2:0 "§BШвидкий контакт:§! $leviathans.103.name$\nВони можуть надати нам £нестабільні частинки£§R$нестабільні частинки$§!."
+ # Muutagan
+ MUI_btn_EXPRESS_trader_3:0 "§BШвидкий контакт:§! $leviathans.104.name$\nВони можуть надати нам £рідкісні кристали£§Y$рідкісні кристали$§!."
+ ## Куратор ####################
+ MUI_btn_EXPRESS_curator:0 "§BШвидкий контакт:§! $gov_curator_enclave$\nВони можуть надати нам наукову допомогу та можуть виступати у ролі консультантів."
+ ## Художник ####################
+ MUI_btn_EXPRESS_artist:0 "§BШвидкий контакт:§! $gov_artist_enclave$\nВони можуть надати нам культурну підтримку та проводити художні фестивалі."
+ MUI_failtip_EXPRESS_disabled_artist_ignore:0 "Вони зараз зайняті іншими справами і не мають часу поговорити з нами."
+ ## Пошукивачі ####################
+ MUI_btn_EXPRESS_salvager:0 "§BШвидкий контакт:§! $gov_salvager_enclave$\n$gov_salvager_enclave_desc$"
+
+ ## Караванери ####################
+ MUI_btn_EXPRESS_caravaneer:0 "§BШвидкий контакт:§! Караванери\n§H0.$NAME_Caravaneer_Home$: §! Вони будуть продавати нам деякі спеціальні товари та надавати щасливі розиграші.\n§H1.$NAME_Caravaneer_Fleet1$:§! Вони будуть продавати випадково вибрані товари за ціною випадкових варіантів, і транзакції, які вони зустрічають з цим торговцем, повністю залежать від їхньої долі.\n§H2.$NAME_Caravaneer_Fleet2$:§! Ідеалістська бізнес-група, яка вірить у Нуму, богиню багатства. Вони мають унікальну технологію буріння отворів на будь-якій придатній для життя планеті, щоб отримати величезне багатство (Додати спеціальну мінеральну жилу \"Нуминоїдний подих\"), і можуть надати спеціальний храм \"Храм Нуми\n§H3.$NAME_Caravaneer_Fleet3$:§! Це співвітчизник клану Караванерів. Вони не продають сміття-розповсюдження орбітальної бомбардувальної допоміжної техніки (за рахунок зменшення планетарної оборони для збільшення бомбардувального ушкодження), сміття-центр обробки (будівля), рачі-популяція, механічна популяція (тільки для механічної імперії), деяких лідерів тощо."
+ #_[Drow's_Roulette]
+ MUI_btn_EXPRESS_caravaneer_base:0 "§BШвидкий контакт:§! $NAME_Caravaneer_Home$\nВони будуть продавати нам деякі спеціальні товари та надавати щасливі розиграші."
+ #_[Fangoli_Group]
+ MUI_btn_EXPRESS_caravaneer_fleet_1:0 "§BШвидкий контакт:§! $NAME_Caravaneer_Fleet1$\nВони будуть продавати випадково вибрані товари за ціною випадкових варіантів, і транзакції, які вони зустрічають з цим торговцем, повністю залежать від їхньої долі."
+ #_[Numa_Order]
+ MUI_btn_EXPRESS_caravaneer_fleet_2:0 "§BШвидкий контакт:§! $NAME_Caravaneer_Fleet2$\nОрден Нуми - це ідеалістська бізнес-група, яка вірить у Нуму, богиню багатства. Вони мають унікальну технологію буріння отворів на будь-якій придатній для життя планеті, щоб отримати величезне багатство (Додати спеціальну мінеральну жилу \"Нуминоїдний подих\"), і можуть надати спеціальний храм \"Храм Нуми\""
+ #_[Rachi_Industrial_Group]
+ MUI_btn_EXPRESS_caravaneer_fleet_3:0 "§BШвидкий контакт:§! $NAME_Caravaneer_Fleet3$\nКараванери - це співвітчизник клану Караванерів. Вони не продають сміття-розповсюдження орбітальної бомбардувальної допоміжної техніки (за рахунок зменшення планетарної оборони для збільшення бомбардувального ушкодження), сміття-центр обробки (будівля), рачі-популяція, механічна популяція (тільки для механічної імперії), деяких лідерів тощо."
+
+ ## Тінь ####################
+ MUI_btn_EXPRESS_shroud:0 "§BШвидкий контакт:§! Тінь\nЦе море психічної енергії, незалежне від фізичного світу."
+ MUI_failtip_EXPRESS_disabled_shroud:0 "Контакт Тінь зараз охолоджується."
+ MUI_failtip_EXPRESS_shroud_CD:0 "Ми повинні чекати §H[This.MUI_failtip_EXPRESS_shroud_CD] місяців§!, щоб увійти у §M$утопія.3000.name$§!."
+ ## Ходець Тінь ####################
+ MUI_btn_EXPRESS_shroudwalker:0 "§BШвидкий контакт:§! $gov_shroudwalker_enclave$\n$gov_shroudwalker_enclave_desc$"
+ 
+ ## Софія (попередній баз даних) ####################
+ MUI_btn_EXPRESS_sophia:0 "§BШвидкий контакт:§! $NAME_ACOT_DATABANK$\nПерсоналізована копія попереднього баз даних, відома як «Софія», яка розкриває секрети попередньої технології та інженерії зіркових кораблів для нас."
+
+ #Аква
+ MUI_btn_ec_KUAT:0 "$kuat_missions.title$\nІноді вікно Kuat не з'являється, коли ви натискаєте на нього, тому що умови спрацьовування не збігаються."
+
+
+
+
+###_[舰队面板]  AAR网道/jumper冷却/红警展开
+ MUI_btn_flt_SWITCH_default: "§HСторінка 1: Моди Kasako§!\n\n§YЦя кнопка може перемикати сторінку функції флоту. Якщо ви знаєте, що функція моду, яка повинна бути підтримана, не з'являється, то вона може бути на іншій сторінці.§!\n\nНаразі підтримується:\n$MUI_tip_MOD_name_FW$\n$MUI_tip_MOD_name_AAR$\n"
+ MUI_btn_flt_SWITCH_mods: "§HСторінка 2: Інші моди§!\n\n§YЦя кнопка може перемикати сторінку функції флоту. Якщо ви знаєте, що функція моду, яка повинна бути підтримана, не з'являється, то вона може бути на іншій сторінці.§!\n\nНаразі підтримується:\n$MUI_tip_MOD_name_AG$\n$MUI_tip_MOD_name_MO$\n$MUI_tip_MOD_name_KUAT$\n"
+ #Назва моду
+ MUI_tip_MOD_name_FW: "§BКоробка інструментів Kasako§!"
+ MUI_tip_MOD_name_AAR: "§BПерероблені просунуті сходження§!"
+ MUI_tip_MOD_name_AG: "§BДавня імперія§!"
+ MUI_failtip_btn_AG: "§R$MUI_tip_MOD_name_AG$ не активований§!"
+ SPTH_btn_flt_SKILL_fail: "§RНемає компонента навичок SPTH§!"
+ MUI_tip_MOD_name_MO: "§YТема моду «Кінець свідомості»§!"
+ btn_flt_modMO_deploy_FAIL: "§R$MUI_tip_MOD_name_MO$ не активований§!"
+ MUI_tip_MOD_name_KUAT: "§YЗіркові війни: Давня імперія Kuat§!"
+ MUI_failtip_btn_KUAT: "§R$MUI_tip_MOD_name_KUAT$ не активований§!"
+ #AAR网道
+ MUI_tip_AAR_webway_off: "$колосс$ Активація веб-шляху §Hвідключена§!\n\nВиберіть можливість відключити або увімкнути можливість активації §Yвузла веб-шляху§! через стратегічні зіркові кораблі, такі як $колосс$. \nЯкщо відключено, вікно активації веб-шляху більше не з'являється, коли корабель, такий як $колосс$, входить на орбіту центральної зірки."
+ MUI_tip_AAR_webway_on: "$колосс$ Активація веб-шляху §Gувімкнено§!\n\nВиберіть можливість відключити або увімкнути можливість активації §Yвузла веб-шляху§! через стратегічні зіркові кораблі, такі як $колосс$. \nЯкщо відключено, вікно активації веб-шляху більше не з'являється, коли корабель, такий як $колосс$, входить на орбіту центральної зірки."
+ MUI_failtip_AAR_not_activited: "Мод §BПерероблені просунуті сходження§! не активований."
+ MUI_failtip_AAR_no_AP_nav: "У вас немає жодного перку FTL-сходження з моду §BПерероблені просунуті сходження§!."
+ #jumper冷却
+ MUI_failtip_AAR_jumper_CD_recharge: "Подвійний стрибок §Hпідготовка§! або Драйв стрибка §Hохолодження§!."
+ MUI_tip_AAR_jumper_CD_ready: "Подвійний стрибок §Gготовий§!\nПасивна навичка, яка дозволяє кораблям зробити додатковий стрибок."
+ #红警展开
+ mo_check_deploy_on: "Поточний статус: §HРозгорнуто§!"
+ mo_check_deploy_off:0 "Поточний статус: §HНе розгорнуто§!"
+
+
+###_[主界面]|
+ MUI_btn_TITLE_collection: "§BКолекція Kasako§!"
+ MUI_btn_TITLE_discord: "§BДискорд Kasako§!"
+
+
+
+
+###_[产业革命]
+ MUI_tip_PR_required:0 "§BПромислова революція§! необхідна"
+ PR_topbar_btn_var_cntr_man:0 "[root.PR_var_cntr_MAN]"
+ PR_topbar_btn_var_cntr_man_other_ui:0 "[root.owner.PR_var_cntr_MAN]"
+ PR_topbar_btn_var_cntr_non:0 "Н/Д"
+ PR_topbar_btn_var_cntr_man_tips:0 "§HЧиста робоча сила імперії§!\nКількість попів, перетворених на робочу силу під системою PR.\n§YЗагальна робоча сила імперії§!(Поп+Чиста робоча сила):§G[root.PR_sloc_cntr_HC]§!\nНатисніть, щоб відкрити $z_pr_evt_setting$"
+ PR_topbar_btn_var_cntr_man_tip_other:0 "§HЧиста робоча сила імперії§!\nКількість попів, перетворених на робочу силу під системою PR.\n§YЗагальна робоча сила імперії§!(Поп+Чиста робоча сила):§G[root.owner.PR_sloc_cntr_HC]§!\nНатисніть, щоб відкрити $z_pr_evt_setting$"
+
+
+###_[高级科研]
+ FW_tip_topbar_cntr_ATEC:0 "Щомісячна продукція: §G[root.FW_var_cntr_ATEC_monthly_PRODUCES]§!\nЩомісячне утримання: §R[root.FW_var_cntr_ATEC_monthly_UPKEEP]§!\nЩомісячна зміна: §H[root.FW_var_cntr_ATEC_monthly_CHANGE]§!\n------------§E\n§HПроект просунутого дослідження§! буде коштувати §BОчки просунутої технології§!.\nЗавершення будь-якої §HЗвичайної технології§! надасть щонайменше §Y10§! $ATEC_Points$.§!"
+ FW_tip_topbar_cntr_ATEC_var:0 "[root.FW_var_cntr_ATEC_show]"
+ FW_tip_topbar_cntr_ATEC_var_other:0 "[root.owner.FW_var_cntr_ATEC_show]"
