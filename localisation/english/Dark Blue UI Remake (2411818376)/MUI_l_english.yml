@@ -1,12 +1,5 @@
 ﻿l_english:
-#_[测试]
-#_[UODtb/FW排序错误]
-#_[刷新领袖]
-#_[快速联系]
-#_[舰队面板/主界面]
-#_[产业革命/高级科研]
 
-###_[测试]
  z_rts_var_cntr_flt_fraction:0 "Есмінці§B[root.RTS_var_cntr_expect_corvette]§!/Есмінці§B[root.RTS_var_cntr_expect_destroyer]§!/Крейсери§B[root.RTS_var_cntr_expect_cruiser]§!/Лінкори§B[root.RTS_var_cntr_expect_battleship]§!"
  z_rts_flg_cntr_flt_focus_corvette:0 "RTS_flg_cntr_build_focus_corvette"
  z_rts_flg_cntr_flt_focus_destroyer:0 "RTS_flg_cntr_build_focus_destroyer"
@@ -33,12 +26,12 @@
  z_mui_text_twitter:0 "Twitter"
 
 
-###_[FW排序错误]
+###_[]
  MUI_btn_all_FW_sorting_error:0 "§HMOD Sorting Error (натисніть для деталей)§!"
  MUI_tip_FW_sorting_error:0 "Ви встановили §BCore Framework & Modmenu§!, але не розмістили його нижче §BDark Blue UI§!. Це спричинить втрату деяких кнопок, будь ласка, впорядкуйте їх у правильному порядку та перезапустіть гру. \n\nЯкщо немає особливих вимог:\n§BUI Overhaul Dynamic§! і §BDark Blue UI§! повинні бути розміщені вище §BCore Framework & Modmenu§!. \nВсі підмоди §BUI Overhaul Dynamic§! і §BDark Blue UI§! повинні бути розміщені разом з основними модами. Що більше, вони також повинні бути розміщені вище §BCore Framework & Modmenu§!. \nІнші моди kasako, які вимагають §BCore Framework & Modmenu§!, повинні бути розміщені нижче §BCore Framework & Modmenu§!."
 
 
-###_[刷新领袖]
+###_[]
  REROLL:0 "Кар'єри"
  FIRE:0 "Видалити всіх!"
  MUI_option_REROLL_use_credits:0 "Використовувати єдність кредитів для надання ліквідованої шкоди/кожній особі §G$@REROLL_credits$§! Кредити"
@@ -58,7 +51,7 @@
  MUI_btn_REROLL_scientist:0 "Перемішати вчених"
 
 
-###_[快速联系] 
+###_[] 
  # Випливаюча панель
  MUI_opt_EXPRESS_non:0 ""
  MUI_opt_EXPRESS_cancel:0 "§BЗгорнути меню швидкого контакту§!\nІ ви можете натиснути на будь-яке місце, щоб прибрати це меню."
@@ -120,7 +113,7 @@
 
 
 
-###_[舰队面板]  AAR网道/jumper冷却/红警展开
+###_[]  
  MUI_btn_flt_SWITCH_default: "§HСторінка 1: Моди Kasako§!\n\n§YЦя кнопка може перемикати сторінку функції флоту. Якщо ви знаєте, що функція моду, яка повинна бути підтримана, не з'являється, то вона може бути на іншій сторінці.§!\n\nНаразі підтримується:\n$MUI_tip_MOD_name_FW$\n$MUI_tip_MOD_name_AAR$\n"
  MUI_btn_flt_SWITCH_mods: "§HСторінка 2: Інші моди§!\n\n§YЦя кнопка може перемикати сторінку функції флоту. Якщо ви знаєте, що функція моду, яка повинна бути підтримана, не з'являється, то вона може бути на іншій сторінці.§!\n\nНаразі підтримується:\n$MUI_tip_MOD_name_AG$\n$MUI_tip_MOD_name_MO$\n$MUI_tip_MOD_name_KUAT$\n"
  #Назва моду
@@ -133,27 +126,27 @@
  btn_flt_modMO_deploy_FAIL: "§R$MUI_tip_MOD_name_MO$ не активований§!"
  MUI_tip_MOD_name_KUAT: "§YЗіркові війни: Давня імперія Kuat§!"
  MUI_failtip_btn_KUAT: "§R$MUI_tip_MOD_name_KUAT$ не активований§!"
- #AAR网道
+ #AAR
  MUI_tip_AAR_webway_off: "$колосс$ Активація веб-шляху §Hвідключена§!\n\nВиберіть можливість відключити або увімкнути можливість активації §Yвузла веб-шляху§! через стратегічні зіркові кораблі, такі як $колосс$. \nЯкщо відключено, вікно активації веб-шляху більше не з'являється, коли корабель, такий як $колосс$, входить на орбіту центральної зірки."
  MUI_tip_AAR_webway_on: "$колосс$ Активація веб-шляху §Gувімкнено§!\n\nВиберіть можливість відключити або увімкнути можливість активації §Yвузла веб-шляху§! через стратегічні зіркові кораблі, такі як $колосс$. \nЯкщо відключено, вікно активації веб-шляху більше не з'являється, коли корабель, такий як $колосс$, входить на орбіту центральної зірки."
  MUI_failtip_AAR_not_activited: "Мод §BПерероблені просунуті сходження§! не активований."
  MUI_failtip_AAR_no_AP_nav: "У вас немає жодного перку FTL-сходження з моду §BПерероблені просунуті сходження§!."
- #jumper冷却
+ #jumper
  MUI_failtip_AAR_jumper_CD_recharge: "Подвійний стрибок §Hпідготовка§! або Драйв стрибка §Hохолодження§!."
  MUI_tip_AAR_jumper_CD_ready: "Подвійний стрибок §Gготовий§!\nПасивна навичка, яка дозволяє кораблям зробити додатковий стрибок."
- #红警展开
+ #
  mo_check_deploy_on: "Поточний статус: §HРозгорнуто§!"
  mo_check_deploy_off:0 "Поточний статус: §HНе розгорнуто§!"
 
 
-###_[主界面]|
+###_[]|
  MUI_btn_TITLE_collection: "§BКолекція Kasako§!"
  MUI_btn_TITLE_discord: "§BДискорд Kasako§!"
 
 
 
 
-###_[产业革命]
+###_[]
  MUI_tip_PR_required:0 "§BПромислова революція§! необхідна"
  PR_topbar_btn_var_cntr_man:0 "[root.PR_var_cntr_MAN]"
  PR_topbar_btn_var_cntr_man_other_ui:0 "[root.owner.PR_var_cntr_MAN]"
@@ -162,7 +155,7 @@
  PR_topbar_btn_var_cntr_man_tip_other:0 "§HЧиста робоча сила імперії§!\nКількість попів, перетворених на робочу силу під системою PR.\n§YЗагальна робоча сила імперії§!(Поп+Чиста робоча сила):§G[root.owner.PR_sloc_cntr_HC]§!\nНатисніть, щоб відкрити $z_pr_evt_setting$"
 
 
-###_[高级科研]
+###_[]
  FW_tip_topbar_cntr_ATEC:0 "Щомісячна продукція: §G[root.FW_var_cntr_ATEC_monthly_PRODUCES]§!\nЩомісячне утримання: §R[root.FW_var_cntr_ATEC_monthly_UPKEEP]§!\nЩомісячна зміна: §H[root.FW_var_cntr_ATEC_monthly_CHANGE]§!\n------------§E\n§HПроект просунутого дослідження§! буде коштувати §BОчки просунутої технології§!.\nЗавершення будь-якої §HЗвичайної технології§! надасть щонайменше §Y10§! $ATEC_Points$.§!"
  FW_tip_topbar_cntr_ATEC_var:0 "[root.FW_var_cntr_ATEC_show]"
  FW_tip_topbar_cntr_ATEC_var_other:0 "[root.owner.FW_var_cntr_ATEC_show]"
