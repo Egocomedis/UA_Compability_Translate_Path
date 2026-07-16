@@ -1,0 +1,145 @@
+﻿l_english:
+
+
+
+ ### Star battleship
+
+ xzkz_shenzhishou: "Рука Бога"
+ xzkz_shenzhishou_mid: "ядро"
+ xzkz_shenzhishou_plural: "Руки Бога"
+
+ tech_xzkz_shenzhishou: "Лінкор Руки Бога"
+ tech_xzkz_shenzhishou_desc: "Ми вже маємо силу богів"
+
+ tech_xzkz_xingxingjizhanjian: "Зоряний лінкор"
+ tech_xzkz_xingxingjizhanjian_desc: "Тепер наукова фантастика, яку колись уявляли незліченні науковці, стане реальністю, і ми створимо найпотужніший і найвеличезніший військовий корабель усіх часів — Зоряний Військовий Корабель."
+
+ tech_lujundiedai: "Ітерація армії A"
+ tech_lujundiedai_desc: "Науково-технічний прогрес приносить ітерацію зброї та спорядження."
+
+ tech_lujundiedai2: "Ітерація армії B"
+ tech_lujundiedai2_desc: "Науково-технічний прогрес приносить ітерацію зброї та спорядження"
+
+ tech_lujundiedai3: "Ітерація армії C"
+ tech_lujundiedai3_desc: "Науково-технічний прогрес приносить ітерацію зброї та спорядження"
+
+ tech_lujundiedai4: "Ітерація армії D"
+ tech_lujundiedai4_desc: "Науково-технічний прогрес приносить ітерацію зброї та спорядження"
+
+ tech_lujundiedai5: "Ітерація армії E"
+ tech_lujundiedai5_desc: "Науково-технічний прогрес приносить ітерацію зброї та спорядження"
+
+ tech_lujundiedai6: "Ітерація армії F"
+ tech_lujundiedai6_desc: "Науково-технічний прогрес приносить ітерацію зброї та спорядження"
+
+
+ tech_renkohuimiegongcheng: "Апокаліптична архітектура"
+ tech_renkohuimiegongcheng_desc: "Ці споруди виконуватимуть деякі особливі завдання."
+
+ building_xzkz_weixingtuchuji: "§RМініатюрна синаптична машина§!"
+ building_xzkz_weixingtuchuji_desc: "§RЩомісяця знищує 1 поселення, мінімальна резервна кількість населення — 5.§!\nМініатюрна синаптична машина, що постачає ресурси для наукових досліджень."
+
+ building_xzkz_qiangzhilaoyizhongxin: "§RЦентр Примусової Праці§!"
+ building_xzkz_qiangzhilaoyizhongxin_desc: "§RЩомісяця знищує 1 поселення, мінімальна резервна кількість населення — 5.§!\nУтримує тут людей на примусовій роботі."
+
+ job_xzkz_tuchuji: "обчислювальна точка"
+ job_xzkz_tuchuji_plural: "обчислювальні точки"
+ job_xzkz_tuchuji_desc: "Одна з незліченних обчислювальних вузлів."
+ mod_job_xzkz_tuchuji_add: "Посада $job_xzkz_tuchuji$"
+
+ job_xzkz_tuchuji_gst: "обчислювальна точка"
+ job_xzkz_tuchuji_gst_plural: "обчислювальні точки"
+ job_xzkz_tuchuji_gst_desc: "Одна з незліченних обчислювальних вузлів."
+ mod_job_xzkz_tuchuji_gst_add: "Посада $job_xzkz_tuchuji_gst$"
+
+ job_xzkz_tuchuji2: "примусова служба"
+ job_xzkz_tuchuji2_plural: "примусова служба"
+ job_xzkz_tuchuji2_desc: "Доки не впаде."
+ mod_job_xzkz_tuchuji2_add: "Посада $job_xzkz_tuchuji2$"
+
+ job_xzkz_tuchuji2_gst: "примусова служба"
+ job_xzkz_tuchuji2_gst_plural: "примусова служба"
+ job_xzkz_tuchuji2_gst_desc: "Доки не впаде."
+ mod_job_xzkz_tuchuji2_gst_add: "Посада $job_xzkz_tuchuji2_gst$"
+
+
+#### 更新的建筑
+
+ tech_xzkz_kejifadianzhan: "Технологічна електростанція"
+ tech_xzkz_kejifadianzhan_desc: "Передова електростанція, що використовує науку й технології для виробництва електроенергії."
+ building_xzkz_kejifadianzhan: "Технологічна електростанція"
+ building_xzkz_kejifadianzhan_desc: "Передова електростанція, що використовує науку й технології для виробництва електроенергії."
+
+ tech_xzkz_caikuangjidi: "Видобувна база"
+ tech_xzkz_caikuangjidi_desc: "Вони видобувають мінерали не лише на планетах, а й у галактиках."
+ building_xzkz_caikuangjidi: "Видобувна база"
+ building_xzkz_caikuangjidi_desc: "Вони видобувають мінерали не лише на планетах, а й у галактиках."
+
+ tech_xzkz_kejigongyegongchang: "Технологічний промисловий завод"
+ tech_xzkz_kejigongyegongchang_desc: "Має передові промислові об'єкти для виробництва передових продуктів із сировини."
+ building_xzkz_kejigongyegongchang: "Технологічний сплавний завод"
+ building_xzkz_kejigongyegongchang_desc: "Має передові промислові об'єкти для виробництва передових продуктів із сировини."
+ building_xzkz_kejigongyegongchang2: "Технологічний цивільний завод"
+ building_xzkz_kejigongyegongchang2_desc: "Має передові промислові об'єкти для виробництва передових продуктів із сировини."
+
+ tech_xzkz_kejijinglianchang: "Технологічний переробний завод"
+ tech_xzkz_kejijinglianchang_desc: "Цей технологічний переробний завод використовує передові об'єкти для переробки рідкісних ресурсів."
+ building_xzkz_kejijinglianchang: "Технологічний переробний завод"
+ building_xzkz_kejijinglianchang_desc: "Цей технологічний переробний завод використовує передові об'єкти для переробки рідкісних ресурсів."
+
+ tech_xzkz_wutuobanghexin: "§BЦентр Соціального Забезпечення§!"
+ tech_xzkz_wutuobanghexin_desc: "Раціональний розподіл соціального забезпечення."
+ building_xzkz_wutuobanghexin: "§BЦентр Соціального Забезпечення§!"
+ building_xzkz_wutuobanghexin_desc: "Раціональний розподіл соціального забезпечення."
+
+ job_xzkz_shehuifuli: "соціальне забезпечення"
+ job_xzkz_shehuifuli_plural: "соціальне забезпечення"
+ job_xzkz_shehuifuli_desc: "Забезпечує раціональний розподіл соціальних ресурсів і щастя."
+ mod_job_xzkz_shehuifuli_add: "Посада $job_xzkz_shehuifuli$"
+
+ job_xzkz_shehuifuli_gst: "соціальне забезпечення"
+ job_xzkz_shehuifuli_gst_plural: "соціальне забезпечення"
+ job_xzkz_shehuifuli_gst_desc: "Забезпечує раціональний розподіл соціальних ресурсів і щастя."
+ mod_job_xzkz_shehuifuli_gst_add: "Посада $job_xzkz_shehuifuli_gst$"
+
+ mod_job_xzkz_shehuifuli_gst_per_pop: "На кожне 1 поселення надає §G+1§! посаду соціального забезпечення"
+ mod_job_xzkz_shehuifuli_gst_per_pop_short: "\n на кожне 1£pop£ надає §G+1§! §Gпосаду соціального забезпечення§!"
+ mod_job_xzkz_shehuifuli_per_pop: "На кожне 1 поселення надає §G+1§! посаду соціального забезпечення"
+ mod_job_xzkz_shehuifuli_per_pop_short: "\n на кожне 1£pop£ надає §G+1§! §Gпосаду соціального забезпечення§!"
+
+ ap_xzkz_yonghengdiguo: "Вічна Імперія"
+ ap_xzkz_yonghengdiguo_desc: "Осягнення нескінченної істини, вічне існування, спіраль часу — ми будемо назавжди..."
+ ap_xzkz_gudaijianzhuyuanxing: "Давня архітектура Піонерів"
+ ap_xzkz_gudaijianzhuyuanxing_desc: "Після досліджень і археологічних розкопок ми тепер здатні відтворювати втрачені давні споруди Піонерів."
+ xzkz_jiesuoheikeji1: "Отримати технологію втраченої прототипної архітектури"
+ xzkz_requires_ascension_perks_4: "$TRIGGER_FAIL$потребує спершу обрати інші чотири переваги вознесіння."
+
+
+ tech_xzkz_xinghaitianfa: "Кара метеоритів"
+ tech_xzkz_xinghaitianfa_desc: "Кара зірок — знищення всієї зоряної системи."
+ tech_xzkz_guanghuanzhenlie: "Масив Ореолу"
+ tech_xzkz_guanghuanzhenlie_desc: "Ефективна й швидка зброя для знищення всього життя в цілій зоряній системі."
+
+#### 星爆器和光晕
+
+ XZKZ_PLANET_KILLER_STAR_CRACKER: "Пристрій зорезриву"
+ XZKZ_PLANET_KILLER_STAR_CRACKER_ACTION: "Запалення зорі"
+ XZKZ_PLANET_KILLER_STAR_CRACKER_DESC: "Спрямований промінь швидкої нейтронної енергії ін'єктується в цю зорю, спричиняючи вибух наднової. Величезна кількість енергії, вивільненої під час цієї події, використовується для генерування достатньої кількості темної матерії.\n\n§RКоли зоря детонує, усі колонії, мегаспоруди й космічні станції в межах зоряної системи, включно з нашими, будуть знищені.§!"
+ FLEETORDER_DESTROY_PLANET_WITH_XZKZ_PLANET_KILLER_STAR_CRACKER: "Готуємося розтрощити $PLANET|Y$"
+
+ XZKZ2_PLANET_KILLER_STAR_CRACKER: "ОРЕОЛ"
+ XZKZ2_PLANET_KILLER_STAR_CRACKER_ACTION: "Активувати Ореол"
+ XZKZ2_PLANET_KILLER_STAR_CRACKER_DESC: "Буде вивільнено дуже потужний особливий енергетичний імпульс, що пройде крізь усі галактики й планети, знищуючи все населення."
+ FLEETORDER_DESTROY_PLANET_WITH_XZKZ2_PLANET_KILLER_STAR_CRACKER: "Готуємося пройти крізь $PLANET|Y$"
+
+
+ ############## 武装科研船
+
+ xzkz_kejichuan_mingyunkejihao: "Універсальний корабель"
+ kejichuan_mid: "Інтегрований відсік"
+ tech_xzkz_quannengjian: "Колективний військовий корабель"
+ tech_xzkz_quannengjian_desc: "Військовий корабель, що поєднує функції різних кораблів."
+ building_xzkz_fengbaohudun: "§BЩит від Штормів§!"
+ building_xzkz_fengbaohudun_desc: "Спеціалізований планетарний щит, спеціально розроблений для протидії космічним штормам."
+ tech_xzkz_fengbaodun: "Щит від Штормів "
+ tech_xzkz_fengbaodun_desc: "Нам потрібно дослідити спеціалізований планетарний щит, спеціально розроблений для протидії космічним штормам."

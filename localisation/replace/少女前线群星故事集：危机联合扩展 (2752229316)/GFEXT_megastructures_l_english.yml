@@ -1,0 +1,11 @@
+l_english:
+ GFEXT_REVERSE_COLLAPSE_GATEWAY_NAME:0 "Зворотньо-колапсні зоряні ворота"
+ GFEXT_REVERSE_COLLAPSE_GATEWAY_DESC:0 "У цій системі є §Yзворотньо-колапсні зоряні ворота§!"
+
+ GFEXT_reverse_collapse_gateway_final:0 "Зворотньо-колапсні $gateway_final$"
+ GFEXT_reverse_collapse_gateway_final_DESC:0 "Зоряні ворота, що використовують принцип зворотного колапсу для переміщення підпростором, дозволяючи швидко діставатися інших воріт."
+
+ GFEXT_requires_no_existing_reverse_collapse_gateway:0 "$TRIGGER_FAIL$У системі вже є $GFEXT_reverse_collapse_gateway_final$."
+
+ GFEXT_megastructures.100.name:0 "Будівництво зворотньо-колапсних зоряних воріт завершено"
+ GFEXT_megastructures.100.desc:0 "Зворотньо-колапсні зоряні ворота в системі §H[gateway_system.GetName]§! добудовано. Вони встановили стабільне підпросторове з'єднання з рештою мережі порталів і працюють у штатному режимі."

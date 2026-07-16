@@ -1,0 +1,30 @@
+﻿l_english:
+
+###Wasteland Planets
+#AP
+ ap_pd_wasteland_worlds: "Нерегульований індустріалізм"
+ ap_pd_wasteland_worlds_desc: "Прагнучи необмеженої продуктивності, ми повинні відкинути екологічні обмеження, щоб розкрити справжній промисловий потенціал планети."
+ allow_wasteland_worlds: "§YUnlocks Decision:§! $decision_pd_aw_wasteland_planet$ on non-ideal planets"
+ describe_wasteland_worlds: "Модифікатор §Y$decision_pd_aw_wasteland_planet$§!:\n$t$- $MOD_HABITABILITY_CEIL$: §Y60%§!\n$t$- $mod_planet_jobs_alloys_produces_mult$: §G100%§!\n$t$- $mod_planet_jobs_consumer_goods_produces_mult$: §G100%§!"
+
+#Decisions
+ decision_pd_aw_wasteland_planet: "Нерегульовані промислові стандарти"
+ decision_pd_aw_wasteland_planet_desc: "Екологічні занепокоєння лише стримують нас. Ігноруючи стан природної екосистеми планети, ми розкриємо її справжній промисловий потенціал."
+ decision_pd_aw_wasteland_planet_effects_short: "Додано модифікатор §Y$pd_aw_wasteland_planet$§!.\n\nЗбільшує §GПромисловий вихід§!, але зменшує £mod_pop_environment_tolerance£ §RПридатність для життя§!."
+ decision_pd_aw_wasteland_planet_cleanup: "Екологічне очищення"
+ decision_pd_aw_wasteland_planet_cleanup_desc: "Серйозна екологічна деградація цієї планети залишила її екосистему в хиткому стані. Ми виправимо шкоду, завдану цьому світу."
+ decision_pd_aw_wasteland_planet_cleanup_tooltip: "Ми відновимо первісну екосистему цієї планети."
+
+#Modifiers
+ pd_aw_wasteland_planet: "Промисловий пустир"
+ pd_aw_wasteland_planet_desc: "$decision_pd_aw_wasteland_planet_desc$"
+ pd_aw_wasteland_planet_tooltip: "Відкриває £district£ §YГенераторні райони§! та §YВидобувний район§!"
+ pd_wasteland_planet: "Промисловий пустир"
+ pd_wasteland_planet_desc: "$pd_aw_wasteland_planet_desc$"
+ pd_wasteland_planet_tooltip: "Відкриває £district£ §YГенераторні райони§! та §YВидобувний район§!"
+
+#Notification Message
+ MESSAGE_PD_AW_WASTELAND_DESC:1 "$PLANET|Y$ тепер має §Y$decision_pd_aw_wasteland_planet$§!"
+ MESSAGE_PD_AW_WASTELAND_MESSAGE_TYPE_TITLE: "Екологічні норми скасовано"
+ MESSAGE_PD_AW_WASTELAND_CLEANUP_DESC:1 "Екосистему на $PLANET|Y$ відновлено."
+ MESSAGE_PD_AW_WASTELAND_CLEANUP_MESSAGE_TYPE_TITLE: "Екологічні норми повернуто"

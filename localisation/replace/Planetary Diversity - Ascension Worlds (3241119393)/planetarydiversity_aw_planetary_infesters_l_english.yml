@@ -1,0 +1,30 @@
+﻿l_english:
+
+###Planetary Infesters
+#Civic
+ civic_hive_pd_planetary_infesters: "Планетарні Заражувачі"
+ civic_hive_pd_planetary_infesters_desc: "Цей розум вулика вбудовує себе в екосистеми планети. Кожен світ стає його продовженням, процвітаючи як єдина мережа під його керівництвом."
+ civic_tooltip_pd_planetary_infesters_effects: "Може будувати £building£ $building_pd_aw_planet_infester_1$\n- $building_pd_planet_infestor_desc$\n- Рідний світ — $pc_hive$"
+
+#Buildings
+ building_pd_planet_infestor_desc: "§YЗаражувальні вузли§! проходять три фази вдосконалення, поступово перетворюючи планету на §YСвіт-вулик§!."
+ building_pd_aw_planet_infester_1: "Вузол зараження — перша фаза"
+ building_pd_aw_planet_infester_1_desc: "Цей вузол, серце початкової стадії зараження, життєво важливий для присутності вулика на цій планеті. Його втрата послабила б хватку вулика тут."
+ building_pd_aw_planet_infester_2: "Вузол зараження — друга фаза"
+ building_pd_aw_planet_infester_2_desc: "Цей масивний вузол, тепер на проміжній стадії зараження, володіє зв'язком з вуликом, достатньо міцним, щоб маніпулювати критичними планетарними процесами. Його втрата послабила б хватку вулика тут."
+ building_pd_aw_planet_infester_3: "Планетарний вузол зараження"
+ building_pd_aw_planet_infester_3_desc: "Досягнувши свого зеніту, цей грізний вузол здійснює повне панування над усіма планетарними процесами. Його втрата послабила б хватку вулика тут."
+ building_pd_aw_planet_infester_3_effect_desc: "Цю планету буде перетворено на §Y$pc_hive$§!."
+
+#Dummy Class
+ pc_hive_dummy: "$pc_hive$"
+ pc_hive_dummy_desc: "$pc_hive_desc$"
+ pc_hive_dummy_adj: "$pc_hive_adj$"
+ mod_pc_hive_dummy_habitability: "$mod_pc_hive_habitability$"
+ trait_pc_hive_dummy_preference: "$trait_pc_hive_preference$"
+ trait_pc_hive_dummy_preference_desc: "$trait_pc_hive_preference_desc$"
+
+#Events
+ pdawplanetaryinfesters.120.name: "Планетарний вулик завершено"
+ pdawplanetaryinfesters.120.desc: "Коли вузол досягає свого повного потенціалу, ми резонуємо з глибоким відчуттям звершення.\n\nЦей момент знаменує значний стрибок у контролі вулика над [Root.GetName], зміцнюючи його хватку над планетою."
+ pdawplanetaryinfesters.120.a: "Ще один дім для вулика."

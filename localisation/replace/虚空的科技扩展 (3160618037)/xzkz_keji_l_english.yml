@@ -1,0 +1,407 @@
+﻿l_english:
+
+
+ #科技
+
+
+ Ultimate_battleships: "Кінцевий лінкор"
+ tech_Ultimate_battleships: "Кінцевий лінкор"
+ tech_Ultimate_battleships_desc: "Настав кінець усього сущого."
+ Immortal_Destroyer: "Сутінковий корабель богів"
+ tech_Immortal_Destroyer: "Сутінковий військовий корабель богів"
+ tech_Immortal_Destroyer_desc: "Присмерк богів перед кінцем світу."
+ danami: "Нанооносець"
+ xiaonami: "Наноперехоплювач"
+ tech_namiyanjiu: "Дослідження давніх деактивованих нанороботів"
+ tech_namiyanjiu_desc: "Подальше дослідження давньої конструкції нанороботів Л-Брами."
+
+ tech_gaoxiaozhihui: "Ефективне командування"
+ tech_gaoxiaozhihui_desc: "Завдяки новим моделям командування можна ефективніше керувати масштабними флотами."
+ tech_xingzheng5: "Кінцева Імперія"
+ tech_xingzheng4: "Неможлива структура"
+ tech_xingzheng3: "Суперуправління"
+ tech_xingzheng2: "Теорія хаотичних операцій"
+ tech_xingzheng1: "Ефективна логіка"
+ tech_xingzheng_title: "Покращити здатність управління імперією."
+ tech_xingzheng_desc: "Зменшити розмір імперії."
+ tech_xingzheng5_title: "За межами буденного。"
+ tech_xingzheng1_desc: "Здатність управління імперією стане сильнішою。"
+ tech_xingzheng2_desc: "Здатність управління імперією стане сильнішою。"
+ tech_xingzheng3_desc: "Здатність управління імперією стане сильнішою。"
+ tech_xingzheng4_desc: "Здатність управління імперією стане сильнішою。"
+ tech_xingzheng5_desc: "Безпрецедентний кінцевий прорив — ми вийшли за межі поняття звичайних імперій."
+
+ tech_xzkz_heikeji: "Дослідження прототипу архітектури втраченої технології"
+ tech_xzkz_heikeji_desc: "Відкриває прототип таємничої споруди втраченої технології."
+
+
+ tech_xzkz_xianqujianchuan: "Ескортний корабель Піонерів"
+ tech_xzkz_xianqujianchuan_desc: "Відкриває тип ескортного корабля Піонерів та форпост Піонерів."
+ tech_xzkz_xianqujianchuan2: "Бойовий крейсер Піонерів"
+ tech_xzkz_xianqujianchuan2_desc: "Відкриває тип військового корабля Піонерів та фортецю Піонерів."
+ tech_xzkz_xianqujianchuan3: "Титан-лінкор Піонерів"
+ tech_xzkz_xianqujianchuan3_desc: "Відкриває тип корабля Титан Піонерів."
+
+ tech_xibaozengqiang1: "Трансформація структури життя"
+ tech_xibaozengqiang1_desc: "Відповідна генетична модифікація здатна зробити життєздатність структур життя сильнішою."
+ tech_xibaozengqiang2: "Постійне зростання цінності структури життя"
+ tech_xibaozengqiang2_desc: "Модифікуючи клітини, структура життя може постійно самоподілятися за певних специфічних умов."
+ tech_xibaozengqiang3: "Посилена всемогутність структур життя"
+ tech_xibaozengqiang3_desc: "Оптимізує повну назву структури життя."
+ tech_xibaozengqiang4: "Універсальна адаптивність структур життя"
+ tech_xibaozengqiang4_desc: "Додатково вдосконалює структуру життя, роблячи її адаптивною до складних середовищ."
+ tech_xibaozengqiang5: "Оптимізація структури життя"
+ tech_xibaozengqiang5_desc: "Додатково оптимізує структуру життя. "
+
+ tech_shengcanlijinbu1: "Прогрес продуктивності I"
+ tech_shengcanlijinbu1_desc: "Науковий прогрес приносить прогрес продуктивності."
+ tech_shengcanlijinbu2: "Прогрес продуктивності II"
+ tech_shengcanlijinbu2_desc: "Науковий прогрес приносить прогрес продуктивності."
+ tech_shengcanlijinbu3: "Прогрес продуктивності III"
+ tech_shengcanlijinbu3_desc: "Науковий прогрес приносить прогрес продуктивності."
+ tech_shengcanlijinbu4: "Прогрес продуктивності IV"
+ tech_shengcanlijinbu4_desc: "Науковий прогрес приносить прогрес продуктивності."
+ tech_shengcanlijinbu5: "Прогрес продуктивності V"
+ tech_shengcanlijinbu5_desc: "Науковий прогрес приносить прогрес продуктивності."
+
+ tech_xingzheng6: "Ефект масштабу"
+ tech_xingzheng6_desc: "Розширення імперії має два боки, приносячи не лише недоліки, а й переваги. "
+
+ tech_zhongchengfuyong1: "Вірний васал"
+ tech_zhongchengfuyong1_desc: "Лояльність не абсолютна, абсолютною є лише нелояльність."
+ tech_zhongchengfuyong2: "Контроль мовлення"
+ tech_zhongchengfuyong2_desc: "Контроль над мовленням васалів здатен додатково посилити контроль."
+ tech_zhongchengfuyong3: "Тіньовий уряд"
+ tech_zhongchengfuyong3_desc: "Контролюйте його уряд і додатково посильте контроль."
+ tech_zhongchengfuyong4: "Культурне панування"
+ tech_zhongchengfuyong4_desc: "Очолюйте його культуру, скеровуйте його розвиток і додатково посильте контроль."
+ tech_zhongchengfuyong5: "Соціальне панування"
+ tech_zhongchengfuyong5_desc: "Повністю очолюючи його соціальний розвиток і додатково посилюючи контроль над своїми васалами."
+
+ tech_xzkz_yitainengyuan: "Ефірна енергія"
+ tech_xzkz_yitainengyuan_desc: "Виробляє майже нескінченну енергію завдяки жахливим принципам, що виходять за межі реальності."
+ TECH_XZKZ_YITAINENGYUAN_TITLE: "§HВідкриває компоненти：§!$XZKZ_YITAI_NENGYUAN_REACTOR$"
+ TECH_XZKZ_YITAINENGYUAN_DESC: "§H$XZKZ_YITAI_NENGYUAN_REACTOR$§!\n$XZKZ_YITAI_NENGYUAN_REACTOR_DESC$"
+
+ XZKZ_YITAI_NENGYUAN_REACTOR: "Реактор ефірної енергії"
+ XZKZ_YITAI_NENGYUAN_REACTOR_DESC: "Виробляє майже нескінченну енергію завдяки жахливим принципам, що виходять за межі реальності."
+
+
+
+ #建筑岗位等
+
+ building_xzkz_affluence_center: "Центр Багатства §Bпрототип§!"
+ building_xzkz_affluence_center_desc: "Хоч яким унікальним був би матеріал, тут його можна знайти."
+
+ building_xzkz_nourishment_center: "Центр Харчування §Bпрототип§!"
+ building_xzkz_nourishment_center_desc: "Якщо щось має смак, його можна відтворити тут."
+
+ building_xzkz_dimensional_fabricator: "Вимірна виробнича машина §Bпрототип§!"
+ building_xzkz_dimensional_fabricator_desc: "Ця споруда використовує маловідому вимірну технологію, щоб відкривати двері в інші світи та збирати з них цінні ресурси."
+
+ building_xzkz_class_4_singularity: "Сингулярність четвертого порядку §Bпрототип§!"
+ building_xzkz_class_4_singularity_desc: "Потужне ізоляційне поле контролює центральну енергетичну точку та виробляє велику кількість енергії."
+
+ building_xzkz_nano_forge: "Нанопіч §Bпрототип§!"
+ building_xzkz_nano_forge_desc: "Гігантський кронштейн нанореплікатора перетворює сировину на високоякісні сплави з дивовижною ефективністю."
+
+ building_xzkz_master_archive: "Головний Архів §Bпрототип§!"
+ building_xzkz_master_archive_desc: "Тут ми зберігаємо всі знання, а також маємо найпередовіші й найвсебічніші дослідницькі об'єкти."
+
+ building_xzkz_empyrean_shrine: "Вежа Духовного Царства §Bпрототип§!"
+ building_xzkz_empyrean_shrine_desc: "У цій здійнятій вежі перебувають потужні псайкери, що вивчають і розвивають псіоніку, і лише невелика їх частина існує в наших вимірах."
+
+ building_xzkz_fe_dome: "Повітряний Купол §Bпрототип§!"
+ building_xzkz_fe_dome_desc: "Збудований в утопії, що ширяє в повітрі, спираючись на надзвичайно передову антигравітаційну технологію."
+
+ building_xzkz_fe_stronghold: "Щитова База §Bпрототип§!"
+ building_xzkz_fe_stronghold_desc: "Масштабна планетарна оборонна база з численними арсеналами, повними передової зброї Піонерів. "
+
+#### 岗位
+
+ job_xzkz_fe_protector: "Захисник"
+
+ job_xzkz_fe_protector_plural: "Захисники"
+
+ job_xzkz_fe_protector_desc: "Щоб підтримувати стабільність і безпеку імперії, ці потужні захисники знищать усі загрози."
+
+ mod_job_xzkz_fe_protector_add: "Посада $job_xzkz_fe_protector$"
+
+
+
+
+ job_xzkz_fe_protector_gst: "Вартовий"
+
+ job_xzkz_fe_protector_gst_plural: "Вартові"
+
+ job_xzkz_fe_protector_gst_desc: "Щоб підтримувати безпеку й стабільність мережі свідомості, ці потужні вартові знищать усі загрози."
+
+ mod_job_xzkz_fe_protector_gst_add: "Посада $job_xzkz_fe_protector_gst$"
+
+
+
+ job_xzkz_fe_archivist: "Великий Мудрець"
+
+ job_xzkz_fe_archivist_plural: "Великі Мудреці"
+
+ job_xzkz_fe_archivist_desc: "Маючи величезний запас знань і потужну здатність до навчання, великі мудреці не лише впорядковують усі наукові знання, а й вивчають глибші та таємничіші знання."
+
+ mod_job_xzkz_fe_archivist_add: "Посада $job_xzkz_fe_archivist$"
+
+
+
+ job_xzkz_fe_archivist_gst: "Розумна Особина Ядра"
+
+ job_xzkz_fe_archivist_gst_plural: "Розумні Особини Ядра"
+
+ job_xzkz_fe_archivist_gst_desc: "Маючи потужні здібності до навчання та дослідження, розумні особини ядра не лише впорядковують усі наукові знання, а й вивчають глибші й таємничіші знання."
+
+ mod_job_xzkz_fe_archivist_gst_add: "Посада $job_xzkz_fe_archivist_gst$"
+
+
+
+ job_xzkz_fe_augur: "Майстер Духовності"
+
+ job_xzkz_fe_augur_plural: "Майстри Духовності"
+
+ job_xzkz_fe_augur_desc: "Псіонічний майстер, що тривалий час досліджує псіонічні здібності, вчиться контролювати їх та вдосконалювати."
+
+ mod_job_xzkz_fe_augur_add: "Посада $job_xzkz_fe_augur$"
+
+
+
+ job_xzkz_fe_augur_gst: "Духовна Надособина"
+
+ job_xzkz_fe_augur_gst_plural: "Духовні Надособини"
+
+ job_xzkz_fe_augur_gst_desc: "Псіонічна надособина, що проводить довготривалі дослідження псіоніки, вчиться контролювати її та вдосконалювати псіонічні здібності."
+
+ mod_job_xzkz_fe_augur_gst_add: "Посада $job_xzkz_fe_augur_gst$"
+
+
+
+ job_xzkz_fe_gongjiang: "Майстер Дивовижного Лиття"
+
+ job_xzkz_fe_gongjing_plural: "Майстри Дивовижного Лиття"
+
+ job_xzkz_fe_gongjiang: "Легендарний майстер-ремісник, вправний у литві та створенні."
+
+ mod_job_xzkz_fe_gongjiang_add: "Посада $job_xzkz_fe_gongjiang$"
+
+
+
+ job_xzkz_fe_gongjing_gst: "Дитяча Особина Дивовижного Лиття"
+
+ job_xzkz_fe_gongjing_gst_plural: "Дитячі Особини Дивовижного Лиття"
+
+ job_xzkz_fe_gongjing_gst_desc: "Дитина, що вправна в литві та створенні."
+
+ mod_job_xzkz_fe_gongjing_gst_add: "Посада $job_xzkz_fe_gongjing_gst$"
+
+
+
+ job_xzkz_fe_ciyuanshoujizhe: "Збирач Вимірів"
+
+ job_xzkz_fe_ciyuanshoujizhe_plural: "Збирачі Вимірів"
+
+ job_xzkz_fe_ciyuanshoujizhe_desc: "Збирає цінні ресурси з інших світів."
+
+ mod_job_xzkz_fe_ciyuanshoujizhe_add: "Посада $job_xzkz_fe_ciyuanshoujizhe$"
+
+
+
+ job_xzkz_fe_ciyuanshoujizheugst: "Збирач Вимірів"
+
+ job_xzkz_fe_ciyuanshoujizheugst_plural: "Збирачі Вимірів"
+
+ job_xzkz_fe_ciyuanshoujizhe_gst_desc: "Збирає цінні ресурси з інших світів."
+
+ mod_job_xzkz_fe_ciyuanshoujizheugst_dd: "Посада $job_xzkz_fe_ciyuanshoujizheugst$"
+
+
+ #区段
+
+ bow_Ultimate_battleships: "Допоміжне ядро"
+ bow2Ultimate_battleships: "Допоміжне ядро"
+ miduUltimate_battleships: "Ядро"
+ stern_Ultimate_battleships: "Другорядне ядро"
+ stern2_Ultimate_battleships: "Другорядне ядро"
+ mid_immortal_Destroyer: "Ядро"
+ mid2_Immortal_Destroyer: "Ядро"
+ danami_mid: "Ядро Кораблю-матки"
+ xiaonami_mid: "Ядро перехоплення"
+
+ #船
+
+ NAME_gudaijianchuan_huiguizhe: "Давні кораблі"
+ NAME_gudaijianchuan2_huiguizhe: "Давні кораблі"
+
+ SHIP_GRAPHICS_ULTIMATE_BATTLESHIPS_DESC: "Кінцеве технологічне творіння."
+ SHIP_GRAPHICS_IMMORTAL_DESTROYER_DESC: "Кінцеве технологічне творіння."
+ SHIP_GRAPHICS_DANAMI_DESC: "Значні досягнення в дослідженні нанотехнологій мають вагому бойову ефективність."
+ SHIP_GRAPHICS_XIAONAMI_DESC: "Значні досягнення в дослідженні нанотехнологій мають вагому бойову ефективність."
+
+ small_xzkz_ship_fallen_empire: "Ескорт"
+ small_xzkz_ship_fallen_empire_plural: "Ескорти"
+ fallen_xzkz_empire_warship_small_key: "Ядро ескорту"
+ fallen_xzkz_empire_warship_small_torpedo_key: "Ядро ескорту"
+ largeuxzkz_ship_fallen_empire: "Крейсер-лінкор"
+ largeuxzkz_ship_fallen_empire_plural: "Крейсери-лінкори"
+ fallen_xzkz_empire_large_warship_torpedo_key: "Ядро бойового патруля"
+ fallen_xzkz_empire_large_warship_key: "Ядро бойового патруля"
+
+ massive_xzkz_ship_fallen_empire: "Титан Піонерів"
+ massive_xzkz_ship_fallen_empire_plural: "Титани Піонерів"
+ fallen_xzkz_empire_massive_warship_key: "Ядро Титана Піонерів"
+
+ XZKZ_DACHUAN_CLOAKING_DARK_MATTER: "Генератор поля невидимості темної матерії"
+ XZKZ_XIAOCHUAN_CLOAKING_DARK_MATTER: "Генератор поля маскування темної матерії"
+ XZKZ_BATTLESHIP_CLOAKING_PSI: "Генератор поля духовної фази"
+ XZKZ_DESTROYER_CLOAKING_PSI: "Генератор поля духовної фази"
+ XZKZ_DESTROYER_CLOAKING_3: "Генератор поля невидимості еліти"
+ SHIP_XZKZ_AURA_STRIKE_CRAFT: "Штаб штурмового командування"
+ SHIP_XZKZ_AURA_RANGE: "Масив виявлення цілей"
+ SHIP_XZKZ_AURA_HYPERLANE: "Підпросторовий підсилювач"
+ SHIP_XZKZ_AURA_PD_PENETRATION: "Пускова установка радіоелектронної боротьби"
+ SHIP_XZKZ_AURA_BOMBARDMENT: "Арсенал"
+
+ military_xzkz_station_small_fallen_empire: "Форпост Піонерів"
+ military_xzkz_station_small_fallen_empire_plural: "Форпости Піонерів"
+ fallen_xzkz_empire_station_small_key: "Ядро вартового"
+ fallen_xzkz2empire_station_small_key: "Ядро вартового"
+ fallen_xzkz3_empire_station_small_key: "Ядро вартового"
+
+ military_xzkz_station_large_fallen_empire: "Фортеця Піонерів"
+ military_xzkz_station_large_fallen_empire_plural: "Фортеці Піонерів"
+ fallen_xzkz_empire_station_large_key: "Ядро фортеці"
+
+ #电脑
+
+ COMBAT_COMPUTER_DEFAULT_UB: "Базовий бойовий комп'ютер"
+ COMBAT_COMPUTER_SWARM_DEFAULT_UB: "$COMBAT_COMPUTER_DEFAULT$"
+ COMBAT_COMPUTER_PICKET_DEFAULT_UB: "$COMBAT_COMPUTER_DEFAULT$"
+ COMBAT_COMPUTER_LINE_DEFAULT_UB: "$COMBAT_COMPUTER_DEFAULT$"
+ COMBAT_COMPUTER_ARTILLERY_DEFAULT_UB: "$COMBAT_COMPUTER_DEFAULT$"
+ COMBAT_COMPUTER_CARRIER_DEFAULT_UB: "$COMBAT_COMPUTER_DEFAULT$"
+ COMBAT_COMPUTER_TORPEDO_DEFAULT_UB: "$COMBAT_COMPUTER_DEFAULT$"
+
+ COMBAT_COMPUTER_PLATFORM_DEFAULT_UB: "Базовий бойовий комп'ютер"
+ COMMAT_COMPUTER_SWARL_BASIC_UB: "Бойовий комп'ютер (Юрба)"
+ COMMAT_COMPUTER_PICKET_BASIC_UB: "Бойовий комп'ютер (Кільце вартових)"
+ COMBAT_COMPUTER_LINE_BASIL_UB: "Бойовий комп'ютер (Лінія)"
+ COMMAT_COMPUTER_ARTILLERY_BASIL_UB: "Бойовий комп'ютер (Артилерія)"
+
+ COMBAT_COMPUTER_CARRIER_BASIC_UB: "Бойовий комп'ютер (Авіаносець)"
+ COMBAT_COMPUTER_TORPEDO_BASIC_UB: "Бойовий комп'ютер (Торпеда)"
+
+ COMMAT_COMPUTER_PLATFORM_BASIP_UB: "Бойовий комп'ютер (Платформа)"
+ COMBAT_COMPUTER_SWARM_ADVANCED_UB: "Просунутий бойовий комп'ютер (Рій)"
+ COMBAT_COMPUTER_PICKET_ADVANCED_UB: "Просунутий бойовий комп'ютер (Кільце вартових)"
+ COMBAT_COMPUTER_LINE_ADVANCED_UB: "Просунутий бойовий комп'ютер (Лінія)"
+ COMBAT_COMPUTER_ARTILLERY_ADVANCED_UB: "Просунутий бойовий комп'ютер (Артилерія)"
+ COMBAT_COMPUTER_CARRIER_ADVANCED_UB: "Просунутий бойовий комп'ютер (Авіаносець)"
+ COMBAT_COMPUTER_TORPEDO_ADVANCED_UB: "Просунутий бойовий комп'ютер (Торпеда)"
+ COMBAT_COMPUTER_PLATFORM_ADVANCED_UB: "Просунутий бойовий комп'ютер (Платформа)"
+ COMMAT_COMPUTER_SWARM_SAPIENT_UB: "Розумний бойовий комп'ютер (Рій)"
+ COMBAT_COMPUTER_PICKET.SAPIENT_UB: "Розумний бойовий комп'ютер (Вартовий)"
+ COMBAT_COMPUTER_LINE_SAPIENT_UB: "Розумний бойовий комп'ютер (Лінія)"
+ COMMAT_COMPUTER_ARTILLERY_SAPIENT_UB: "Розумний бойовий комп'ютер (Артилерія)"
+ COMMAT_COMPUTER_CARRIER_SAPIENT_UB: "Розумний бойовий комп'ютер (Авіаносець)"
+ COMBAT_COMPUTER_TORPEDO_SAPIENT_UB: "Розумний бойовий комп'ютер (Торпеда)"
+ COMBAT_COMPUTER_PLATFORM_SAPIENT_UB: "Розумний бойовий комп'ютер (Платформа)"
+ COMMAT_COMPUTER_SWARM_AUTONOMOUS.UB: "Автономний корабельний інтелект (Рій)"
+ COMMAT_COMPUTER_PICKET_AUTONOMOUSUBB: "Самодисциплінований корабельний інтелект (Вартовий)"
+ COMBAT_COMPUTER_LINE_AUTONOMOUSS_UB: "Автономний корабельний інтелект (Лінія)"
+ COMMAT_COMPUTER_ARTILLERY_AUTONOMOUS.UB: "Автономний корабельний інтелект (Артилерія)"
+ COMMAT_COMPUTER_CARRIER_AUTONOMOUS.UB: "Автономний корабельний інтелект (Авіаносець)"
+ COMBAT_COMPUTER_TORPEDO_AUTONOMOUS.UB: "Автономний корабельний інтелект (Торпеда)"
+ COMBAT_COMPUTER_PLATFORM_AUTONOMOUS.UB: "Автономний корабельний інтелект (Платформа)"
+ COMBAT_COMPUTER_SWARM_PRECOG_UB: "Інтерфейс передбачення (Юрба)"
+ COMBAT_COMPUTER_PICKETPRECOG_UB: "Інтерфейс передбачення (Вартовий)"
+ COMBAT_COMPUTER_LINE_PRECOG_UB: "Інтерфейс передбачення (Лінія)"
+ COMBAT_COMPUTER_ARTILLERY_PRECOG_UB: "Інтерфейс передбачення (Артилерія)"
+ COMBAT_COMPUTER_CARRIER_PRECOG_UB: "Інтерфейс передбачення (Авіаносець)"
+ COMBAT_COMPUTER_TORPEDO_PRECOG_UB: "Інтерфейс передбачення (Торпеда)"
+ COMBAT_COMPUTER_PLATFORM_PRECOG_UB: "Інтерфейс передбачення (Платформа)"
+ STARBASE_COMBAT_COMPUTER_1_UB: "Система керування вогнем Станції"
+
+ STARBASE_COMBAT_COMPUTER_2_UB: "$STARBASE_COMBAT_COMPUTER_1$"
+ STARBASE_COMBAT_COMPUTER_3_UB: "$STARBASE_COMBAT_COMPUTER_1$"
+ COMBAT_COMPUTER_COLOSSUS_UB: "Бойовий комп'ютер Колосу"
+
+ #反应堆
+
+ FISSION_REACTOR: "Реактор поділу"
+ FUSION_REACTOR: "Термоядерний реактор"
+ COLDFUSION_REACTOR: "Реактор холодного синтезу"
+ ZEROPOINT_REACTOR: "Реактор нульової точки"
+ ANTIMATTER_EACTOR: "Реактор антиматерії"
+ DARK_MATTER_REACTOR: "Реактор темної матерії"
+
+ #泰坦反应堆
+
+ TITAN_FISSION_REACTOR_UB: "$FISSION_REACTOR$"
+ TITAN_FUSION_REACTOR_UB: "$FUSION_REACTOR$"
+ TITAN_COLD_FUSION_REACTOR_UB: "$COLD_FUSION_REACTOR$"
+ TITAN_ANTIMATTER_REACTOR_UB: "$ANTIMATTER_REACTOR$"
+ TITAN_ZERO_POINT_REACTOR_UB: "$ZERO_POINT_REACTOR$"
+ TITAN_DARK_MATTER_REACTOR_UB: "$DARK_MATTER_REACTOR$"
+
+ #推进器
+
+ SHIP_THRUSTER_1_UB: "Хімічний двигун"
+ DESTROYER_SHIP_THRUSTER_1_UB: "$SHIP_THRUSTER_1_UB$"
+ CRUISER_SHIP_THRUSTER_1_UB: "$SHIP_THRUSTER_1_UB$"
+ BATTLESHIP_SHIP_THRUSTER_1_UB: "$SHIP_THRUSTER_1_UB$"
+ TITAN_SHIP_THRUSTER_1_UB_UB: "$SHIP_THRUSTER_1_UB$"
+ COLOSSUS_SHIP_THRUSTER_1_UB: "$SHIP_THRUSTER_1_UB$"
+ SHIP_THRUSTER_2_UB: "Іонний двигун"
+ DESTROYER_SHIP_THRUSTER_2_UB: "$SHIP_THRUSTER_2_UB$"
+ CRUISER_SHIP_THRUSTER_2_UB: "$SHIP_THRUSTER_2_UB$"
+ BATTLESHIP_SHIP_THRUSTER_2_UB: "$SHIP_THRUSTER_2_UB$"
+ TITAN_SHIP_THRUSTER_2_UB: "$SHIP_THRUSTER_2_UB$"
+ COLOSSUS_SHIP_THRUSTER_2_UB: "$SHIP_THRUSTER_2_UB$"
+ SHIP_THRUSTER_3_UB: "Плазмовий двигун"
+ DESTROYER_SHIP_THRUSTER_3_UB: "$SHIP_THRUSTER_3_UB$"
+ CRUISER_SHIP_THRUSTER_3_UB: "$SHIP_THRUSTER_3_UB$"
+ BATTLESHIP_SHIP_THRUSTER_3_UB: "$SHIP_THRUSTER_3_UB$"
+ TITAN_SHIP_THRUSTER_3_UB: "$SHIP_THRUSTER_3_UB$"
+ COLOSSUS_SHIP_THRUSTER_3_UB: "$SHIP_THRUSTER_3_UB$"
+ SHIP_THRUSTER_4_UB: "Імпульсний двигун"
+ DESTROYER_SHIP_THRUSTER_4_UB: "$SHIP_THRUSTER_4_UB$"
+ CRUISER_SHIP_THRUSTER_4_UB: "$SHIP_THRUSTER_4_UB$"
+ BATTLESHIP_SHIP_THRUSTER_4_UB: "$SHIP_THRUSTER_4_UB$"
+ TITAN_SHIP_THRUSTER_4_UB: "$SHIP_THRUSTER_4_UB$"
+ COLOSSUS_SHIP_THRUSTER_4_UB: "$SHIP_THRUSTER_4_UB$"
+ SHIP_THRUSTER_5_UB: "Двигун темної матерії"
+ DESTROYER_SHIP_THRUSTER_5_UB: "$SHIP_THRUSTER_5_UB$"
+ CRUISER_SHIP_THRUSTER_5_UB: "$SHIP_THRUSTER_5_UB$"
+ BATTLESHIP_SHIP_THRUSTER_5_UB: "$SHIP_THRUSTER_5_UB$"
+ TITAN_SHIP_THRUSTER_5_UB: "$SHIP_THRUSTER_5_UB$"
+ COLOSSUS_SHIP_THRUSTER_5_UB: "$SHIP_THRUSTER_5_UB$"
+ PERDITION_BEAM_TITAN_UB: "$PERDITION_BEAM_UB$"
+
+ #T槽武器
+
+ PERDITION_BEAL_UB: "Промінь пекла"
+ ARCHAEO_TITAN_UB: "Давнє знищувальне сяйво"
+ GG_BEAM_XZKZ: "Енергетична дуга"
+ GG_BEAM_XZKZ_DESC: "Потужна енергія формує примарний бурхливий промінь, завдаючи руйнівних ударів усьому на своєму шляху."
+
+ #巡洋舰反应堆
+
+ CRUISER_FISSION_REACTOR_UB: "$FISSION_REACTOR$"
+ CRUISER_FUSION_REACTOR_UB: "$FUSION_REACTOR$"
+ CRUISER_COLD_FUSION_REACTOR_UB: "$COLD_FUSION_REACTOR$"
+ CRUISER_ANTIMATTER_REACTOR_UB: "$ANTIMATTER_REACTOR$"
+ CRUISER_ZERO_POINT_REACTOR_UB: "$ZERO_POINT_REACTOR$"
+ CRUISER_DARK_MATTER_REACTOR_UB: "$DARK_MATTER_REACTOR$"
+
+ #其它
+
+ XIQNQU1: "Вартовий Святої Землі"
+ XIQNQU2: "Управителі Знань"
+ XIQNQU3: "Таємничий Спостерігач"
+ XIQNQU4: "Військові Ізолятори"
+ XIQNQU5: "Давній Опікун"
+ DAQIAKEJICHENG: "Високі технології (Дача)"

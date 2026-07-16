@@ -1,0 +1,37 @@
+﻿l_english:
+
+#Flooded/Aquatic Planets
+ decision_pd_aw_flood_planet: "Розширити планетарне море"
+ decision_pd_aw_flood_planet_desc: "Ця океанічна планета має потенціал стати ідеальним домом для нашого народу. Регулюючи рівень моря та переносячи міста під воду, ми можемо забезпечити процвітання життя для тих, хто пристосований жити під хвилями."
+ decision_pd_aw_flood_planet_tooltip: "Лід буде видобуватися з систем з §Y$sm_ice_mining_station$§!\nДодається модифікатор §Y$pd_aw_flooded_planet$§!:\n$pd_aw_flooded_planet_tooltip$"
+ flooded_planet_tooltip: "$MOD_PLANET_MAX_DISTRICTS_ADD$: §G+3§!\n$MOD_LOGISTIC_GROWTH_MULT$: §G+10%§!\n$mod_planet_jobs_produces_mult$: §G+5%§!\nПридатність для §YНеводних§!: §R-20%§!"
+ decision_pd_aw_unflood_planet: "Осушити планету"
+ decision_pd_aw_unflood_planet_desc: "Ця океанічна планета має потенціал стати ідеальним домом для нашого народу. Знижуючи рівень моря та переносячи міста на острови, ми можемо забезпечити процвітання життя для тих, хто пристосований жити над хвилями."
+ decision_pd_aw_flood_ringworld: "Затопити кільце-світ"
+ decision_pd_aw_flood_ringworld_desc: "Цей кільце-світ має потенціал стати ідеальним домом для нашого народу. Регулюючи рівень моря та переносячи міста під воду, ми можемо забезпечити процвітання життя для тих, хто пристосований жити під хвилями."
+ decision_pd_aw_unflood_ringworld: "Осушити кільце-світ"
+ decision_pd_aw_unflood_ringworld_desc: "Цей кільце-світ має потенціал стати ідеальним домом для нашого народу. Знижуючи рівень моря та переносячи міста назад на сушу, ми можемо забезпечити процвітання життя для тих, хто пристосований жити над хвилями."
+ decision_pd_aw_unflood_habitat: "Осушити поселення-станцію"
+ decision_pd_aw_unflood_habitat_desc: "Це поселення-станція має потенціал стати ідеальним домом для нашого народу. Осушивши цю станцію, ми можемо забезпечити процвітання життя для тих, хто пристосований жити над хвилями."
+ decision_pd_aw_flood_habitat_tooltip: "Придатність для життя: §R-20%§!\nВважається §YОкеанічним§! світом для §YВодних§! рас.\nЛід буде видобуватися із системи з §Y$sm_ice_mining_station$§! на станції."
+
+ flooded_habitat: "Затоплено"
+ flooded_habitat_desc: "Поглинутий водою, цей світ — ідилічне середовище для водних мешканців."
+ pd_aw_flooded_planet_tooltip: "$MOD_PLANET_MAX_DISTRICTS_ADD$: §G+3§!\n$MOD_LOGISTIC_GROWTH_MULT$: §G+10%§!\n$mod_planet_jobs_produces_mult$: §G+5%§!\nПридатність для §YНеводних§!: §R-20%§!"
+
+ pd_aw_flooded_planet: "Затоплений світ"
+ pd_aw_flooded_planet_desc: "Ця океанічна планета — ідеальний дім для водних рас. Життя процвітає для тих, хто пристосований жити під хвилями."
+ pd_aw_flooded_habitat: "Затоплена станція"
+ pd_aw_flooded_habitat_desc: "Цю станцію затоплено водою, що імітує природне середовище водних істот."
+
+ ICE_MINING_PLANET_SUCCESS_TITLE: "Планету затоплено"
+ ICE_MINING_PLANET_SUCCESS_DESC: "Використовуючи лід, видобутий у системі $SYSTEM|Y$, нам вдалося затопити §Y[This.GetName]§!."
+
+ ocean_paradise_2: "$ocean_paradise$"
+ ocean_paradise_2_desc: "$ocean_paradise_desc$"
+ ocean_paradise_hive_2: "$ocean_paradise_hive$"
+ ocean_paradise_hive_2_desc: "$ocean_paradise_hive_desc$"
+
+ #Pelagic Planet
+ pd_pelagic_planet: "Пелагічний"
+ pd_pelagic_planet_desc: "Ця планета повністю оповита глобальним океаном, і жодні масиви суходолу не виступають над поверхнею."

@@ -1,0 +1,56 @@
+﻿l_english:
+
+ PLANET_KILLER_XZKZ_CRACKER: "Розколювач Світів"
+ PLANET_KILLER_XZKZ_CRACKER_ACTION: "Розколоти планету"
+ PLANET_KILLER_XZKZ_CRACKER_DESC: "Спрямований потік теплової енергії перегріває атмосферу та збурює ядро планети, спричиняючи катастрофічні тектонічні процеси. Завершальний, порівняно невеликий ударний вибух розколює планету навпіл."
+
+
+ PLANET_KILLER_XZKZ_SHIELDER:0 "Глобальний Умиротворювач"
+ PLANET_KILLER_XZKZ_SHIELDER_ACTION:0 "Умиротворити"
+ PLANET_KILLER_XZKZ_SHIELDER_DESC:1 "Навколо планети розгортається захисне поле, що створює постійний і непроникний бар'єр (за винятком деяких довжин хвиль світла)."
+
+
+ PLANET_KILLER_XZKZ_NEUTRON:0 "Нейтронна Зачистка"
+ PLANET_KILLER_XZKZ_NEUTRON_ACTION:0 "Опромінити"
+ PLANET_KILLER_XZKZ_NEUTRON_DESC:0 "Прискорений потік нейтронного випромінювання «фарбує» поверхню планети, серйозно руйнуючи більшість матеріалів і безпосередньо знищуючи біологічні тканини."
+
+ PLANET_KILLER_XZKZ_GODRAY:1 "Божественний Провідник"
+ PLANET_KILLER_XZKZ_GODRAY_ACTION:0 "Осяяти божественним"
+ PLANET_KILLER_XZKZ_GODRAY_DESC:1 "Псіонічний проєктор осяює світ божественною істиною, перетворюючи на справжніх віруючих усіх, хто здатний вірити, і знищуючи тих, хто не здатний."
+
+ PLANET_KILLER_XZKZ_NANOBOTS:1 "Нанобот-Дифузор"
+ PLANET_KILLER_XZKZ_NANOBOTS_ACTION:0 "Кіборгізувати"
+ PLANET_KILLER_XZKZ_NANOBOTS_DESC:0 "У атмосфері розсіюються рої наноботів. Вони заражають розумних істот і перебудовуються в кібернетичні імплантати, перетворюючи нічого не підозрюючих носіїв на кіборгів, підвладних Машинному Інтелекту."
+
+ PLANET_KILLER_XZKZ_DELUGE:0 "Машина Потопу"
+ PLANET_KILLER_XZKZ_DELUGE_ACTION:0 "Затопити"
+ PLANET_KILLER_XZKZ_DELUGE_DESC:0 "На планету скидаються величезні обсяги води, знищуючи всі штучні споруди та наземні форми життя. Потоп супроводжується атмосферними газами, необхідними для стабілізації клімату планети та підтримки планетарного океану."
+
+ PLANET_KILLER_XZKZ_DEVOLUTION: "$tech_archaeo_pk_devolving_beam$"
+ PLANET_KILLER_XZKZ_DEVOLUTION_DESC: "Колосальна гармата стирання розуму, що вивільняє загальнопланетарну хвилю енергії, повертаючи більшість розумного життя до передрозумного стану. За оцінками інженерів, з додатковим налаштуванням її також можна використати для повного стирання банків пам'яті та виведення з ладу роботизованих підрозділів."
+ PLANET_KILLER_XZKZ_DEVOLUTION_ACTION: "Застосувати §YПромінь Деволюції§! до"
+
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_XZKZ_CRACKER:0 "Готуємося розколоти $PLANET|Y$"
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_XZKZ_SHIELDER:0 "Готуємося захистити щитом $PLANET|Y$"
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_XZKZ_NEUTRON:0 "Готуємося до нейтронного бомбардування $PLANET|Y$"
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_XZKZ_GODRAY:0 "Готуємося зробити віруючою $PLANET|Y$"
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_XZKZ_NANOBOTS:0 "Готуємося кіборгізувати $PLANET|Y$"
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_XZKZ_DELUGE:0 "Готуємося затопити $PLANET|Y$"
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_XZKZ_DEVOLUTION:0 "Готуємося деволюціонувати $PLANET|Y$"
+
+ MESSAGE_DESC_FOR_PLANET_KILLER_XZKZ_CRACKER:0 "була повністю знищена"
+ MESSAGE_DESC_FOR_PLANET_KILLER_XZKZ_SHIELDER:0 "була закута в непроникний щит"
+ MESSAGE_DESC_FOR_PLANET_KILLER_XZKZ_NEUTRON:0 "була очищена від усіх вищих форм життя"
+ MESSAGE_DESC_FOR_PLANET_KILLER_XZKZ_GODRAY:0 "мала нав'язану божественну віру"
+ MESSAGE_DESC_FOR_PLANET_KILLER_XZKZ_NANOBOTS:0 "була асимільована наноботами від"
+ MESSAGE_DESC_FOR_PLANET_KILLER_XZKZ_DELUGE:0 "зазнала потопу від"
+ MESSAGE_DESC_FOR_PLANET_KILLER_XZKZ_DEVOLUTION: "майже все місцеве населення було примусово повернуто до передрозумного стану"
+
+ TITAN_FISSION_REACTOR_XZKZ_JUXIANG_W: "$FISSION_REACTOR$"
+ TITAN_FUSION_REACTOR_XZKZ_JUXIANG_W: "$FUSION_REACTOR$"
+ TITAN_COLD_FUSION_REACTOR_XZKZ_JUXIANG_W: "$COLD_FUSION_REACTOR$"
+ TITAN_ANTIMATTER_REACTOR_XZKZ_JUXIANG_W: "$ANTIMATTER_REACTOR$"
+ TITAN_ZERO_POINT_REACTOR_XZKZ_JUXIANG_W: "$ZERO_POINT_REACTOR$"
+ TITAN_DARK_MATTER_REACTOR_XZKZ_JUXIANG_W: "$DARK_MATTER_REACTOR$"
+
+ COMBAT_COMPUTER_COLOSSUS_UB: "Бойовий комп'ютер Колосу"

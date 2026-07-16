@@ -1,0 +1,18 @@
+l_english:
+ civic_senedia_castle:0 "Замок Сенедія"
+ civic_senedia_castle_desc:0 "Укласти угоду з таємничою дівчиною-вампіркою й стати її дворецьким.\n\n§RЦя громадянська доктрина — обов'язкова умова для відкриття вмісту мода.§!"
+ civic_senedia_castle_effects:0 "На початку гри спрацює подія укладання угоди з дівчиною-вампіркою\n\n"
+
+ councilor_library_alice:0 "Відьма з великої бібліотеки"
+ councilor_library_alice_desc:0 "Аліса рідко покидає бібліотеку §R(вважається головним науковим офіцером)§!"
+ councilor_library_alice.require:0 "Це місце в раді може обіймати лише §RАліса§!"
+
+ councilor_noviciate_stewardess:0 "Дворецька-стажерка"
+ councilor_noviciate_stewardess_desc:0 "Роло навчається бути справжньою дворецькою §M(вважається державним секретарем)§!"
+ councilor_noviciate_stewardess.require:0 "Це місце в раді може обіймати лише §MРоло§!"
+
+ councilor_stewardess:0 "Дворецька"
+ councilor_stewardess_desc:0 "Роло вже стала справжньою дворецькою (за власними словами) §M(вважається державним секретарем)§!"
+
+ councilor_white_shadow:0 "Біла тінь"
+ councilor_white_shadow_desc:0 "Куна виявила несподіваний інтерес до командування флотом і вражаючі здібності до цього §P(вважається міністром оборони)§!"

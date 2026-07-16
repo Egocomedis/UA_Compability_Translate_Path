@@ -1,0 +1,29 @@
+l_english:
+
+ district_gammasphere_housing:0 "Житловий масив Гамасфери"
+ district_gammasphere_housing_desc:0 "Цей масив надає житло для нашого численного народу, використовуючи передові техніки пронизування Порожнечі й патафізику для розміщення структур у Хибній Порожнечі. Зазвичай додає §Y25§! житла та §Y27§! зручностей."
+ district_gammasphere_housing_plural:0 "Житлові масиви"
+ district_gammasphere_fortress:0 "Спостережний вузол Гамасфери"
+ district_gammasphere_fortress_desc:0 "Цей масив забезпечує Гамасферу солдатами й Наглядачами. §YНа кожні десять Вузлових масивів набирається один Наглядач або дрон-спостерігач.§! "
+ district_gammasphere_fortress_plural:0 "Вузлові масиви"
+ district_gammasphere_factory:0 "Масив макровиробництва Гамасфери"
+ district_gammasphere_factory_desc:0 "Цей масив забезпечує ресурси для нашої Гамасфери й держави. Дає §Yбазове§! виробництво §G12700§! рідкісних і стратегічних ресурсів загалом."
+ district_gammasphere_factory_plural:0 "Масиви макровиробництва"
+ district_gammasphere_ive:0 "Масив пробивачів Порожнечі Гамасфери"
+ district_gammasphere_ive_desc:0 "Цей масив забезпечує й підтримує нашу майбутню економіку Епсилон, хоч і базову, все ще залежну від технік і структур Зовнішньої Порожнечі. Дає §Y25§! посад та §G15000§! базового виробництва §rОберненої Енергії Порожнечі§!, разом із §G5000§! §RЯдер Часу§! та §G5000§! Живого Металу."
+ district_gammasphere_ive_plural:0 "Масиви пробивачів Порожнечі"
+ district_gammasphere_research:0 "Больцманівський масив Гамасфери"
+ district_gammasphere_research_desc:0 "Цей масив забезпечує дослідження для нашої держави, дозволяючи легше долати складні проєкти. Дає §G1500§! §SІнженерних§!, §BФізичних§! та §GСоціологічних§! досліджень, а також §Y15§! посад Науковця 2-го рівня."
+ district_gammasphere_research_plural:0 "Больцманівські масиви"
+
+
+
+
+
+
+ pc_epoch_abyss_gammasphere:0 "§PГамасфера Безодні§! "
+ pc_epoch_abyss_gammasphere_desc:0 "Розкішна §PГамасфера Безодні§!, присвячена обслуговуванню наших операцій у Безодні й закріпленню наших позицій."
+ pc_epoch_abyss_gammasphere_adj:0 "§PГамасфера§! "
+ mod_pc_epoch_abyss_gammasphere_habitability:0 "Придатність для життя §PГамасфери§!"
+ trait_pc_epoch_abyss_gammasphere_preference:0 "Уподобання §PГамасфери§!"
+ trait_pc_epoch_abyss_gammasphere_preference_desc:0 "Надає перевагу елітній розкоші §PГамасфери Безодні§!."

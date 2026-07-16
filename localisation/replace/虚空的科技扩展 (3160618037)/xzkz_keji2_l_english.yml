@@ -1,0 +1,161 @@
+﻿l_english:
+
+
+
+
+ tech_xzkz_heikeji2: "Архітектура технологій Піонерів"
+ tech_xzkz_heikeji2_desc: "Відкриває споруди технологій Піонерів."
+
+ building_xzkz_fe_security_2: "§MЗала Рівноваги§!"
+ building_xzkz_fe_security_2_desc: "Підтримує загальний баланс і координує функціонування всього сущого."
+
+ tech_xzkz_heikeji3: "Споруда технології автоматизації Піонерів"
+ tech_xzkz_heikeji3_desc: "Відкриває споруди технології автоматизації Піонерів."
+
+ building_xzkz_fe_stronghold_2: "§MБаза Божественного Щита§!"
+ building_xzkz_fe_stronghold_2_desc: "Величезна військова база, де зосереджені передове обладнання та надійні оборонні об'єкти."
+
+ building_xzkz_affluence_center_2: "§MЦентр Багатства§!"
+ building_xzkz_affluence_center_2_desc: "Цей центр здатний без зусиль миттєво задовольнити будь-яке найунікальніше бажання."
+
+ building_xzkz_fe_entertainment_2_2: "§MВузол Нескінченного Блаженства§!"
+ building_xzkz_fe_entertainment_2_2_desc: "Це вершина розваг, вузол, що виходить за межі звичних обмежень, де всі бажання здійснюються ще до того, як їх висловлять."
+
+ building_xzkz_nourishment_center_2: "§MЦентр Харчування§!"
+ building_xzkz_nourishment_center_2_desc: "Будь-який смак, який тільки можна уявити, можна відтворити в цих спорудах."
+
+ building_xzkz_fe_lab_2_2: "§MНадприродна Підвісна Вежа§!"
+ building_xzkz_fe_lab_2_2_desc: "Ця споруда — форпост наукового прогресу, що також може похвалитися найпередовішими й найвсебічнішими дослідницькими об'єктами."
+
+ building_xzkz_class_4_singularity_2: "§MСингулярність четвертого порядку§!"
+ building_xzkz_class_4_singularity_2_desc: "Енергетичний вихід цієї сингулярності кидає виклик законам фізики, тоді як стримувальне поле підтримує надзвичайно високу стабільність."
+
+ building_xzkz_dimensional_fabricator_2: "§MБаза Вимірного Вузла§!"
+ building_xzkz_dimensional_fabricator_2_desc: "Ця споруда використовує таємничу вимірну технологію, щоб відкривати портали в інші світи, дозволяючи збирачам вимірів збирати з них цінні ресурси."
+
+ building_xzkz_fe_mine_2_2: "§MТрансчасове буріння крізь центр§!"
+ building_xzkz_fe_mine_2_2_desc: "Цей видобувний центр використовує технологію гіперпростору для видобутку мінералів з усіх ділянок над ядром планети крізь тверді й рідкі об'єкти без фізичного контакту."
+
+ building_xzkz_nano_forge_2: "§MНанопіч§!"
+ building_xzkz_nano_forge_2_desc: "У цій кувальній печі величезний нанореплікатор перетворює сировину на передові сплави з приголомшливою ефективністю."
+
+ building_xzkz_fe_assembly_2_2: "§MЦентр Квантового Виробництва Роботів§!"
+ building_xzkz_fe_assembly_2_2_desc: "Цей об'єкт — інженерне диво, а його квантова складальна лінія використовує конвертери заплутаності для обробки деталей машин до найменших подробиць. Жоден атом не зміщений."
+
+ building_xzkz_fe_administration_2_2: "§MКінцевий Центр Управління§!"
+ building_xzkz_fe_administration_2_2_desc: "Цей масштабний комплекс — центр системи управління, що охоплює галактики, з'єднаний з потужною та передовою мережею управління."
+
+ building_xzkz_fe_dome_2: "§MДев'ятинебесний Купол§!"
+ building_xzkz_fe_dome_2_desc: "Це Небесне Місто ширяє завдяки передовій антигравітаційній технології, забезпечуючи райське середовище проживання для своїх мешканців."
+
+ building_xzkz_empyrean_shrine_2: "§MВежа Духовного Царства§!"
+ building_xzkz_empyrean_shrine_2_desc: "У цій високій вежі могутні духовні істоти заглиблюються у вивчення сили духовності, і лише невелика їх частина присутня в наших вимірах."
+
+ building_xzkz_fe_silo_2_2: "§MСклад Всесвітньої Бульбашки§!"
+ building_xzkz_fe_silo_2_2_desc: "Ми можемо створити космічну бульбашку для зберігання ресурсів."
+
+ building_xzkz_ancient_cryo_chamber_2: "§MГенетичний морозильник§!"
+ building_xzkz_ancient_cryo_chamber_2_desc: "Тут зберігаються незліченні генетичні послідовності."
+
+ building_xzkz_master_archive_2: "§MГоловні Архіви§!"
+ building_xzkz_master_archive_2_desc: "Тут зберігаються всі знання, тут зібрані всі дані та інформація."
+
+ building_xzkz_fe_market_2_2: "§MМіжзоряний Торговельний Вузол§!"
+ building_xzkz_fe_market_2_2_desc: "Ця торгова зона посідає найвище становище в галактичній торгівлі, а її величезний шпиль можна побачити навіть з орбіти."
+
+ building_xzkz_fe_clinic_2_2: "§MІнститут Структурної Регенерації§!"
+ building_xzkz_fe_clinic_2_2_desc: "Структурна регенерація — унікальна дисципліна й піонерська галузь, що постійно переосмислює межі, продовжуючи час існування споруд."
+
+ building_xzkz_fe_xeno_zoo_2: "§MПритулок для Прибульців§!"
+ building_xzkz_fe_xeno_zoo_2_desc: "Надзвичайно складна захищена зона, що забезпечує природні середовища існування для виживання інопланетних видів."
+
+
+
+ #####§P自动化§!的建筑
+
+ building_xzkz_zidongde_fe_security_2: "§Pавтоматизація§! Зала Рівноваги"
+ building_xzkz_zidongde_fe_security_2_desc: "Підтримує загальний баланс і координує функціонування всього сущого."
+
+ building_xzkz_zidongde_fe_stronghold_2: "§Pавтоматизація§! База Божественного Щита"
+ building_xzkz_zidongde_fe_stronghold_2_desc: "Величезна військова база, де зосереджені передове обладнання та надійні оборонні об'єкти."
+
+ building_xzkz_zidongde_fe_entertainment_2_2: "§Pавтоматизація§! Вузол Нескінченного Блаженства"
+ building_xzkz_zidongde_fe_entertainment_2_2_desc: "Це вершина розваг, вузол, що виходить за межі звичних обмежень, де всі бажання здійснюються ще до того, як їх висловлять."
+
+ building_xzkz_zidongde_nourishment_center_2: "§Pавтоматизація§! Центр Харчування"
+ building_xzkz_zidongde_nourishment_center_2_desc: "Будь-який смак, який тільки можна уявити, можна відтворити в цих спорудах."
+
+ building_xzkz_zidongde_fe_lab_2_2: "§Pавтоматизація§! Надприродна Підвісна Вежа"
+ building_xzkz_zidongde_fe_lab_2_2_desc: "Ця споруда — форпост наукового прогресу, що також може похвалитися найпередовішими й найвсебічнішими дослідницькими об'єктами."
+
+ building_xzkz_zidongde_class_4_singularity_2: "§Pавтоматизація§! Сингулярність четвертого порядку"
+ building_xzkz_zidongde_class_4_singularity_2_desc: "Енергетичний вихід цієї сингулярності кидає виклик законам фізики, тоді як стримувальне поле підтримує надзвичайно високу стабільність."
+
+ building_xzkz_zidongde_dimensional_fabricator_2: "§Pавтоматизація§! База Вимірного Вузла"
+ building_xzkz_zidongde_dimensional_fabricator_2_desc: "Ця споруда використовує таємничу вимірну технологію, щоб відкривати портали в інші світи, дозволяючи збирачам вимірів збирати з них цінні ресурси."
+
+ building_xzkz_zidongde_fe_mine_2_2: "§Pавтоматизація§! Трансчасове буріння крізь центр"
+ building_xzkz_zidongde_fe_mine_2_2_desc: "Цей видобувний центр використовує технологію гіперпростору для видобутку мінералів з усіх ділянок над ядром планети крізь тверді й рідкі об'єкти без фізичного контакту."
+
+ building_xzkz_zidongde_nano_forge_2: "§Pавтоматизація§! Нанопіч"
+ building_xzkz_zidongde_nano_forge_2_desc: "У цій кувальній печі величезний нанореплікатор перетворює сировину на передові сплави з приголомшливою ефективністю."
+
+ building_xzkz_zidongde_affluence_center_2: "§Pавтоматизація§! Центр Фортуни"
+ building_xzkz_zidongde_affluence_center_2_desc: "Цей центр без зусиль матеріалізує найнеймовірніші бажання за одну мить"
+
+ building_xzkz_zidongde_fe_assembly_2_2: "§Pавтоматизація§! Центр Квантового Виробництва Роботів"
+ building_xzkz_zidongde_fe_assembly_2_2_desc: "Цей об'єкт — інженерне диво, а його квантова складальна лінія використовує конвертери заплутаності для обробки деталей машин до найменших подробиць. Жоден атом не зміщений."
+
+ building_xzkz_zidongde_empyrean_shrine_2: "§Pавтоматизація§! Вежа Духовного Царства"
+ building_xzkz_zidongde_empyrean_shrine_2_desc: "У цій високій вежі духовна вежа з душею та власною волею присвячена вивченню духовної сили, і лише невелика її частина існує в наших вимірах."
+
+ building_xzkz_zidongde_master_archive_2: "§Pавтоматизація§! Головні Архіви"
+ building_xzkz_zidongde_master_archive_2_desc: "Тут зберігаються всі знання, тут зібрані всі дані та інформація."
+
+ building_xzkz_zidongde_fe_clinic_2_2: "§Pавтоматизація§! Інститут Структурної Регенерації"
+ building_xzkz_zidongde_fe_clinic_2_2_desc: "Структурна регенерація — унікальна дисципліна й піонерська галузь, що постійно переосмислює межі, продовжуючи час існування споруд."
+
+ building_xzkz_zidongde_fe_xeno_zoo_2: "§Pавтоматизація§! Притулок для Прибульців"
+ building_xzkz_zidongde_fe_xeno_zoo_2_desc: "Надзвичайно складна захищена зона, що забезпечує природні середовища існування для виживання інопланетних видів."
+
+ #####  岗位
+ job_xzkz_fe_shendun: "Легіон Божественного Щита"
+ job_xzkz_fe_shendun_plural: "Легіони Божественного Щита"
+ job_xzkz_fe_shendun_desc: "Потужна й витончена, майже непереможна армія."
+ mod_job_xzkz_fe_shendun_add: "Посада $job_xzkz_fe_shendun$"
+
+ job_xzkz_fe_shendun_gst: "Легіон Божественного Щита"
+ job_xzkz_fe_shendun_gst_plural: "Легіони Божественного Щита"
+ job_xzkz_fe_shendun_gst_desc: "Потужна й витончена, майже непереможна армія."
+ mod_job_xzkz_fe_shendun_gst_add: "Посада $job_xzkz_fe_shendun_gst$"
+
+ job_xzkz_fe_gongjiang2: "Творець Багатства"
+ job_xzkz_fe_gongjiang2_plural: "Творці Багатства"
+ job_xzkz_fe_gongjiang2_desc: "Майстри, що створюють незліченні багатства магічними й неймовірними методами."
+ mod_job_xzkz_fe_gongjiang2_add: "Посада $job_xzkz_fe_gongjiang2$"
+
+ job_xzkz_fe_gongjiang_gst2: "Творець Багатства"
+ job_xzkz_fe_gongjiang_gst2_plural: "Творці Багатства"
+ job_xzkz_fe_gongjiang_gst2_desc: "Підособини, що створюють незліченні багатства магічними й неймовірними методами."
+ mod_job_xzkz_fe_gongjiang_gst2_add: "Посада $job_xzkz_fe_gongjiang_gst2$"
+
+ job_fe_xzkz_xeno_keeper_gst: "Гетерологічні вартові"
+ job_fe_xzkz_xeno_keeper_gst_plural: "Гетерологічні вартові"
+ job_fe_xzkz_xeno_keeper_gst_desc: "Ці вартові відповідають за догляд за підопічними чужого виду під своєю юрисдикцією."
+ mod_job_fe_xzkz_xeno_keeper_gst_add: "Посада $job_fe_xzkz_xeno_keeper_gst$"
+
+ job_fe_xzkz_xeno_keeper: "Гетерологічні вартові"
+ job_fe_xzkz_xeno_keeper_plural: "Гетерологічні вартові"
+ job_fe_xzkz_xeno_keeper_desc: "Ці вартові відповідають за догляд за підопічними чужого виду під своєю юрисдикцією."
+ mod_job_fe_xzkz_xeno_keeper_add: "Посада $job_fe_xzkz_xeno_keeper$"
+
+
+ job_fe_xzkz_xeno_ward: "Прихисток для чужого виду"
+ job_fe_xzkz_xeno_ward_plural: "Прихистки для чужого виду"
+ job_fe_xzkz_xeno_ward_desc: "Ці біологічні зразки перевозять у це придатне для життя екологічне середовище, щоб забезпечити виживання їхнього виду в цьому хаотичному й небезпечному всесвіті."
+ mod_job_fe_xzkz_xeno_ward_add: "Посада $job_fe_xzkz_xeno_ward$"
+
+ job_fe_xzkz_xeno_ward_gst: "Прихисток для чужого виду"
+ job_fe_xzkz_xeno_ward_gst_plural: "Прихистки для чужого виду"
+ job_fe_xzkz_xeno_ward_gst_desc: "Ці біологічні зразки перевозять у це придатне для життя екологічне середовище, щоб забезпечити виживання їхнього виду в цьому хаотичному й небезпечному всесвіті."
+ mod_job_fe_xzkz_xeno_ward_gst_add: "Посада $job_fe_xzkz_xeno_ward_gst$"

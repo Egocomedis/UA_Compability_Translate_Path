@@ -1,0 +1,14 @@
+l_english:
+ edict_create_leader_alice:0 "Створити Алісу"
+ edict_create_buildings:0 "Створити унікальні споруди"
+edict_create_modifliers:0 "Додати модифікатор"
+ edict_create_modifliers_desc:0 "Опис указу"
+
+ edict_alice_reset_councilor:0 "Указ Аліси: реорганізувати раду"
+ edict_alice_reset_councilor_desc:0 ""
+
+ edict_alice_generate_electricity:0 "Виробляти електрику прямо тут!"
+ edict_alice_generate_electricity_desc:0 "Головний мозок витрачає значні обчислювальні потужності на виробництво електрики, підвищуючи прихильність відповідних лідерів. (Указ створено через те, що лідери не можуть входити до ради гештальт-держав.)"
+
+ edict_alice_disable_gray_fleet:0 "Вимкнути виробництво наноflотилії"
+ edict_alice_disable_gray_fleet_desc:0 "Після ввімкнення Сіра більше не створюватиме флотилію наносутностей щороку."

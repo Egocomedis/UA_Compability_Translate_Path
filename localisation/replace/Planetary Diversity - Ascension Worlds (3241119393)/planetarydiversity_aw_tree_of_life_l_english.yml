@@ -1,0 +1,123 @@
+﻿l_english:
+
+#Origin
+ origin_pd_aw_tree_of_life: "Мегафлора Дерево Життя"
+ origin_pd_aw_tree_of_life_desc: "Цей вулик еволюціонував у симбіотичних стосунках з величезним мегафлорним деревом, чиє коріння поширилося в кожен куточок планети та змінило екосистему, щоб пасувати і йому, і дронам. Вулику було б важко вижити без підтримки дерева."
+ origin_tooltip_pd_aw_tree_of_life_start_effects: "- $HOMEWORLD$$TABBED_NEW_LINE$- Планетарна особливість: ['concept_tree_of_life']$TABBED_NEW_LINE$- Модифікатори планети: ['concept_pd_aw_tree_of_life_modifier']$NEW_LINE$- Колонізовані планети:$TABBED_NEW_LINE$- Планетарна особливість: ['concept_pd_aw_tree_of_life_sapling']$NEW_LINE$- Колонії без §YПаростка Дерева Життя§!:$TABBED_NEW_LINE$- Рішення планети: ['concept_transplant_pd_aw_tree_of_life']$NEW_LINE$- $AVAILABLE_HOLDINGS$ ['concept_pd_aw_tree_of_life_holding', £building£ $holding_tree_of_life_sapling$] на колоніях-підданих"
+ origin_tooltip_pd_aw_tree_of_life_start_negative_effects: "- Не можна тераформувати планети"
+
+ #Concepts
+ concept_pd_aw_tree_of_life: "$d_tree_of_life_home$"
+ concept_pd_aw_tree_of_life_desc: "- $MOD_LOGISTIC_GROWTH_MULT$: §G+15%§!\n- $mod_planet_jobs_society_research_produces_mult$: §G+10%§!\n- $MOD_PLANET_HOUSING_ADD$: §G+10§!\n- $mod_district_farming_max$: §G+4§!\n- Утримання: 4 $i_food$\n\n§L$d_tree_of_life_home_desc$§!"
+ concept_pd_aw_tree_of_life_modifier: "$pd_aw_tree_of_life_home$"
+ concept_pd_aw_tree_of_life_modifier_desc: "- Відкриває ['concept_generator_district', £district£ $district_generator_plural$]$NEW_LINE$- Відкриває ['concept_mining_district', £district£ $district_mining_plural$]$NEW_LINE$- Відкриває ['concept_farming_district', £district£ $district_farming_plural$]\n\n§L$pd_aw_tree_of_life_home_desc$§!"
+ concept_pd_aw_tree_of_life_sapling: "$d_pd_aw_tree_of_life_colony$"
+ concept_pd_aw_tree_of_life_sapling_desc: "- $MOD_LOGISTIC_GROWTH_MULT$: §G+10%§!\n- $mod_planet_jobs_society_research_produces_mult$: §G+10%§!\n- $MOD_PLANET_HOUSING_ADD$: §G+5§!\n- $mod_district_farming_max$: §G+2§!\n- Утримання: 20 $i_food$\n- $MOD_PLANET_MAX_DISTRICTS_ADD$: §R-1§!\n\n§L$d_tree_of_life_colony_desc$§!"
+ concept_transplant_pd_aw_tree_of_life: "$decision_pd_replant_aw_tree_of_life$"
+ concept_transplant_pd_aw_tree_of_life_desc: "Пересаджує Дерево Життя на цей світ.\n\n§L$decision_pd_replant_aw_tree_of_life_desc$§!"
+ concept_pd_aw_tree_of_life_holding: "$holding_tree_of_life_sapling$"
+ concept_pd_aw_tree_of_life_holding_desc: "- $MOD_MONTHLY_LOYALTY_GAIN$: §G+1§!\n- $MOD_POP_ENVIRONMENT_TOLERANCE$: §G+10%§!\n- £food£ Їжа від £job_farmer£ ['concept_farmer']: §G+1§!\n- £mod_job_ranger_add£ ['concept_overlord_arborist', $job_overlord_arborist$] Робочі місця: §G+1§!\n\n§L$holding_tree_of_life_sapling_desc$§!"
+
+
+#Deposits
+ d_pd_aw_tree_of_life_home: "Дерево Життя"
+ d_pd_aw_tree_of_life_home_desc: "Дерево Життя захищало й підтримувало Вулик незліченні покоління."
+ d_pd_aw_tree_of_life_colony: "Паросток Дерева Життя"
+ d_pd_aw_tree_of_life_colony_desc: "Відросток Великого Дерева, пересаджений сюди Вуликом. Знадобиться час, щоб він повністю дозрів."
+ d_pd_aw_tree_of_life_bloomed: "Розквітле Дерево Життя"
+ d_pd_aw_tree_of_life_bloomed_desc: "Велике Дерево захищало й підтримувало Вулик незліченні покоління. Тепер, у розквіті, його благотворні ефекти відчуває кожен дрон."
+ d_pd_tree_of_life_habitat: "Станція Дерева Життя"
+ d_pd_tree_of_life_habitat_desc: "Відросток Великого Дерева, пересаджений сюди Вуликом. Ця мініатюрна версія в межах цієї станції ніколи не досягне повного потенціалу, але підтримуватиме розміщених тут дронів."
+ d_pd_tree_of_life_ringworld: "Кільце-Світ Дерева Життя"
+ d_pd_tree_of_life_ringworld_desc: "Відросток Великого Дерева, пересаджений сюди Вуликом. Хоча він здатний рости вздовж поверхні кільце-світу, глибина ґрунту мала б бути значнішою, щоб дерево досягло повного розміру."
+
+#Planets
+ pc_pd_megaflora_hive: "Мегафлорний світ-вулик"
+ pc_pd_megaflora_hive_desc: "Кам'янистий світ з азотно-кисневою атмосферою, густо вкритий лісом і зі здоровою потужною гідросферою. Дім мегафлорного дерева, що вкриває його поверхню й псіонічно пов'язане з Розумом Вулика, що його плекає; коренева система цієї планети також є основною формою будівництва й житла вулика. Хоча процес повільний, регенеративні якості роблять її легкою для захисту й ремонту."
+ trait_pc_pd_megaflora_hive_preference: "Уподобання Мегафлорного вулика"
+ trait_pc_pd_megaflora_hive_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ pc_pd_megaflora_hive_habitability: "Придатність Мегафлорного вулика"
+ mod_pc_pd_megaflora_hive_habitability: "Придатність Мегафлорного вулика"
+ pc_pd_megaflora_hive_bloomed: "Мегафлорний світ-вулик"
+ pc_pd_megaflora_hive_bloomed_desc: "Кам'янистий світ з азотно-кисневою атмосферою, густо вкритий лісом і зі здоровою потужною гідросферою. Ця планета — дім мегафлорного дерева, що вкриває її поверхню, псіонічно пов'язаного з Розумом Вулика, що його плекає."
+ trait_pc_pd_megaflora_hive_bloomed_preference: "Уподобання Мегафлорного вулика"
+ trait_pc_pd_megaflora_hive_bloomed_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ pc_pd_megaflora_hive_bloomed_habitability: "Придатність Мегафлорного вулика"
+ mod_pc_pd_megaflora_hive_bloomed_habitability: "Придатність Мегафлорного вулика"
+
+#Start Text
+ START_SCREEN_PD_TREE_OF_LIFE: "Коли ми прокинулися, ми служили Дереву, а Дерево служило нам. Ми доглядаємо за Деревом, ми годуємо Дерево, ми захищаємо Дерево, а Дерево плекає нас. Заради Дерева ми розповсюдилися по [GetHomeWorldName], висаджуючи й доглядаючи за відростками Дерева, куди б ми не йшли.\n\nНаш світ служив Дереву століттями, і все ж ми боїмося, що Дерево не повністю в безпеці, адже дізналися про небезпеки всесвіту. Ми давно знаємо, що це не єдина планета; у галактиці багато Бездеревних світів, і ми прагнемо це змінити.\n\nМи повинні захистити Дерево. Дерево має поширитися. Дерево має рости."
+
+#Modifiers
+ pd_aw_tree_of_life_bloomed: "Світ Розквітлого Дерева Життя"
+ pd_aw_tree_of_life_bloomed_desc: "Велике Дерево на цій планеті повністю дозріло й перебуває в розквіті. Його величезна коренева система забезпечує простір для додаткових дронів-робітників і здатна витримувати значні пошкодження."
+ pd_aw_tree_of_life_growing: "Паросток Дерева Життя, що росте"
+ pd_aw_tree_of_life_growing_desc: "Дрони цієї планети зосереджені на укоріненні паростка Великого Дерева, який ми тут висадили."
+ pd_aw_tree_of_life_home: "Світ Дерева Життя"
+ pd_aw_tree_of_life_home_desc: "Велике Дерево на цій планеті повністю виросло. Його коренева система забезпечує простір для дронів-робітників і природно витримує пошкодження."
+ d_pd_tree_of_life_ringarc: "Кільце-Світ Дерева Життя"
+ d_pd_tree_of_life_ringarc_desc: "Велике Дерево на цьому кільце-світі виросло настільки повно, наскільки це можливо. Його коренева система забезпечує простір для дронів-робітників і природно витримує пошкодження. "
+ pd_aw_no_lifetree: "Немає Дерева Життя"
+ pd_aw_no_lifetree_desc: "Без Великого Дерева Життя вулик неповний."
+ pd_no_lifetree_arcology: "Немає Дерева Життя"
+ pd_no_lifetree_arcology_desc: "Ця планета вкрита нескінченною міською забудовою, що робить її непридатною для підтримки Дерева Життя."
+
+#Decisions
+ decision_pd_replant_aw_tree_of_life: "Пересадити Дерево Життя"
+ decision_pd_replant_aw_tree_of_life_desc: "Ми повинні укорінити тут паросток Великого Дерева Життя, щоб наш Вулик процвітав."
+ decision_pd_aw_bloom_tree_of_life: "Розквітити Дерево Життя"
+ decision_pd_aw_bloom_tree_of_life_desc: "Спонукання Великого Дерева Життя до розквіту потребує значного часу й ресурсів, але це розкриє його справжній потенціал."
+ decision_pd_aw_bloom_tree_of_life_tooltip: "Ця планета переросте в §YРозквітлий $pc_pd_megaflora_hive_bloomed$§!.\n\nПодвоюючи £pop£ §YРобочі місця§! та £housing£ §YЖитло§!, які надаватиме кожен район."
+
+#Ascension Perk
+ ap_pd_tree_of_life_bloomed: "Розквітлі мегафлорні світи-вулики"
+ ap_pd_tree_of_life_bloomed_desc: "Ми можемо спонукати кожне Велике Дерево Життя до розквіту, розкриваючи їхній справжній потенціал."
+ allow_tree_of_life_bloomed: "§HUnlocks Decision:§! $decision_pd_aw_bloom_tree_of_life$"
+ describe_tree_of_life_bloomed_worlds: "§YРозквітлі $pc_pd_megaflora_hive_bloomed$§! — особливий клас планет, непридатний для проживання не-гештальт-поселень, але не обмежений у кількості £district£ §YГенераторних§!, §YВидобувних§! і §YСільськогосподарських районів§!, які вони можуть підтримувати. Усі райони мають подвоєні £pop£ §YРобочі місця§! та £housing£ §YЖитло§!. £pop£ §YПоселення§!, що живуть на §YРозквітлому $pc_pd_megaflora_hive_bloomed$§!, мають §YВихід ресурсів§! збільшений на §G+10%§!"
+
+#Holdings
+ holding_pd_aw_tree_of_life_sapling: "Паросток Мегафлорного Дерева Життя"
+ holding_pd_aw_tree_of_life_sapling_desc: "Сюзерен існував зі своїм Мегафлорним Деревом Життя так довго, що більше не може уявити життя без нього. Тепер вони хочуть поділитися цією ж можливістю зі своїми васалами."
+
+#Arcology - With Arc Sub Mod
+ district_pd_flora_hive: "$district_hive$"
+ district_pd_flora_hive_desc: "$district_hive_plural$"
+ district_pd_flora_hive_plural: "$district_hive_desc$"
+ district_pd_flora_hive_industrial: "Промисловий район"
+ district_pd_flora_hive_industrial_desc: "Плавильні цехи та фабрики заповнюють цей район, створюючи передові продукти із сировини"
+ district_pd_flora_hive_industrial_plural: "Промислові райони"
+ district_pd_flora_hive_naval: "Логістичний район"
+ district_pd_flora_hive_naval_desc: "Дрони тут оптимізують флотські операції до максимальної ефективності."
+ district_pd_flora_hive_naval_plural: "Логістичні райони"
+ district_pd_flora_hive_research: "Дослідницький район"
+ district_pd_flora_hive_research_desc: "Незліченні лабораторії, повні зосереджених дослідницьких дронів"
+ district_pd_flora_hive_research_plural: "Дослідницькі райони"
+ district_pd_flora_hive_administrative: "Синаптичний район"
+ district_pd_flora_hive_administrative_desc: "Синаптичний вузол, що підсилює псіонічні зв'язки вулика, поширюючи його волю та керівництво по всьому космосу."
+ district_pd_flora_hive_administrative_plural: "Синаптичні райони"
+ pc_pd_flora_hive: "Коронний мегафлорний світ"
+ pc_pd_flora_hive_desc: "Цей вулик еволюціонував у симбіотичних стосунках з величезним мегафлорним деревом, чиє коріння поширилося в кожен куточок планети та змінило екосистему, щоб пасувати і йому, і дронам. Його вирощено як бастіон передових розумових процесів, і він добре захищений вуликом, що його населяє."
+ pc_pd_flora_hive_adj: "лісистий"
+ mod_pc_pd_flora_hive_habitability: "Придатність Коронного мегафлорного світу"
+ trait_pc_pd_flora_hive_preference: "Уподобання Коронного мегафлорного світу"
+ trait_pc_pd_flora_hive_preference_desc: "$trait_pc_arctic_preference_desc$"
+ pd_aw_flora_hive_military: "Коронний мегафлорний світ"
+ pd_aw_flora_hive_military_desc: "Цей світ має вирішальне значення для основних функцій Мегафлорного Розуму Вулика і укріплений проти зовнішніх загроз і впливу. Могутній щит огортає планету, а дрони-воїни стоять напоготові, забезпечуючи її захист."
+ decision_pd_flora_hive_crown_project: "Проєкт мегафлорного вулика — Корона"
+ decision_pd_flora_hive_crown_project_desc: "Цей світ-вулик буде вирощено на бастіон передових розумових процесів для розуму вулика."
+ decision_pd_flora_hive_crown_project_effects: "Перетворює планету на §Y$pc_pd_flora_hive$§!, збільшуючи £housing£ §Y$PLANET_HOUSING_TITLE$§!, §YВиробництво ресурсів§! та §YПриріст населення§! і відкриваючи спеціальні £district£ §YРайони аркології§! за рахунок того, що природні ресурси планети стають §Rнедоступними§!, що унеможливлює подальше будівництво £district£ §YГенераторних§!, §YВидобувних§! та §YСільськогосподарських районів§!."
+ decision_pd_flora_hive_crown_project_effects_short: "Збільшує £housing£ §Y$PLANET_HOUSING_TITLE$§!, §YВиробництво ресурсів§! та §YПриріст населення§!\nВідкриває £district£ §YРайони аркології§!\nВимикає будівництво £district£ §YГенераторних§!, §YВидобувних§! та §YСільськогосподарських районів§!"
+ decision_pd_megaflora_capital_building: "Побудувати Велике Дерево Життя"
+ decision_pd_megaflora_capital_building_desc: "Щоб проявити панування та досяжність нашого колективу, ми виростимо могутнє Велике Дерево Життя. Це владне дерево значно посилить наші операції серед зірок."
+ decision_pd_megaflora_capital_building_effects: "Додає §Y$d_pd_megaflora_capital_building$§! до цього столичного мегафлорного світу, обмінюючи потенційні райони на посилення адміністративних можливостей нашого вулика."
+ d_pd_megaflora_capital_building: "Велике Дерево Життя"
+ d_pd_megaflora_capital_building_desc: "Це дерево панує над поверхнею планети, здіймаючись як маяк контролю. Це осередок нашої колективної волі, звідки починається наше коріння серед зірок."
+
+#Jobs
+ job_pd_tol_naval_admin_gestalt: "Дрон логістики"
+ job_pd_tol_naval_admin_gestalt_plural: "Дрони логістики"
+ job_pd_tol_naval_admin_gestalt_desc: "Вузькоспеціалізовані в управлінні постачанням, ці дрони забезпечують ефективні флотські операції, підтримуючи та відстежуючи ключові лінії постачання."
+ mod_job_pd_tol_naval_admin_gestalt_add: "Робоче місце $job_pd_tol_naval_admin_gestalt$"
+ mod_job_pd_tol_naval_admin_gestalt_per_pop: "§G+1§! робоче місце $job_pd_tol_naval_admin_gestalt$ на кожні $VALUE$ поселень"
+ mod_job_pd_tol_naval_admin_gestalt_per_pop_short: "\n§G+1§! £mod_job_pd_tol_naval_admin_gestalt_add£ на $VALUE$ £pop£"
+ job_pd_tol_naval_admin_gestalt_effect_desc: "£job_pd_tol_naval_admin_gestalt£ $job_pd_tol_naval_admin_gestalt_plural$ підвищують ефективність флоту, перетворюючи £minerals£ §Y$minerals$§! на £society£ §YОчки досліджень§!, та £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!."

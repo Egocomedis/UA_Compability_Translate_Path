@@ -1,0 +1,18 @@
+l_english:
+
+ void_combat_escort:0 "Бойовий ескорт Порожнечі"
+ void_combat_escort_plural:0 "Бойові ескорти Порожнечі"
+ VOID_ESCORT_CORE:0 "Ядро"
+ void_combat_battlecruiser:0 "Бойовий крейсер Порожнечі"
+ void_combat_battlecruiser_plural:0 "Бойові крейсери Порожнечі"
+ VOID_BATTLECRUISER_BOW:0 "Ніс"
+ VOID_BATTLECRUISER_STERN:0 "Корма"
+ void_battletitan:0 "Бойовий титан Порожнечі"
+ void_battletitan_plural:0 "Бойові титани Порожнечі"
+ VOID_BATTLETITAN_BOW:0 "Ніс"
+ VOID_BATTLETITAN_CORE:0 "Ядро"
+ VOID_BATTLETITAN_STERN:0 "Корма"
+ void_ship_hunter:0 "Мисливець Порожнечі"
+ void_ship_hunter_plural:0 "Мисливці Порожнечі"
+ VOID_HUNTER_THRONE:0 "Трон"
+ VOID_HUNTER_ELITE_THRONE:0 "Трон Екзодія"

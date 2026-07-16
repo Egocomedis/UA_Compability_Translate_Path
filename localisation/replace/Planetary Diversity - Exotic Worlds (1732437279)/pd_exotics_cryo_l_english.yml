@@ -1,0 +1,489 @@
+﻿ l_english:
+
+ # Species class
+ CRYO: "Кріофіл"
+ CRYO_desc: "Клас раси не впливає на вашу Імперію, але раси класу «Кріофіл» можуть вважати інших кріофілів менш чужими, ніж представників інших класів рас."
+
+ # Homeworld column header
+ climate_cryogenic: "Кріогенний"
+ # Planet tooltip climate label (matches `climate = "cryogenic"` on the planet class)
+ cryogenic: "§B(Кріогенний клімат)§!"
+
+ # Planet classes
+ pc_pd_methane: "Метановий світ"
+ pc_pd_methane_desc: "Крижаний кам'янистий світ із щільною азотно-метановою атмосферою. Моря рідкого метану та етану вкривають більшу частину поверхні, а безперервний вуглеводневий серпанок забарвлює небо в оранжевий. Тубільне життя ґрунтується на вуглеводневій біохімії."
+ pc_pd_ammonia: "Аміачний світ"
+ pc_pd_ammonia_desc: "Холодний кам'янистий світ із щільною азотно-аміачною атмосферою. Океани рідкого аміаку вкривають більшу частину поверхні, а на полюсах зберігається аміачно-водяний лід. Тубільне життя ґрунтується на аміачній біохімії."
+ pc_pd_nitrogen: "Азотний світ"
+ pc_pd_nitrogen_desc: "Замерзлий кам'янистий світ із розрідженою азотною атмосферою. Моря рідкого азоту скупчуються в низовинах, а азотні гейзери вивергаються з тріщин у крижаній корі. Тубільне життя ґрунтується на азотній біохімії."
+
+ # Planet-class static modifier (applied at game start to flag ammonia worlds)
+ pd_ammonia: "Аміачний світ"
+ pd_ammonia_desc: "Ця холодна планета має щільну азотно-аміачну атмосферу над океанами рідкого аміаку, а рясний зв'язаний азот підтримує квітучу аміачну біосферу. Той самий аміак є корозійним для більшості металів, поступово зношуючи незахищену інфраструктуру."
+
+ # Planet-class static modifier (applied at game start to flag methane worlds)
+ pd_methane: "Метановий світ"
+ pd_methane_desc: "Ця крижана планета має щільну азотно-метанову атмосферу над величезними морями рідкого метану та етану — колосальним резервуаром горючого палива. Ця ж летючість робить атмосферу небезпечно займистою, тому кожну споруду потрібно ретельно захищати від вибуху."
+
+ # Planet-class static modifier (applied at game start to flag nitrogen worlds)
+ pd_nitrogen: "Азотний світ"
+ pd_nitrogen_desc: "Ця замерзла планета має розріджену азотну атмосферу над морями рідкого азоту, з товстими нітратними та мінеральними пластами, замкненими під льодом. Екстремальний холод робить природні надпровідники життєздатними, але змушує кожен об'єкт постійно обігрівати, щоб він продовжував функціонувати."
+
+ # Core trait
+ trait_cryophile: "Кріофіл"
+ trait_cryophile_desc: "Повільний низькотемпературний метаболізм цієї раси потребує суміші екзотичних гідридів поряд зі звичайними поживними речовинами. Вони переживають інші раси на покоління, але кожне завдання, за яке вони беруться, виконується значно довше."
+ TRAIT_CRYOPHILE_EFFECT: "$r_exotic_gases$ Утримання на кожні $pop_group_unit$ £pop£ Поселень: §R+0.05§!"
+
+ # Preference traits
+ trait_pc_pd_methane_preference: "Уподобання метанових світів"
+ trait_pc_pd_methane_preference_desc: "Ця раса еволюціонувала поряд з морями рідких вуглеводнів метанових світів, процвітаючи в глибокому холоді й повністю оптимізована для біохімії на основі рідкого метану."
+ trait_pc_pd_ammonia_preference: "Уподобання аміачних світів"
+ trait_pc_pd_ammonia_preference_desc: "Ця раса еволюціонувала в щільних аміачно-хмарних атмосферах аміачних світів, процвітаючи в глибокому холоді й повністю оптимізована для біохімії на основі аміачних сполук."
+ trait_pc_pd_nitrogen_preference: "Уподобання азотних світів"
+ trait_pc_pd_nitrogen_preference_desc: "Ця раса еволюціонувала поряд з морями рідкого азоту та кріовулканічними гейзерами азотних світів, процвітаючи в глибокому холоді й повністю оптимізована для біохімії на основі рідкого азоту."
+
+ # Habitability modifiers
+ mod_pc_pd_methane_habitability: "Придатність метанового світу"
+ mod_pc_pd_ammonia_habitability: "Придатність аміачного світу"
+ mod_pc_pd_nitrogen_habitability: "Придатність азотного світу"
+
+ # Ammonia atmosphere zone gate (planet-side modifier applied by arcology atmosphere checks)
+ pd_ammonia_atmosphere:0 "Аміачна атмосфера"
+ pd_ammonia_atmosphere_desc:0 "Щільний азот і газоподібний аміак за низьких температур. По всій товщі зависають сліди метанолу та замерзлих вуглеводневих часток."
+
+ # Methane atmosphere zone gate (planet-side modifier applied by arcology atmosphere checks)
+ pd_methane_atmosphere:0 "Метанова атмосфера"
+ pd_methane_atmosphere_desc:0 "Щільний азот, метан та етан за дуже низьких температур. Завислі толінові аерозолі надають повітрю характерного оранжевого відтінку."
+
+ # Nitrogen atmosphere zone gate (planet-side modifier applied by arcology atmosphere checks)
+ pd_nitrogen_atmosphere:0 "Азотна атмосфера"
+ pd_nitrogen_atmosphere_desc:0 "Розріджений молекулярний азот за екстремально кріогенних температур. Завислі крижані частки та сліди неону надають повітрю блідо-блакитного відтінку."
+
+ # Start screen intro (PART_ONE per planet class)
+ START_SCREEN_PART_ONE_PD_METHANE: "За еони, що минули відтоді, як перші примітивні спільноти [GetSpeciesName] сформувалися на берегах рідких вуглеводнів [GetHomeWorldName], наша цивілізація поширилася та розквітла."
+ START_SCREEN_PART_ONE_PD_AMMONIA: "За еони, що минули відтоді, як перші примітивні спільноти [GetSpeciesName] сформувалися під аміачними хмарами [GetHomeWorldName], наша цивілізація поширилася та розквітла."
+ START_SCREEN_PART_ONE_PD_NITROGEN: "За еони, що минули відтоді, як перші примітивні спільноти [GetSpeciesName] сформувалися біля морів рідкого азоту [GetHomeWorldName], наша цивілізація поширилася та розквітла."
+
+ # Ammonia world planet features
+ d_pd_ammonia_lightning_storms: "Азотні грозові фронти"
+ d_pd_ammonia_lightning_storms_desc: "Там, де стикаються аміачні й азотні фронти, небо розряджається майже безперервним каскадом блискавок. Струм можна забирати прямо з повітря."
+ d_pd_ammonia_thermocline: "Розшарування аміачних хмар"
+ d_pd_ammonia_thermocline_desc: "Атмосфера розшаровується на різко виражені хмарні яруси, кожен з яких тепліший за верхній. Енергію можна отримувати з градієнта між ними."
+ d_pd_ammonia_salt_dunes: "Дюни амонієвої солі"
+ d_pd_ammonia_salt_dunes_desc: "Виточені вітром дюни чистої амонієвої солі тягнуться поверхнею, готові до збору й переробки на мінерали."
+ d_pd_ammonia_brine_caverns: "Печери аміачного розчину"
+ d_pd_ammonia_brine_caverns_desc: "Глибока мережа печер, де просочуваний аміак з часом вкрив стіни багатими жилами руди."
+ d_pd_ammonia_chemosynthetic_pools: "Озера рідкого аміаку"
+ d_pd_ammonia_chemosynthetic_pools_desc: "Широкі спокійні водойми рідкого аміаку, вкриті товстими мікробними килимами. Ця біомаса — основне джерело їжі для будь-якої колонії, адаптованої до холоду."
+ d_pd_ammonia_organic_haze: "Аміачний снігопад"
+ d_pd_ammonia_organic_haze_desc: "М'які пориви аміачного льоду безперервно опускаються з верхніх хмар, несучи із собою їстівну органіку."
+ d_pd_ammonia_pure_gas_vents: "Аміачно-азотні виверження"
+ d_pd_ammonia_pure_gas_vents_desc: "Глибокі тріщини вивергають шлейфи аміаку й азотного газу, достатньо чистого, щоб живити переробні заводи без попередньої обробки."
+ d_pd_ammonia_polar_ion_columns: "Полярні іонізаційні колони"
+ d_pd_ammonia_polar_ion_columns_desc: "На полюсах насичене аміаком повітря іонізується у високі колони струму, що здіймаються на сотні кілометрів у небо. Розряд можна використовувати для отримання сирої електроенергії."
+ d_pd_ammonia_cryolite_reefs: "Кріолітові рифи"
+ d_pd_ammonia_cryolite_reefs_desc: "Величезні донні поклади кристалізованого кріоліту, утворені за геологічний час і пронизані рідкісноземельними та літієвими рудами."
+ d_pd_ammonia_ammoniated_kelp_forests: "Аміачні ламінарієві ліси"
+ d_pd_ammonia_ammoniated_kelp_forests_desc: "Здіймні підводні ліси забирають аміак прямо з моря й перетворюють його на щільну їстівну біомасу. Найбагатший урожай на будь-якому замерзлому світі."
+
+ # Methane world planet features
+ d_pd_methane_tholin_storm_belts: "Толінові грозові пояси"
+ d_pd_methane_tholin_storm_belts_desc: "Заряджені толінові аерозолі вирують у верхній атмосфері безперервними грозовими поясами, скидаючи статичну електрику по всьому хмарному шару. Розряд можна відвести через провідні вежі."
+ d_pd_methane_cryovolcanic_vents: "Кріовулканічні виверження"
+ d_pd_methane_cryovolcanic_vents_desc: "Тріщини вивергають суміш рідкого метану та водно-аміачної магми в морозне повітря. Тепловий градієнт приводить у рух турбіни, встановлені над кожним отвором."
+ d_pd_methane_supercooled_geysers: "Переохолоджені гейзери"
+ d_pd_methane_supercooled_geysers_desc: "Підземні резервуари стисненого етану вивергаються через лінії розломів високими струменями переохолодженого розпилення. Кожен шлейф — постійне джерело енергії, придатної для видобутку."
+ d_pd_methane_carbonate_caverns: "Карбонатні печери"
+ d_pd_methane_carbonate_caverns_desc: "Мережі печер, вирізьблені в аміачно-водяній корінній породі давніми потоками метану, зі стінами, вкритими кристалічними карбонатами та складною органікою."
+ d_pd_methane_clathrate_shelves: "Метаноклатратні шельфи"
+ d_pd_methane_clathrate_shelves_desc: "Великі шельфи метаноклатратного льоду покривають краї континентів; ґратка вловлює корисні метали та солі в промислових кількостях."
+ d_pd_methane_ice_diamonds: "Метанові крижані діаманти"
+ d_pd_methane_ice_diamonds_desc: "Колосальний атмосферний тиск стискає вуглець, отриманий з метану, у зливи мікроалмазів, що осідають на полярних плато."
+ d_pd_methane_tholin_haze: "Толіновий серпанок"
+ d_pd_methane_tholin_haze_desc: "Завислі вуглеводневі аерозолі осідають з неба безперервним їстівним опадом. Поверхнева фауна живиться безпосередньо цим осадом."
+ d_pd_methane_liquid_methane_seas: "Моря рідкого метану"
+ d_pd_methane_liquid_methane_seas_desc: "Широкі моря рідкого метану та етану підтримують товсті килими тубільної мікробіології на мілководді. Ця біомаса — основне джерело їжі для будь-якої колонії, адаптованої до холоду."
+ d_pd_methane_hydrocarbon_marshes: "Вуглеводневі болота"
+ d_pd_methane_hydrocarbon_marshes_desc: "Величезні приливні болота тубільної флори, що живиться метаном, вкривають узбережжя, перетворюючи атмосферні вуглеводні на щільну їстівну біомасу. Найбагатший урожай на будь-якому замерзлому світі."
+ d_pd_methane_pure_gas_vents: "Метаново-етанові виверження"
+ d_pd_methane_pure_gas_vents_desc: "Глибокі тріщини вивергають шлейфи метану та важчих вуглеводневих газів, достатньо чистих, щоб живити переробні заводи без попередньої обробки."
+
+ # Nitrogen world planet features
+ d_pd_nitrogen_geyser_fields: "Поля азотних гейзерів"
+ d_pd_nitrogen_geyser_fields_desc: "Величезні рівнини, де стиснений підземний азот вивергається сталими струменями переохолодженої пари. Турбіни, встановлені над кожним отвором, отримують енергію від колон, що вивергаються."
+ d_pd_nitrogen_aurora_curtains: "Полярні завіси"
+ d_pd_nitrogen_aurora_curtains_desc: "Сонячний вітер створює майже безперервні полярні сяйва в розрідженій верхній атмосфері. Заряджені шари можна використовувати для отримання сирої електроенергії за допомогою заземлених антен."
+ d_pd_nitrogen_plasma_columns: "Полярні плазмові колони"
+ d_pd_nitrogen_plasma_columns_desc: "На магнітних полюсах іонізований азот здіймається у високі плазмові колони, що сягають сотень кілометрів у небо. Розряд можна використовувати для отримання сирої електроенергії."
+ d_pd_nitrogen_frost_caverns: "Печери крижаних кристалів"
+ d_pd_nitrogen_frost_caverns_desc: "Глибокі мережі печер, вкриті жилами металевої руди, замкненої в давньому азотному льоду. Стіни дають багаті екстракти, щойно їх достатньо нагріють для обробки."
+ d_pd_nitrogen_nitrate_flats: "Замерзлі нітратні рівнини"
+ d_pd_nitrogen_nitrate_flats_desc: "Широкі западини кристалізованих нітратних солей, утворені давніми азотними морями. Поклади залягають глибоко й дають стабільний видобуток мінералів."
+ d_pd_nitrogen_diamond_rinds: "Алмазні кірки"
+ d_pd_nitrogen_diamond_rinds_desc: "Давній азотний лід стиснув атмосферний вуглець у товсті кірки кристалічного вуглецю вздовж полярних плато. Пласти залягають достатньо близько до поверхні для прямого видобутку."
+ d_pd_nitrogen_frost_blooms: "Азотні крижані цвітіння"
+ d_pd_nitrogen_frost_blooms_desc: "Ділянки тубільної кріофлори ростуть на замерзлих низовинах, забираючи азот прямо з повітря. Цю біомасу можна збирати як їстівну сировину."
+ d_pd_nitrogen_nitrogen_seas: "Моря рідкого азоту"
+ d_pd_nitrogen_nitrogen_seas_desc: "Широкі водойми рідкого азоту підтримують товсті килими тубільної мікробіології на мілководді. Ця біомаса — основне джерело їжі для будь-якої колонії, адаптованої до холоду."
+ d_pd_nitrogen_cryoplankton_drifts: "Дрейфи кріопланктону"
+ d_pd_nitrogen_cryoplankton_drifts_desc: "Величезні дрейфуючі скупчення тубільного кріопланктону метаболізують рідкий азот у щільну їстівну біомасу. Найбагатший урожай на будь-якому замерзлому світі."
+ d_pd_nitrogen_pure_gas_vents: "Чисто-азотні виверження"
+ d_pd_nitrogen_pure_gas_vents_desc: "Глибокі тріщини вивергають шлейфи чистого азоту та слідів екзотичних газів, достатньо чистих, щоб живити переробні заводи без попередньої обробки."
+
+ # Urban districts (link to vanilla city/hive/nexus loc so submods stay compatible)
+
+ # Rural districts
+ district_pdexotic_cryo_riftvent: "Розломна станція"
+ district_pdexotic_cryo_riftvent_plural: "Розломні станції"
+ district_pdexotic_cryo_riftvent_desc: "Кріовулканічні виверження вивільняють переохолоджений розсіл і захоплений газ. Турбінні масиви, встановлені над розломами, отримують енергію з крутого теплового градієнта між підземним теплом і поверхневим повітрям."
+ district_pdexotic_cryo_sublimation: "Сублімаційний кар'єр"
+ district_pdexotic_cryo_sublimation_plural: "Сублімаційні кар'єри"
+ district_pdexotic_cryo_sublimation_desc: "Відкриті виїмки, де величезні обсяги летючого льоду миттєво сублімуються, вивільняючи метали й солі, ув'язнені всередині. Дрейфуючі завіси пари позначають кожен робочий вибій."
+ district_pdexotic_cryo_chemovat: "Сад хемочанів"
+ district_pdexotic_cryo_chemovat_plural: "Сади хемочанів"
+ district_pdexotic_cryo_chemovat_desc: "Поля герметичних чанів, що вирощують тубільне хемосинтетичне життя. Організми метаболізують атмосферу планети в їстівну біомасу і вивільняють рідкісні гази як побічний продукт."
+ pdexotic_cryo_chemovat_basic: "Базові хемочани"
+ pdexotic_cryo_chemovat_basic_desc: "Базові операції хемочанів: культивування тубільної хемосинтетичної біомаси в очікуванні спеціалізації."
+
+ # District cap modifiers (auto-generated by engine; loc must match vanilla style)
+ mod_district_pdexotic_cryo_riftvent_max_add: "Макс. $district_pdexotic_cryo_riftvent_plural$"
+ mod_district_pdexotic_cryo_sublimation_max_add: "Макс. $district_pdexotic_cryo_sublimation_plural$"
+ mod_district_pdexotic_cryo_chemovat_max_add: "Макс. $district_pdexotic_cryo_chemovat_plural$"
+
+ # Chemovat zones
+ zone_pdexotic_cryo_chemovat_refinement: "Вирощування в чанах"
+ zone_pdexotic_cryo_chemovat_refinement_desc: "Герметичні чани по всіх полях хемочанів культивують тубільні хемосинтетичні штами, перетворюючи вловлену атмосферу на їстівну біомасу в промислових масштабах."
+ zone_pdexotic_cryo_chemovat_hydride_synthesis: "Дистиляція гідридів"
+ zone_pdexotic_cryo_chemovat_hydride_synthesis_desc: "Кожен хемочан оснащений дистиляційними колонами, що конденсують летючі гідриди в резервуари. Вихід біомаси знижується пропорційно до зростання видобутку газу."
+ zone_unavailable_tech_mine_exotic_gases: "$society_research_icon_with_space$$tech_mine_exotic_gases$"
+
+ # Cryo chemist job-add modifiers (auto-generated by engine; vanilla pattern: "[job.GetName] Jobs")
+ mod_job_pdexotic_cryo_chemist_add: "Робочі місця [pdexotic_cryo_chemist.GetName]"
+ mod_job_pdexotic_cryo_chemist_drone_add: "Робочі місця [pdexotic_cryo_chemist_drone.GetName]"
+ mod_job_pdexotic_cryo_chemist_machine_add: "Робочі місця [pdexotic_cryo_chemist_machine.GetName]"
+
+ # Cryo chemist jobs (worked at Chemovat Gardens)
+ job_pdexotic_cryo_chemist: "Доглядач чанів"
+ job_pdexotic_cryo_chemist_plural: "Доглядачі чанів"
+ job_pdexotic_cryo_chemist_desc: "Доглядачі чанів культивують герметичні хемочани, де тубільне хемосинтетичне життя вирощується на власній атмосфері планети. Ця робота — наполовину землеробство, наполовину низькотемпературна хімія: організми дають їстівну біомасу і вивільняють рідкісні гази як побічний продукт."
+
+ job_pdexotic_cryo_chemist_drone: "Дрон-доглядач чанів"
+ job_pdexotic_cryo_chemist_drone_plural: "Дрони-доглядачі чанів"
+ job_pdexotic_cryo_chemist_drone_desc: "Дрони-доглядачі чанів обслуговують герметичні хемочани вулика, спрямовуючи вирощену хемосинтетичну біомасу в потік їжі та вловлюючи вивільнені гази для промисловості рою."
+
+ job_pdexotic_cryo_chemist_machine: "Одиниця-доглядач чанів"
+ job_pdexotic_cryo_chemist_machine_plural: "Одиниці-доглядачі чанів"
+ job_pdexotic_cryo_chemist_machine_desc: "Одиниці-доглядачі чанів експлуатують герметичні хемочани як інфраструктуру видобутку газу, забираючи летючі побічні продукти з кріогенного циклу біомаси. Там, де імперія все ще потребує органічного споживання, біомаса вилучається як вторинний продукт."
+
+ # Cryophile livestock variant. Aliases to vanilla livestock loc so flavor text stays consistent across phenotypes.
+ job_livestock_cryophile: "$job_livestock$"
+ job_livestock_cryophile_plural: "$job_livestock_plural$"
+ job_livestock_cryophile_desc: "$job_livestock_desc$"
+
+ # Cryogenic terraforming tech (mirrors vanilla volcanic; covers ammonia and methane)
+ tech_pd_cryogenic_terraforming: "Кріогенне тераформування"
+ tech_pd_cryogenic_terraforming_desc: "Досягнення в кріогенній інженерії та хімії екзотичних розчинників дозволяють геоінженерію за раніше немислимих температур і тисків. Ми можемо тераформувати кріогенний світ у помірну планету."
+
+ # Ammonia arcology dummy planet classes (engine ignores these but the picker shows loc keys, so flag them as DO NOT USE)
+ pc_pd_ammonia_city:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_city_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_city_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_senate:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_senate_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_senate_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_palace:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_palace_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_palace_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_headquarters:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_headquarters_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_headquarters_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_garden_city:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_garden_city_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_garden_city_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_garden_senate:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_garden_senate_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_garden_senate_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_garden_palace:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_garden_palace_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_garden_palace_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_garden_headquarters:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_garden_headquarters_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_garden_headquarters_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_garden_machine_capital:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_garden_machine_capital_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_garden_machine_capital_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_fortress_city:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_fortress_city_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_fortress_city_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_fortress_senate:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_fortress_senate_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_fortress_senate_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_fortress_palace:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_fortress_palace_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_fortress_palace_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_fortress_headquarters:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_fortress_headquarters_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_fortress_headquarters_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_fortress_machine_capital:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_fortress_machine_capital_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_fortress_machine_capital_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_commercial_city:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_commercial_city_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_commercial_city_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_commercial_senate:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_commercial_senate_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_commercial_senate_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_commercial_palace:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_commercial_palace_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_commercial_palace_adj:0 "ЗАГЛУШКА"
+ pc_pd_ammonia_commercial_headquarters:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_commercial_headquarters_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_ammonia_commercial_headquarters_adj:0 "ЗАГЛУШКА"
+
+ # Methane arcology dummy planet classes (engine ignores these but the picker shows loc keys, so flag them as DO NOT USE)
+ pc_pd_methane_city:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_city_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_city_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_senate:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_senate_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_senate_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_palace:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_palace_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_palace_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_headquarters:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_headquarters_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_headquarters_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_garden_city:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_garden_city_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_garden_city_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_garden_senate:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_garden_senate_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_garden_senate_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_garden_palace:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_garden_palace_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_garden_palace_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_garden_headquarters:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_garden_headquarters_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_garden_headquarters_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_garden_machine_capital:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_garden_machine_capital_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_garden_machine_capital_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_fortress_city:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_fortress_city_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_fortress_city_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_fortress_senate:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_fortress_senate_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_fortress_senate_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_fortress_palace:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_fortress_palace_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_fortress_palace_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_fortress_headquarters:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_fortress_headquarters_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_fortress_headquarters_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_fortress_machine_capital:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_fortress_machine_capital_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_fortress_machine_capital_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_commercial_city:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_commercial_city_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_commercial_city_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_commercial_senate:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_commercial_senate_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_commercial_senate_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_commercial_palace:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_commercial_palace_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_commercial_palace_adj:0 "ЗАГЛУШКА"
+ pc_pd_methane_commercial_headquarters:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_commercial_headquarters_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_methane_commercial_headquarters_adj:0 "ЗАГЛУШКА"
+
+ # Nitrogen arcology dummy planet classes
+ pc_pd_nitrogen_city:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_city_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_city_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_senate:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_senate_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_senate_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_palace:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_palace_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_palace_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_headquarters:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_headquarters_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_headquarters_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_garden_city:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_garden_city_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_garden_city_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_garden_senate:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_garden_senate_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_garden_senate_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_garden_palace:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_garden_palace_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_garden_palace_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_garden_headquarters:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_garden_headquarters_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_garden_headquarters_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_garden_machine_capital:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_garden_machine_capital_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_garden_machine_capital_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_fortress_city:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_fortress_city_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_fortress_city_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_fortress_senate:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_fortress_senate_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_fortress_senate_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_fortress_palace:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_fortress_palace_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_fortress_palace_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_fortress_headquarters:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_fortress_headquarters_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_fortress_headquarters_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_fortress_machine_capital:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_fortress_machine_capital_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_fortress_machine_capital_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_commercial_city:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_commercial_city_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_commercial_city_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_commercial_senate:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_commercial_senate_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_commercial_senate_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_commercial_palace:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_commercial_palace_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_commercial_palace_adj:0 "ЗАГЛУШКА"
+ pc_pd_nitrogen_commercial_headquarters:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_commercial_headquarters_desc:0 "ЗАГЛУШКА-КЛАС, НЕ ВИКОРИСТОВУВАТИ"
+ pc_pd_nitrogen_commercial_headquarters_adj:0 "ЗАГЛУШКА"
+
+ # Cryothermal Engineering ascension perk
+ ap_pd_cryothermal_engineering: "Кріотермальна інженерія"
+ ap_pd_cryothermal_engineering_desc: "Процвітання в кріогенних умовах вимагає переосмислення матеріалів, біології та хімії. Ми стоїмо біля витоків науки холоду."
+
+ # Greyed-out requirement line shown before Terrestrial Sculpting is researched.
+ requires_technology_tech_terrestrial_sculpting:0 "$TRIGGER_FAIL$Потребує технології £society£ §Y$tech_terrestrial_sculpting$§!."
+
+ # Civ-conditional job-efficiency effect lines shown in the AP card; only one renders per empire type.
+ ap_pd_cryothermal_workforce_effect: "$mod_pop_pdexotic_cryo_chemist_bonus_workforce_mult$: §G+20%§!"
+ ap_pd_cryothermal_workforce_drone_effect: "$mod_pop_pdexotic_cryo_chemist_drone_bonus_workforce_mult$: §G+20%§!"
+ ap_pd_cryothermal_workforce_machine_effect: "$mod_pop_pdexotic_cryo_chemist_machine_bonus_workforce_mult$: §G+20%§!"
+
+ # Single planet-summary line for the AP card, instead of a per-planet modifier list.
+ ap_pd_cryothermal_engineered_planets_effect: "['concept_pd_cryogenic_planets'] у вашій імперії отримують модифікатор §Y$pd_cryothermal_engineered_planet$§!."
+
+ # Cryogenic planet concept (linked from the AP tooltip and reusable across exotic content).
+ concept_pd_cryogenic_planet: "Кріогенна планета"
+ concept_pd_cryogenic_planets: "Кріогенні планети"
+ concept_pd_cryogenic_planet_desc: "$concept_pd_cryogenic_planet$ — це світи, чиї біосфери працюють на кріогенній хімії, а не на рідкій воді:$NEW_LINE$- $pc_pd_ammonia$$NEW_LINE$- $pc_pd_methane$$NEW_LINE$- $pc_pd_nitrogen$"
+
+ # Country workforce modifiers (auto-render their constituent mults via the mod_job_* keys below)
+ pd_cryothermal_workforce: "Оптимізація кріотермальної робочої сили"
+ pd_cryothermal_workforce_desc: "$pd_cryothermal_workforce_shared_desc$"
+ pd_cryothermal_workforce_drone: "$pd_cryothermal_workforce$"
+ pd_cryothermal_workforce_drone_desc: "$pd_cryothermal_workforce_shared_desc$"
+ pd_cryothermal_workforce_machine: "$pd_cryothermal_workforce$"
+ pd_cryothermal_workforce_machine_desc: "$pd_cryothermal_workforce_shared_desc$"
+ pd_cryothermal_workforce_shared_desc: "Підготовка, розрахована на особливу атмосферу, зміцнене оснащення та лінії постачання екзотичних гідридів підвищують продуктивність кожної робочої сили хемочанів."
+
+ # Per-planet modifier granted by the AP to cryo (ammonia/methane) worlds
+ pd_cryothermal_engineered_planet: "Кріотермально інженероване"
+ pd_cryothermal_engineered_planet_desc: "Інфраструктура, розрахована на особливу атмосферу, та переохолоджені виробничі лінії дозволяють цьому світу підтримувати щільніше заселення, ніж дозволило б його природне середовище."
+
+ # Vatkeeper job-efficiency modifiers, shown in the workforce modifier's hover breakdown.
+ mod_pop_pdexotic_cryo_chemist_bonus_workforce_mult: "[pdexotic_cryo_chemist.GetName] $MOD_POP_BONUS_WORKFORCE_MULT$"
+ mod_pop_pdexotic_cryo_chemist_drone_bonus_workforce_mult: "[pdexotic_cryo_chemist_drone.GetName] $MOD_POP_BONUS_WORKFORCE_MULT$"
+ mod_pop_pdexotic_cryo_chemist_machine_bonus_workforce_mult: "[pdexotic_cryo_chemist_machine.GetName] $MOD_POP_BONUS_WORKFORCE_MULT$"
+
+ # Pressure Suits tech (AP-only, granted by ap_pd_cryothermal_engineering)
+ tech_pd_pressure_suits: "Скафандри високого тиску"
+ tech_pd_pressure_suits_desc: "Зміцнені холодовакуумні скафандри та герметичні атмосферою поселення дозволяють нашим колоністам витримувати кисень, тиск і тепло світів, відмінних від нашого. Інші раси, своєю чергою, можуть виживати в наших атмосферах."
+ tech_pd_pressure_suits_effect_title: "§HВідкриває колонізацію:§! ['concept_pd_cryogenic_planet'] для не-кріогенних рас"
+ tech_pd_pressure_suits_effect_desc: "§HКріогенне проживання§!\nГерметичні поселення та холодовакуумні скафандри підтримують життя киснедихаючих колоністів у метанових, аміачних та азотних атмосферах."
+
+ # Cryoforming tech (normal research, cryophile-founder empires only; gates ingress terraforming into ammonia and methane)
+ tech_pd_cryoforming: "Кріоформування"
+ tech_pd_cryoforming_desc: "Досягнення в кріогенній хімії та атмосферному реформуванні дають нам засоби для поширення нашої біосфери на світи, де вона природно не формується. Помірну планету можна перебудувати на холодну, щільну атмосферу, потрібну нашій расі."
+ tech_pd_cryoforming_effect_title: "§HВідкриває можливість:§! Кріогенне тераформування"
+ tech_pd_cryoforming_effect_desc: "Дозволяє тераформувати помірні світи в Аміачні, Метанові та Азотні світи."
+ tech_pd_cryogenic_terraforming_effect_title: "§HВідкриває можливість:§! Кріогенне тераформування"
+ tech_pd_cryogenic_terraforming_effect_desc: "Дозволяє тераформувати Аміачні, Метанові та Азотні світи в помірні світи."
+
+ # Habitat atmosphere toggle decisions (auto-stamped by on_megastructure_built; these let players add it to inherited habitats or vent it after conquest)
+ decision_pd_exotic_habitat_add_ammonia_atmosphere: "Герметизувати аміачну атмосферу"
+ decision_pd_exotic_habitat_add_ammonia_atmosphere_desc: "Заповнити системи життєзабезпечення поселення аміаком та азотом, щоб наша раса могла тут оселитися. Після зміни атмосфери на борту зможуть жити лише раси, адаптовані до кріогенних умов."
+ decision_pd_exotic_habitat_remove_ammonia_atmosphere: "Видалити аміачну атмосферу"
+ decision_pd_exotic_habitat_remove_ammonia_atmosphere_desc: "Очистити це поселення від аміачної атмосфери та замінити її звичайною кисневою сумішшю. Кріогенні раси більше не зможуть тут оселятися."
+ decision_pd_exotic_habitat_add_methane_atmosphere: "Герметизувати метанову атмосферу"
+ decision_pd_exotic_habitat_add_methane_atmosphere_desc: "Заповнити системи життєзабезпечення поселення азотом і метаном, щоб наша раса могла тут оселитися. Після зміни атмосфери на борту зможуть жити лише раси, адаптовані до кріогенних умов."
+ decision_pd_exotic_habitat_remove_methane_atmosphere: "Видалити метанову атмосферу"
+ decision_pd_exotic_habitat_remove_methane_atmosphere_desc: "Очистити це поселення від метанової атмосфери та замінити її звичайною кисневою сумішшю. Кріогенні раси більше не зможуть тут оселятися."
+ decision_pd_exotic_habitat_add_nitrogen_atmosphere: "Герметизувати азотну атмосферу"
+ decision_pd_exotic_habitat_add_nitrogen_atmosphere_desc: "Заповнити системи життєзабезпечення поселення чистим азотом під кріогенним тиском, щоб наша раса могла тут оселитися. Після зміни атмосфери на борту зможуть жити лише раси, адаптовані до кріогенних умов."
+ decision_pd_exotic_habitat_remove_nitrogen_atmosphere: "Видалити азотну атмосферу"
+ decision_pd_exotic_habitat_remove_nitrogen_atmosphere_desc: "Очистити це поселення від кріогенної азотної атмосфери та замінити її звичайною кисневою сумішшю. Кріогенні раси більше не зможуть тут оселятися."
+
+ # Domed Colony atmosphere toggle decisions (auto-stamped on build and at game start; these let players add it to inherited colonies or vent it after conquest)
+ decision_pd_exotic_domed_add_atmosphere: "Герметизувати куполи"
+ decision_pd_exotic_domed_add_atmosphere_desc: "Переобладнати куполи колонії під нашу кріогенну атмосферу, щоб наша раса могла тут оселитися. Після зміни повітря під куполами зможуть жити лише раси, адаптовані до кріогенних умов."
+ decision_pd_exotic_domed_remove_atmosphere: "Видалити атмосферу з куполів"
+ decision_pd_exotic_domed_remove_atmosphere_desc: "Очистити куполи від кріогенної атмосфери та замінити її звичайною кисневою сумішшю. Кріогенні раси більше не зможуть тут оселятися."
+
+ # Cryogenic SR deposits (volatile motes pair)
+ d_pd_cryo_clathrate_pockets: "Клатратні кишені"
+ d_pd_cryo_clathrate_pockets_desc: "Летючі гази, захоплені всередині кліток замерзлої води та аміачного льоду. Ґратки руйнуються під теплом видобутку, вивільняючи придатні до використання порошинки."
+ d_pd_cryo_volatile_geyser_fields: "Поля летючих гейзерів"
+ d_pd_cryo_volatile_geyser_fields_desc: "Величезні рівнини, де стиснені летючі речовини вивергаються з тріщин замерзлої кори. Виверження відкладають стабільний запас придатних до переробки порошинок по всій поверхні."
+
+ # Cryogenic SR deposits (rare crystals pair)
+ d_pd_cryo_cryocrystal_caverns: "Печери кріокристалів"
+ d_pd_cryo_cryocrystal_caverns_desc: "Підземні печери, вкриті рідкісними кристалічними ґратками, що формуються лише в екстремальному холоді. Поклади стабільні, доки не порушено навколишній лід."
+ d_pd_cryo_cryocrystal_spires: "Шпилі кріокристалів"
+ d_pd_cryo_cryocrystal_spires_desc: "Поверхневі утворення голкоподібних рідкісних кристалів, що росли тисячі років повільного осадження. Кожен шпиль дає велику кількість рідкісних кристалів після збору."
+
+ # Cryogenic SR deposits (exotic gases pair)
+ d_pd_cryo_gas_seeps: "Замерзлі газові просочення"
+ d_pd_cryo_gas_seeps_desc: "Повільні витоки екзотичних газів, що виходять з тріщин під льодом. Видобуток скромний, але стабільний по всій навколишній місцевості."
+ d_pd_cryo_gas_columns: "Замерзлі газові колони"
+ d_pd_cryo_gas_columns_desc: "Стійкі шлейфи екзотичних газів, що здіймаються з глибоких підземних резервуарів. Видобуток не поступається найбільшим газовим родовищам на тепліших світах."
+
+ # Cryogenic SR deposits (special)
+ d_pd_cryo_betharian_deposit: "Замерзле бетаріанське поле"
+ d_pd_cryo_betharian_deposit_desc: "Бетаріанські камені, завислі в глибокому льодовиковому льоду по всьому широкому регіону. Поклади залишаються інертними, доки їх не розморозять і не переробять."
+ d_pd_cryo_alien_pets_deposit: "Захищена долина кріофауни"
+ d_pd_cryo_alien_pets_deposit_desc: "Захищена низовина, де тубільна фауна холодного світу виживає в незвичному достатку. Місцева дика природа лагідна і добре підходить для компанійства."
+
+ # Cryogenic natural blockers and their clear techs
+ d_pd_cryo_toxic_mire: "£blocker£ Токсична кріотопа"
+ d_pd_cryo_toxic_mire_desc: "Широкі простори хімічно активної кашоподібної маси, де токсичні сполуки концентруються в точці замерзання. Інфраструктуру поселення неможливо безпечно будувати на забрудненій місцевості."
+ d_pd_cryo_glacier_wall: "£blocker£ Замерзла льодовикова стіна"
+ d_pd_cryo_glacier_wall_desc: "Величезна стіна щільного давнього льоду перетинає ландшафт. Маса надто товста й нестабільна для будівництва без спеціальних робіт з розчищення."
+
+ tech_pd_cryo_toxic_mire: "Меліорація кріотоп"
+ tech_pd_cryo_toxic_mire_desc: "Рідини хімічної нейтралізації та низькотемпературні скрубери дозволяють нам осушувати й знезаражувати токсичні кріотопи на кріогенних світах. Меліоровану землю потім безпечно освоювати."
+ tech_pd_cryo_glacier_wall: "Кріогенне льодовикове буріння"
+ tech_pd_cryo_glacier_wall_desc: "Підігріті бурові установки та кумулятивні заряди пробивають щільні крижані стіни, що блокують колоніальну експансію на кріогенних світах. Групи розчищення можуть проклавити прохідну місцевість за частку природного часу танення."
+
+ # Empire-creation picker tooltips (rare-world style: concept link, mechanics, then the three building choices)
+ pc_pd_ammonia_tooltip: "§Y$pc_pd_ammonia$s§! — це ['concept_pd_cryogenic_planets']\n- £district£ §Y$district_pdexotic_cryo_chemovat_plural$§!: §G+3§!\n- Швидкість приросту населення: §G+10%§!\n- Утримання споруд і районів: §R+10%§!\n- $rare_building_warning$\n$t$- ['building:building_pd_ammonia_fixation_institute']\n$t$- ['building:building_pd_ammonia_pharma_works']\n$t$- ['building:building_pd_ammonia_biome_reserve']"
+ pc_pd_methane_tooltip: "§Y$pc_pd_methane$s§! — це ['concept_pd_cryogenic_planets']\n- £district£ §Y$district_pdexotic_cryo_riftvent_plural$§!: §G+3§!\n- Швидкість будівництва: §G+15%§!\n- Вартість споруд і районів: §R+10%§!\n- $rare_building_warning$\n$t$- ['building:building_pd_methane_tholin_lab']\n$t$- ['building:building_pd_methane_hydrocarbon_foundry']\n$t$- ['building:building_pd_methane_polymer_plant']"
+ pc_pd_nitrogen_tooltip: "§Y$pc_pd_nitrogen$s§! — це ['concept_pd_cryogenic_planets']\n- £district£ §Y$district_pdexotic_cryo_sublimation_plural$§!: §G+3§!\n- £physics£ §YФізичні дослідження§!: §G+10%§!\n- Утримання споруд і районів: §R+10%§!\n- $rare_building_warning$\n$t$- ['building:building_pd_nitrogen_supercomputer']\n$t$- ['building:building_pd_nitrogen_munitions_foundry']\n$t$- ['building:building_pd_nitrogen_cryonics_sanctuary']"
+
+ # Ammonia signature buildings (pick one)
+ building_pd_ammonia_fixation_institute: "Інститут синтезу аміаку"
+ building_pd_ammonia_fixation_institute_desc: "Багата на азот хімія планети дає нашим біологам та інженерам безліч нових реакцій для вивчення й удосконалення."
+ building_pd_ammonia_pharma_works: "Аміачний фармацевтичний завод"
+ building_pd_ammonia_pharma_works_desc: "Рясний аміак тут легко переробляється на фармацевтику та миючі засоби, що постачаються на ринки по всій імперії."
+ building_pd_ammonia_biome_reserve: "Аміачний біомний заповідник"
+ building_pd_ammonia_biome_reserve_desc: "Дивна екосистема холодної хімії цього світу приваблює допитливих відвідувачів з-поза меж зірок."
+
+ # Methane signature buildings (pick one)
+ building_pd_methane_tholin_lab: "Лабораторія метанової хімії"
+ building_pd_methane_tholin_lab_desc: "Густий органічний серпанок цього світу сповнений екзотичної низькотемпературної хімії, яку належить розкрити нашим дослідникам."
+ building_pd_methane_hydrocarbon_foundry: "Завод крекінгу метану"
+ building_pd_methane_hydrocarbon_foundry_desc: "Нескінченні вуглеводні тут піддаються крекінгу й перековуються на сплави, а дешеве місцеве паливо підтримує роботу наших заводів."
+ building_pd_methane_polymer_plant: "Метановий полімерний завод"
+ building_pd_methane_polymer_plant_desc: "Метанові моря пропонують майже необмежену сировину для пластмас та інших готових товарів."
+
+ # Nitrogen signature buildings (pick one)
+ building_pd_nitrogen_supercomputer: "Комплекс азотного суперкомп'ютера"
+ building_pd_nitrogen_supercomputer_desc: "Природний глибокий холод дозволяє нашим надпровідним комп'ютерам працювати на швидкостях, що розплавили б машини на будь-якому теплішому світі."
+ building_pd_nitrogen_munitions_foundry: "Азотний завод боєприпасів"
+ building_pd_nitrogen_munitions_foundry_desc: "Багаті нітратні пласти цього світу легко переробляються на вибухівку та військові сплави для наших армій."
+ building_pd_nitrogen_cryonics_sanctuary: "Азотне кріонічне святилище"
+ building_pd_nitrogen_cryonics_sanctuary_desc: "Ідеально консервуючий холод робить цей світ ідеальним святилищем, приваблюючи клієнтів і туристів з-поза меж зірок."

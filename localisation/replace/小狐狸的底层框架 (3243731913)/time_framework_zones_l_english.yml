@@ -1,0 +1,44 @@
+﻿l_english:
+ # Медична спеціалізація
+ zone_restoration: "$zone_resort_restoration_enclave$"
+ zone_restoration_desc: "$zone_resort_restoration_enclave_desc$"
+ zone_restoration_arcology: "$zone_resort_restoration_enclave$"
+ zone_restoration_arcology_desc: "$zone_resort_restoration_enclave_desc$"
+ zone_restoration_ring_world: "$zone_resort_restoration_enclave$"
+ zone_restoration_ring_world_desc: "$zone_resort_restoration_enclave_desc$"
+
+ district_restoration_name: "Центр відновлення"
+ district_arcology_restoration: "Аркологія відновлення"
+ district_arcology_restoration_plural: "Аркології відновлення"
+ district_arcology_restoration_desc: "$zone_resort_restoration_enclave_desc$"
+ district_ring_world_restoration: "Сегмент відновлення"
+ district_ring_world_restoration_plural: "Сегменти відновлення"
+ district_ring_world_restoration_desc: "$zone_resort_restoration_enclave_desc$"
+
+ # Спеціалізація розмноження
+ zone_spawning_ring_world: "$zone_spawning$"
+ zone_spawning_ring_world_desc: "$zone_spawning_desc$"
+
+ district_spawning_name: "Центр розмноження"
+ district_ring_world_spawning: "Сегмент розмноження"
+ district_ring_world_spawning_plural: "Сегменти розмноження"
+ district_ring_world_spawning_desc: "$zone_spawning_desc$"
+
+ # Спеціалізація складання
+ zone_machine_replication_arcology: "$zone_machine_replication$"
+ zone_machine_replication_arcology_desc: "$zone_machine_replication_desc$"
+ zone_machine_replication_nexus: "$zone_machine_replication$"
+ zone_machine_replication_nexus_desc: "$zone_machine_replication_desc$"
+ zone_machine_replication_ring_world: "$zone_machine_replication$"
+ zone_machine_replication_ring_world_desc: "$zone_machine_replication_desc$"
+
+ district_machine_replication_name: "Центр реплікації"
+ district_arcology_machine_replication: "Аркологія збирання"
+ district_arcology_machine_replication_plural: "Аркології збирання"
+ district_arcology_machine_replication_desc: "$district_nexus_machine_replication_desc$"
+ district_nexus_machine_replication: "Вузол збирання"
+ district_nexus_machine_replication_plural: "Вузли збирання"
+ district_nexus_machine_replication_desc: "Незліченні складальні лінії утворюють основу виробництва на цій планеті."
+ district_ring_world_machine_replication: "Сегмент збирання"
+ district_ring_world_machine_replication_plural: "Сегменти збирання"
+ district_ring_world_machine_replication_desc: "$district_nexus_machine_replication_desc$"

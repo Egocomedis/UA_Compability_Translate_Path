@@ -1,0 +1,12 @@
+l_english:
+
+ pc_epoch_epsilon_nuosphere:0 "§rНуосфера Епсилон§! "
+ pc_epoch_epsilon_nuosphere_desc:0 "Цей ще безумніше розкішний палац-світ."
+ pc_epoch_epsilon_nuosphere_adj:0 "Нуосфера"
+ mod_pc_epoch_epsilon_nuosphere_habitability:0 "Нуосфера"
+ trait_pc_epoch_epsilon_nuosphere_preference:0 "Нуосфера"
+ trait_pc_epoch_epsilon_nuosphere_preference_desc:0 "Надає перевагу ще кращій розкоші Нуосфери."
+ tech_epoch_52_epsilon_nuosphere:0 "Нуосфера Епсилон"
+ tech_epoch_52_epsilon_nuosphere_desc:0 "молочка не хочеш?"
+ decision_create_nuosphere:0 "Створити §rНуосферу Епсилон§! "
+ decision_create_nuosphere_desc:0 "Ми маємо піти ще далі. Нам потрібно піти ще далі. §rМи маємо створити Нуосферу.§! \n ------- \n§RУВАГА! ВИДАЛЯЄ ВСІ СПОРУДИ ТА РАЙОНИ.§! §YАвтоматично будує Директорію Епсилон.§! "

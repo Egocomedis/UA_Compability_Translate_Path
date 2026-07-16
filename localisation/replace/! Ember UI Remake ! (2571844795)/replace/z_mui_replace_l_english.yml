@@ -1,0 +1,5 @@
+l_english:
+ z_ic_tips_main:0 "Ласкаво просимо до §HEmber UI Overhaul§!"
+ z_mui_ec:0 "§H Ember UI: Швидкий зв'язок§!"
+ z_mui_btn_ec_folded:0 "$z_mui_ec$\nзараз §Hзгорнутий§!, натисніть, щоб розгорнути вкладку зв'язку."
+ z_mui_btn_ec_unfolded:0 "$z_mui_ec$\nзараз §Gрозгорнутий§!, натисніть, щоб згорнути вкладку зв'язку."

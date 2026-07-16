@@ -1,0 +1,22 @@
+l_english:
+
+ edict_mdx_diymod_ark_edict:0 "Найняти лідера Розмарин"
+ edict_mdx_diymod_ark_edict_desc:0 "Вона вже давно на тебе чекає"
+
+ Name_mdx_diymod_ark:0 "Розмарин"
+ mdx_diymod_ark_backstory:0 "Заради підтримки тебе в майбутньому"
+
+ leader_trait_commander_mdx_diymod_ark:0 "Як забажаєш"
+ leader_trait_commander_mdx_diymod_ark_desc:0 "Щоб виконати твою волю"
+
+ mdx_diymod_ark_events.1_title:0 "Минуле та майбутнє"
+ mdx_diymod_ark_events.1_desc:0 "Подолала час лише заради зустрічі з тобою"
+ mdx_diymod_ark_events.2_title:0 "Не будь занадто жадібним"
+ mdx_diymod_ark_events.2_desc:0 "Я вважаю, що так не піде"
+ mdx_diymod_ark_events.3_title:0 "Треба бути жадібним"
+ mdx_diymod_ark_events.3_desc:0 "Жадібність лише робить мені приємніше"
+
+ add_leader_mdx_diymod_ark:0 "Найняти Розмарин"
+ back_to_mdx_diymod_ark_events:0 "Повернутися до головного екрана найму"
+ remove_mdx_diymod_ark_flag:0 "Зняти обмеження на найм"
+ chongzhi_mdx_diymod_ark:0 "Скинути портрет Розмарин"

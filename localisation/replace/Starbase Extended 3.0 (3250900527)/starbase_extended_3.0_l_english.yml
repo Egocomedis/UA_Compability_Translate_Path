@@ -1,0 +1,385 @@
+﻿l_english:0
+
+# STARBASE ENTENDED 3.0
+
+# CAT ENTRIES
+
+sm_research_cat:0 "Дослідницька підтримка"
+
+# STARBASES
+starbase_stronghold:0 "Твердиня"
+starbase_stronghold_plural:0 "Твердині"
+starbase_stronghold_cap:0 "Твердиня"
+
+starbase_headquarters:0 "Штаб"
+starbase_headquarters_plural:0 "Штабні станції"
+starbase_headquarters_cap:0 "Штаб"
+
+# MODIFIERS
+
+# STARBASE MODIFIERS
+STARBASE_MODIFIER_COLLECTION_RANGE:0 "Радіус збору"
+STARBASE_MODIFIER_PROTECTION_RANGE:0 "Радіус захисту"
+STARBASE_MODIFIER_PROTECTION:0 "Захист"
+
+# PHYSICS RESEARCH SUPPORT LAB
+mod_station_researchers_physics_research_produces_mult:0 "Вихід £physics фізичних досліджень дослідницької станції"
+
+# SOCIETY RESEARCH SUPPORT LAB
+mod_station_researchers_society_research_produces_mult:0 "Вихід £society соціологічних досліджень дослідницької станції"
+
+# ENGINEERING RESEARCH SUPPORT LAB
+mod_station_researchers_engineering_research_produces_mult:0 "Вихід £engineering інженерних досліджень дослідницької станції"
+
+
+# STARBASE MODULES
+
+# MILITARY MODULES
+# SHIELD GENERATOR
+sm_shield_module:0 "Генератор щитів"
+sm_shield_module_desc:0 "Додає більше щитів для Станції.\n§RМаксимум 4 модулі щитів.§!"
+
+# ARMOR MODULES
+sm_armor_module:0 "Броньовий захист"
+sm_armor_module_desc:0 "Додає більше броні для Станції.\n§RМаксимум 4 модулі броні.§!"
+
+# POINT DEFENSE BATTERY
+sm_pd_battery:0 "Батарея точкової оборони"
+sm_pd_battery_desc:0 "Додає 1 батарею точкової оборони до Станції.\n§RМаксимум 5 батарей ТО.§!"
+
+# GUN BATTERY
+sm_gun_battery:0 "Середня батарея"
+sm_gun_battery_desc:0 "Додає 1 середню батарею до Станції.\n§RМаксимум 10 батарей.§!"
+
+# LARGE GUN BATTERY
+ sm_large_battery:0 "Велика батарея"
+ sm_large_battery_desc:0 "Додає 1 велику батарею до Станції.\n§RМаксимум 5 батарей.§!"
+
+# EXTRA LARGE BATTERY
+ sm_xl_battery:0 "Надвелика батарея"
+ sm_xl_battery_desc:0 "Додає 1 надвелику батарею до Станції.\n§RМаксимум 5 батарей.§!"
+
+# TITANIC BATTERY
+ sm_titanic_battery:0 "Титанічна батарея"
+ sm_titanic_battery_desc:0 "Додає 1 титанічну батарею зброї до Станції.\n§RМаксимум 2 батареї.§!"
+
+ # HANGAR BAY
+ sm_hangar_bay:0 "Ангарний відсік"
+ sm_hangar_bay_desc:0 "Додає 1 ангарний відсік до Станції.\n§RМаксимум 5 ангарних відсіків.§!"
+
+# TORPEDO BATTERY / EX MISSILE BATTERY
+sm_missile_battery:0 "Торпедна батарея"
+sm_missile_battery_desc:0 "Додає 1 торпедну батарею до Станції.\n§RМаксимум 5 батарей.§!"
+
+# STARBASE BUILDINGS
+# STARBASE POWERPLANT
+sm_orbital_reactor:0 "Електростанція Станції"
+sm_orbital_reactor_desc:0 "Будує електростанцію станції, що покращує вироблення енергії нашої імперії"
+
+# FOOD MARKET
+sm_trader_bay:0 "Продовольчий ринковий відсік"
+sm_trader_bay_desc:0 "Будує ринковий відсік, що покращує продовольчу торгівлю системи"
+
+# ADVANCED SPACE ENGINEERS
+sm_adv_space_engineers:0 "Просунуті космічні інженери"
+sm_adv_space_engineers_desc:0 "Наймає просунутих космічних інженерів, які допомагають швидше будувати споруди та модулі Станції.\n"
+
+# ASTEROID MINING TEAM
+sm_asteroid_mining:0 "Група видобутку на астероїдах"
+sm_asteroid_mining_desc:0 "Відправляє групу шахтарів для видобутку на малих астероїдах системи, надто дрібних для видобувної станції. Наявність §GЕкспертів з видобутку на астероїдах§! покращить вихід на §Y2 Мінерали§! £minerals.\n"
+
+# ASTEROID MINING EXPERTS
+sm_mining_experts:0 "Експерти з видобутку на астероїдах"
+sm_mining_experts_desc:0 "Наймає експертів, що покращують видобуток кожної групи видобутку на астероїдах. Покращить вихід кожної §GГрупи видобутку на астероїдах§! на §Y2 Мінерали§! £minerals.\n"
+
+# REINFORCED DEFENSES
+sm_reinforced_defenses:0 "Посилена оборона Станції"
+sm_reinforced_defenses_desc:0 "Покращує щити та броню Станції.\n"
+
+# STRATEGIC DEFENSES
+sm_strategic_defenses:0 "Стратегічна оборона Станції"
+sm_strategic_defenses_desc:0 "Покращує щити та озброєння Станції.\n"
+
+# ADVANCED DEFENSES
+sm_adv_starbase:0 "Просунута оборона Станції"
+sm_adv_starbase_desc:0 "Покращує броню та озброєння Станції.\n"
+
+# ORBITAL LAB
+sm_orbital_lab:0 "Орбітальна дослідницька лабораторія"
+sm_orbital_lab_desc:0 "Дослідницька лабораторія на орбіті. Наявність §GДопоміжної лабораторії§! покращить вихід досліджень.\n"
+
+# ENERGY COLLECTOR
+sm_energy_collector:0 "Колектор енергії"
+sm_energy_collector_desc:0 "Спеціальний модуль, що збирає енергію від зорі.\n"
+
+# PHYSICS RESEARCH SUPPORT LAB
+sm_orbital_physics_support_lab:0 "Допоміжна лабораторія фізичних досліджень"
+sm_orbital_physics_support_lab_desc:0 "Допоміжна лабораторія, що покращує дослідження у сфері фізики. Покращить вихід кожної §GОрбітальної дослідницької лабораторії§! на §Y2 Фізичних дослідження§!.\n"
+
+# SOCIETY RESEARCH SUPPORT LAB
+sm_orbital_society_support_lab:0 "Допоміжна лабораторія соціологічних досліджень"
+sm_orbital_society_support_lab_desc:0 "Допоміжна лабораторія, що покращує дослідження у сфері соціології. Покращить вихід кожної §GОрбітальної дослідницької лабораторії§! на §Y2 Соціологічних дослідження§!.\n"
+
+# ENGINEERING RESEARCH SUPPORT LAB
+sm_orbital_engineering_support_lab:0 "Допоміжна лабораторія інженерних досліджень"
+sm_orbital_engineering_support_lab_desc:0 "Допоміжна лабораторія, що покращує дослідження у сфері інженерії. Покращить вихід кожної §GОрбітальної дослідницької лабораторії§! на §Y2 Інженерних дослідження§!.\n"
+
+# NAVY EXPERTS SECTOR
+sm_navy_expert_sector:0 "Сектор флотських експертів"
+sm_navy_expert_sector_desc:0 "Будує кораблі, платформи та модулі з нижчою вартістю.\n"
+
+# ADVANCED ASSEMBLY YARD
+sm_adv_assembly_yard:0 "Просунута складальна верф"
+sm_adv_assembly_yard_desc:0 "Покращує військове виробництво.\n"
+
+# EXPERIENCED CREW QUARTERS
+sm_experienced_crews:0 "Каюти досвідчених екіпажів"
+sm_experienced_crews_desc:0 "Збільшує досвід, отриманий після кожного бою.\n"
+
+# NAVY VETERAN QUARTERS
+sm_navy_veteran:0 "Каюти флотських ветеранів"
+sm_navy_veteran_desc:0 "Збільшує ефективність кораблів, збудованих у цій системі.\n"
+
+# ADVANCED MILITARY PROGRAM
+sm_advanced_military_program:0 "Просунута військова програма"
+sm_advanced_military_program_desc:0 "Покращує швидкість набору нових військ у системі.\n"
+
+# ORBITAL POWER PLANT
+sm_space_power_plant:0 "Орбітальна електростанція"
+sm_space_power_plant_desc:0 "Електростанція на орбіті Станції, що виробляє енергію.\n"
+
+# REPAIR PLATFORMS
+sm_repair_module:0 "Ремонтні платформи"
+sm_repair_module_desc:0 "Додає ремонтні платформи навколо Станції для швидкого обслуговування та ремонту кораблів.\n"
+
+# TILE CLEARING TEAM
+sm_tile_blocker_cleaner:0 "Група розчищення ділянок"
+sm_tile_blocker_cleaner_desc:0 "Розгортає в системі групу експертів, що спеціалізуються на усуненні перешкод на ділянках планет.\n"
+
+# SPACE FOUNDRY
+sm_space_foundry:0 "Космічний ливарний завод"
+sm_space_foundry_desc:0 "Космічний ливарний завод переробляє мінерали на сплави. Наявність §GЛанцюгового виробництва§! покращить вихід на §Y1 Сплав§! £alloys.\n"
+
+# SPACE FACTORY
+sm_space_factory:0 "Космічна фабрика"
+sm_space_factory_desc:0 "Космічна фабрика переробляє мінерали на споживчі товари. Наявність §GЛанцюгового виробництва§! покращить вихід на §Y2 Споживчі товари§! £consumer_goods.\n"
+
+# SECURITY BRANCH OFFICE
+sm_security_branch_office:0 "Відділення служби безпеки"
+sm_security_branch_office_desc:0 "Відділення служби безпеки зосереджується на захисті ваших торгових шляхів від місцевого піратства."
+
+# ADMINISTRATION OFFICE
+sm_administration_office:0 "Адміністративний офіс"
+sm_administration_office_desc:0 "Адміністративний офіс — особлива споруда Станції, здатна збільшити адміністративну місткість держави."
+
+# SYNTHETIC CRYTAL FABRICATOR
+sm_synthetic_crystal_fabricator:0 "Фабрикатор синтетичних кристалів"
+sm_synthetic_crystal_fabricator_desc:0 "Перетворює мінерали на рідкісні кристали завдяки особливим умовам космосу."
+
+# SYBTHETIC VOLATILE MOLES FABRICATOR
+sm_synthetic_volatile_motes_fabricator:0 "Фабрикатор синтетичних летючих порошинок"
+sm_synthetic_volatile_motes_fabricator_desc:0 "Перетворює мінерали на летючі порошинки завдяки особливим умовам космосу."
+
+# SYNTHETIC GASES FABRICATOR
+sm_synthetic_gase_fabricator:0 "Фабрикатор синтетичних газів"
+sm_synthetic_gase_fabricator_desc:0 "Перетворює мінерали на екзотичні гази завдяки особливим умовам космосу."
+
+# ORBITAL ASSEMBLY
+sm_orbital_assembly:0 "Орбітальне складання"
+sm_orbital_assembly_desc:0 "Створює популяції роботів на Станції та переправляє їх у колонії системи."
+
+# CHAIN MANUFACTURING
+sm_chain_manufacturing:0 "Ланцюгове виробництво"
+sm_chain_manufacturing_desc:0 "Допомагає у виробництві сплавів і споживчих товарів як у космосі, так і на планеті. Покращить вихід кожного §GКосмічного ливарного заводу§! на §Y1 Сплав§! £alloys та §GКосмічної фабрики§! на §Y2 Споживчі товари§! £consumer_goods.\n"
+
+# CONSTRUCTION PLANIFICATOR
+sm_construction_planificator:0 "Планувальник будівництва"
+sm_construction_planificator_desc:0 "Створює схеми споруд, щоб пришвидшити будівництво споруд, районів і проєктів на планетах системи."
+
+# FINACIAL SPACE CENTER
+sm_financial_space_center:0 "Фінансовий космічний центр"
+sm_financial_space_center_desc:0 "Збільшує обсяг торгівлі системи завдяки допомозі фінансових експертів."
+
+# TERRFORMING SECTION
+sm_terraforming_module:0 "Тераформувальний відсік"
+sm_terraforming_module_desc:0 "Надсилає групи тераформерів для покращення придатності для життя місцевих колоній системи."
+
+# STASIS CHAMBERS
+sm_stasis_chambers:0 "Стазис-камери"
+sm_stasis_chambers_desc:0 "Збільшує приріст населення місцевих колоній системи."
+
+# EMERGENCY PORTAL
+sm_emergency_portal:0 "Аварійний портал"
+sm_emergency_portal_desc:0 "Аварійний портал, координати якого записані кожним флотським пілотом, щоб підвищити шанси на виживання у разі аварійного стрибка."
+
+# STARBASE OPTIMAL SYSTEMS
+sm_starbase_optimal_systems:0 "Оптимальні системи Станції"
+sm_starbase_optimal_systems_desc:0 "Найпередовіші технології для систем Станції, що роблять її значно ефективнішою."
+
+# ORBITAL AGENCY
+sm_market_computers:0 "Орбітальне агентство"
+sm_market_computers_desc:0 "Орбітальне агентство, що допомагає розвитку колоній системи."
+
+# STELLAR HOUSING
+sm_stellar_housing:0 "Зоряне житло"
+sm_stellar_housing_desc:0 "Розгортає орбітальні житлові будинки навколо колоній системи, щоб трохи збільшити їхнє населення."
+
+# ADMINISTARTION COMPUTERS
+sm_administration_computers:0 "Адміністративні комп'ютери"
+sm_administration_computers_desc:0 "Розгортає автоматичні протоколи, що допомагають в управлінні основними завданнями колонії, підвищуючи стабільність."
+
+# RESEARCH COMPUTERS
+sm_research_computers:0 "Дослідницькі комп'ютери"
+sm_research_computers_desc:0 "Розгортає дослідницьку станцію на орбіті колоній, дозволяючи створювати більше робочих місць дослідників."
+
+# SHIP DISRUPTOR
+sm_ship_disruptor:0 "Дезорганізатор кораблів"
+sm_ship_disruptor_desc:0 "Спеціальний дезорганізатор, розроблений для зниження ефективності ворожих кораблів."
+
+# SHIP AMPLIFIER
+sm_ship_amplifier:0 "Підсилювач кораблів"
+sm_ship_amplifier_desc:0 "Спеціальний пристрій, розроблений для підвищення ефективності дружніх кораблів."
+
+# SPY COMMAND
+# sm_spy_command_post:0 "Шпигунський командний пост"
+# sm_spy_command_post_desc:0 "Командний пост, розроблений для покращення розвідданих у сусідніх системах."
+
+# CORVETTE ASSEMBLY YARD
+sm_corvette_assembly_yard:0 "Автоматизована складальна верф корветів"
+sm_corvette_assembly_yard_desc:0 "Автоматизована складальна верф, що спеціалізується на будівництві корветів. Можна мати лише одну категорію автоматизованої складальної верфі."
+
+# DESTROYER ASSEMBLY YARD
+sm_destroyer_assembly_yard:0 "Автоматизована складальна верф есмінців"
+sm_destroyer_assembly_yard_desc:0 "Автоматизована складальна верф, що спеціалізується на будівництві есмінців. Можна мати лише одну категорію автоматизованої складальної верфі."
+
+# CRUISER ASSEMBLY YARD
+sm_cruiser_assembly_yard:0 "Автоматизована складальна верф крейсерів"
+sm_cruiser_assembly_yard_desc:0 "Автоматизована складальна верф, що спеціалізується на будівництві крейсерів. Можна мати лише одну категорію автоматизованої складальної верфі."
+
+# BATTLESHIP ASSEMBLY YARD
+sm_battleship_assembly_yard:0 "Автоматизована складальна верф лінкорів"
+sm_battleship_assembly_yard_desc:0 "Автоматизована складальна верф, що спеціалізується на будівництві лінкорів. Можна мати лише одну категорію автоматизованої складальної верфі."
+
+# CREW FORMATION MODULE
+sm_crew_formation_modules:0 "Модуль підготовки екіпажів"
+sm_crew_formation_modules_desc:0 "Особливий відсік Станції, зосереджений на поглибленій підготовці нових членів екіпажу Станції, що дозволяє розгортати їх на нашій території для покращення обслуговування інших станцій."
+
+
+# STARBASE TECHS
+
+# STARBASE 6 STRONGHOLD
+tech_starbase_6:0 "Станція-твердиня"
+tech_starbase_6_desc:0 "Твердиня — потужна й високорозвинена оборонна станція системи."
+TECH_UNLOCK_STRONGHOLD_CONSTRUCTION_TITLE:0 "§HВідкриває покращення Станції:§! Сонячна Твердиня"
+TECH_UNLOCK_STRONGHOLD_CONSTRUCTION_DESC:0 "§HСонячна Твердиня§!\nЦе не місяць, це космічна станція."
+
+# TECH STARBASE 7 HEADQUARTERS
+tech_starbase_7:0 "Станція-штаб"
+tech_starbase_7_desc:0 "Останнє покращення в ланцюжку станцій, Штаб — найвища командна й оборонна станція."
+TECH_UNLOCK_HEADQUARTERS_CONSTRUCTION_TITLE:0 "§HВідкриває покращення Станції:§! Штаб"
+TECH_UNLOCK_HEADQUARTERS_CONSTRUCTION_DESC:0 "§HШтаб§!\nЙмовірно, одне з найбезпечніших місць Галактики."
+
+
+# WEAPON MODULES AND REACTOR
+
+# POINT DEFENSE MODULE
+POINT_DEFENCE_STARBASE:0 "Автоматизована система точкової оборони"
+POINT_DEFENCE_STARBASE_DESC:0 "Додає батарею з 2 гармат точкової оборони."
+
+# T WEAPON WEAPONS
+PERDITION_BEAM_STARBASE:0 "Атомний фазовий дезінтегратор"
+PERDITION_BEAM_STARBASE_DESC:0 "Додає батарею з 1 титанічної гармати."
+
+# XL WEAPONS
+XL_BEAM_STARBASE:0 "Поляризований електронний модулятор"
+XL_BEAM_STARBASE_DESC:0 "Додає батарею з 1 надвеликої гармати."
+
+# DARK MATTER REACTOR
+CITADEL_DARK_MATTER_REACTOR:0 "Реактор темної матерії Станції"
+CITADEL_DARK_MATTER_REACTOR_DESC:0 "Реактор темної матерії Станції"
+
+
+# AURAS
+# SHIP DISRUPTOR
+STARBASE_AURA_SHIP_DISRUPTOR:0 "Дезорганізатор кораблів"
+aura_starbase_ship_disruptor:0 "$offensive_aura$ - $sm_ship_disruptor$"
+
+# SHIP AMPLIFIER
+STARBASE_AURA_SHIP_AMPLIFIER:0 "Підсилювач кораблів"
+aura_starbase_ship_amplifier:0 "$defensive_aura$ - $sm_ship_amplifier$"
+
+# SECTIONS
+# MEDUIM GUN BATTERY SECTION
+BATTERY_STARBASE_SECTION:0 "Відсік середньої батареї"
+
+#LARGE GUN BATTERY SECTION
+LARGE_STARBASE_SECTION:0 "Відсік великої батареї"
+
+# EXTRA LARGE BATTERY SECTION
+EXTRA_LARGE_STARBASE_SECTION:0 "Відсік надвеликої батареї"
+
+# TITANIC BATTERY SECTION
+TITANIC_STARBASE_SECTION:0 "Відсік титанічної батареї"
+
+# TORPEDO BAY SECTION / EX MISSILE BATTERY
+MISSILE_STARBASE_SECTION:0 "Відсік торпедного відсіку"
+
+# HANGAR BAY SECTION
+HANGAR_STARBASE_SECTION:0 "Відсік ангарного відсіку"
+
+# PD GUN BATTERY SECTION
+PD_STARBASE_SECTION:0 "Відсік батареї точкової оборони"
+
+
+# ORBITAL RING MODULES
+
+# MILITARY OR MODULES
+# OR SHIELD GENERATOR MODULE
+sm_orbital_ring_shield_module:0 "Орбітальний генератор щитів"
+sm_orbital_ring_shield_module_desc:0 "Додає 1 модуль щита до Орбітального Кільця.\n§RМаксимум 4 модулі.§!"
+
+# OR ARMOR MODULE
+sm_orbital_ring_armor_module:0 "Орбітальний броньовий захист"
+sm_orbital_ring_armor_module_desc:0 "Додає 1 модуль броні до Орбітального Кільця.\n§RМаксимум 4 модулі.§!"
+
+# OR POINT DEFENSE MODULE
+sm_orbital_ring_pd_battery:0 "Батарея точкової оборони Орбітального Кільця"
+sm_orbital_ring_pd_battery_desc:0 "Додає 1 батарею точкової оборони до Орбітального Кільця.\n§RМаксимум 5 модулів.§!"
+
+# OR TORPEDO BATTERY
+sm_orbital_ring_missile_battery:0 "Торпедна батарея Орбітального Кільця"
+sm_orbital_ring_missile_battery_desc:0 "Додає 1 торпедну батарею до Орбітального Кільця.\n§RМаксимум 5 модулів.§!"
+
+# OR GUN BATTERY MODULE
+sm_orbital_ring_gun_battery:0 "Гарматна батарея Орбітального Кільця"
+sm_orbital_ring_gun_battery_desc:0 "Додає 1 середню батарею до Орбітального Кільця.\n§RМаксимум 10 модулів.§!"
+
+# OR LARGE BATTERY MODULE
+sm_orbital_ring_large_gun_battery:0 "Велика гарматна батарея Орбітального Кільця"
+sm_orbital_ring_large_gun_battery_desc:0 "Додає 2 великі батареї до Орбітального Кільця.\n§RМаксимум 5 модулів.§!"
+
+# OR XL BATTERY MODULE
+sm_orbital_ring_xl_gun_battery:0 "Надвелика гарматна батарея Орбітального Кільця"
+sm_orbital_ring_xl_gun_battery_desc:0 "Додає 1 надвелику батарею до Орбітального Кільця.\n§RМаксимум 5 модулів.§!"
+
+# OR TITANIC BATTERY MODULE
+sm_orbital_ring_titanic_gun_battery:0 "Титанічна гарматна батарея Орбітального Кільця"
+sm_orbital_ring_titanic_gun_battery_desc:0 "Додає 1 титанічну батарею до Орбітального Кільця.\n§RМаксимум 2 модулі.§!"
+
+# OR HANGAR SECTION MODULE
+sm_orbital_ring_hangar_bay:0 "Ангарний відсік Орбітального Кільця"
+sm_orbital_ring_hangar_bay_desc:0 "Додає 2 ескадрильї винищувачів до Орбітального Кільця\n§RМаксимум 5 модулів.§!"
+
+# STARBASE EXTENDED 3.0 ORBITAL RING WEAPONS
+
+# OR POINT DEFENSE GUN
+POINT_DEFENCE_ORBITAL_RING:0 "Гармата ТО Орбітального Кільця"
+POINT_DEFENCE_ORBITAL_RING_DESC:0 "Гармата ТО Орбітального Кільця"
+
+# OR EXTRA LARGE GUN
+XL_BEAM_ORBITAL_RING:0 "Надвеликий промінь Орбітального Кільця"
+XL_BEAM_ORBITAL_RING_DESC:0 "Надвеликий промінь Орбітального Кільця"
+
+# OR TITANIC GUN
+PERDITION_BEAM_ORBITAL_RING:0 "Промінь загибелі Орбітального Кільця"
+PERDITION_BEAM_ORBITAL_RING_DESC:0 "Промінь загибелі Орбітального Кільця"

@@ -1,0 +1,41 @@
+﻿l_english:
+
+ # PD MA arcology specialization subtitles, driven by triggered_name on the overridden swap districts (pd_arcology_swap_overrides.txt) and on district_pd_garden_arcology_urban_1.
+
+ # Garden urban_1 (unique flavor district)
+ pd_garden_urban_1_preserve: "Заповідник"
+
+ # Garden arcology specializations
+ pd_garden_arcology_research: "Польова дослідницька станція"
+ pd_garden_arcology_research_physics: "Атмосферні науки"
+ pd_garden_arcology_research_society: "Екокультурні студії"
+ pd_garden_arcology_research_engineering: "Інженерія середовища"
+ pd_garden_arcology_unity: "Парки та відпочинок"
+ pd_garden_arcology_unity_spiritualist: "Священний гай"
+ pd_garden_arcology_unity_bio_trophy: "Райське крило"
+ pd_garden_arcology_trade: "Бюро екотуризму"
+
+ # Fortress urban_1 (unique flavor district)
+ pd_fortress_urban_1_command_nexus: "Стратегічне командування"
+
+ # Fortress arcology specializations
+ pd_fortress_arcology_fortress: "Квартал-бастіон"
+ pd_fortress_arcology_foundry: "Боєприпасний завод"
+ pd_fortress_arcology_research: "Відділ бойових досліджень"
+ pd_fortress_arcology_research_physics: "Артилерійські лабораторії"
+ pd_fortress_arcology_research_engineering: "Облогова інженерія"
+ pd_fortress_arcology_research_society: "Вивчення стратегічної доктрини"
+ pd_fortress_arcology_unity_spiritualist: "Воєнний собор"
+
+ # Commercial urban_1 (unique flavor district)
+ pd_commercial_urban_1_trade_market: "Гіпербіржа"
+
+ # Commercial arcology specializations
+ pd_commercial_arcology_trade: "Торговельний пасаж"
+ pd_commercial_arcology_factory: "Споживча промисловість"
+ pd_commercial_arcology_research: "Маркетингові дослідження"
+ pd_commercial_arcology_research_physics: "Лабораторія фізичних спекуляцій"
+ pd_commercial_arcology_research_engineering: "Продуктові інновації"
+ pd_commercial_arcology_research_society: "Економічний інститут"
+ pd_commercial_arcology_unity: "Зала керівництва"
+ pd_commercial_arcology_unity_spiritualist: "Священні ринки"

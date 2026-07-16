@@ -1,0 +1,203 @@
+﻿l_english:
+
+  ####################################
+  #Colony Types
+  ####################################
+
+  col_manufactorum_mix: "Мануфакторум"
+  col_manufactorum_mix_desc: "Величезна планета-фабрика, чия промисловість поділена між сплавами та споживчими товарами."
+  col_manufactorum_foundry: "Мануфакторум-ливарня"
+  col_manufactorum_foundry_desc: "Величезна планета-фабрика, зосереджена на безперервному виробництві сплавів."
+  col_manufactorum_factory: "Мануфакторум-фабрика"
+  col_manufactorum_factory_desc: "Величезна планета-фабрика, що спеціалізується на безперервному виробництві споживчих товарів."
+  col_manufactorum_assembly: "Мануфакторум складання"
+  col_manufactorum_assembly: "Величезна планета-фабрика, що спеціалізується на виробництві роботів і підвищенні ефективності суднобудування в системі."
+  col_manufactorum_refinery: "Мануфакторум-переробка"
+  col_manufactorum_refinery_desc: "Величезна планета-завод, що спеціалізується на виробництві рідкісних ресурсів."
+  col_agropolis_production: "Агрополіс виробництва"
+  col_agropolis_production_desc: "Планета-місто, зосереджена на виробництві їжі та споживчих товарів."
+  col_agropolis_farming: "Агрополіс землеробства"
+  col_agropolis_farming_desc: "Безкраї поля підтримуються інфраструктурою планети-міста для максимізації сільськогосподарського потенціалу."
+  col_fortoria_mix: "Форторія"
+  col_fortoria_mix_desc: "Це захищене планета-місто не спеціалізується на якійсь конкретній галузі."
+  col_fortoria_industrial: "Промислова Форторія"
+  col_fortoria_industrial_desc: "Величезне планетарне місто, чия промисловість розподілена між сплавами та споживчими товарами."
+  col_fortoria_foundry: "Форторія-ливарня"
+  col_fortoria_foundry_desc: "Величезна планета-місто, зосереджена на безперервному виробництві сплавів."
+  col_fortoria_factory: "Форторія-фабрика"
+  col_fortoria_factory_desc: "Величезна планета-місто, що спеціалізується на безперервному виробництві споживчих товарів."
+  col_fortoria_research: "Дослідницька Форторія"
+  col_fortoria_research_desc: "Величезна планета-місто, що спеціалізується на найпередовіших дослідженнях."
+  col_fortoria_fortress: "Цитадель"
+  col_fortoria_fortress_desc: "Величезна планета-місто, що спеціалізується на обороні."
+  col_fortoria_intelligence: "Розвідувальна Форторія"
+  col_fortoria_intelligence_desc: "Величезна планета-місто є центром імперської розвідки та внутрішньої безпеки."
+  col_machinarium_foundry: "Машинаріум-ливарня"
+  col_machinarium_foundry_desc: "$col_manufactorum_foundry_desc$"
+  col_machinarium_assembly: "Машинаріум складання"
+  col_machinarium_assembly_desc: "$col_manufactorum_assembly_desc$"
+  col_machinarium_fortress: "Військовий Машинаріум"
+  col_machinarium_fortress_desc: "$col_fortoria_fortress_desc$"
+  col_genoworld_trade: "Вулик-геноогістика"
+  col_genoworld_trade_desc: "Органічна, напіврозумна мережа, що охоплює всю планету, забезпечуючи бездоганну логістику вулика."
+  col_genoworld_refinery: "Вулик-геропереробка"
+  col_genoworld_refinery_desc: "Планетарний органічний організм, що виробляє рідкісні ресурси для вулика."
+  col_genoworld_genofarm: "Вулик-генофарма"
+  col_genoworld_genofarm_desc: "Планета-гніздо, що спеціалізується на вирощуванні їжі, нових особин і підвищенні ефективності вирощування органічних кораблів."
+
+
+  ####################################
+  # Districts
+  ####################################
+
+  district_na_arcology_housing: "$district_arcology_housing$"
+  district_na_arcology_housing_plural: "$district_arcology_housing_plural$"
+  district_na_arcology_housing_desc: "$district_arcology_housing_desc$"
+  district_na_arcology_industrial: "Промислова аркологія"
+  district_na_arcology_industrial_plural: "Промислові аркології"
+  district_na_arcology_industrial_desc: "$district_industrial_desc$"
+  district_na_arcology_arms_industry: "$district_arcology_arms_industry$"
+  district_na_arcology_arms_industry_plural: "$district_arcology_arms_industry_plural$"
+  district_na_arcology_arms_industry_desc: "$district_arcology_arms_industry_desc$"
+  district_na_arcology_civilian_industry: "$district_arcology_civilian_industry$"
+  district_na_arcology_civilian_industry_plural: "$district_arcology_civilian_industry_plural$"
+  district_na_arcology_civilian_industry_desc: "$district_arcology_civilian_industry_desc$"
+  district_arcology_assembly: "Аркологія складальних ліній"
+  district_arcology_assembly_plural: "Аркології складальних ліній"
+  district_arcology_assembly_desc: "У цьому районі розташовані гігантські будівельні машини й складальні цехи, де збирають роботів і деталі для космічних кораблів."
+  district_arcology_refinery: "Аркологія переробки"
+  district_arcology_refinery_plural: "Аркології переробки"
+  district_arcology_refinery_desc: "Найбрудніший район промислового світу, де зосереджені хімічне виробництво та переробні заводи."
+  district_arcology_farming: "Аркологія землеробства"
+  district_arcology_farming_plural: "Аркології землеробства"
+  district_arcology_farming_desc: "$district_farming_desc$"
+  district_na_arcology_leisure: "$district_arcology_leisure$"
+  district_na_arcology_leisure_plural: "$district_arcology_leisure_plural$"
+  district_na_arcology_leisure_desc: "$district_arcology_leisure_desc$"
+  district_na_arcology_fortress: "Військова аркологія"
+  district_na_arcology_fortress_plural: "Військові аркології"
+  district_na_arcology_fortress_desc: "Цей район є форпостом з розгалуженою мережею підземних тунелів та оборонних споруд."
+  district_arcology_intelligence: "Розвідувальна аркологія"
+  district_arcology_intelligence_plural: "Розвідувальні аркології"
+  district_arcology_intelligence_desc: "У цьому районі розташовано багато станцій космічного спостереження та секретних розвідувальних об'єктів."
+  district_machine_nexus: "$district_nexus$"
+  district_machine_nexus_plural: "$district_nexus_plural$"
+  district_machine_nexus_desc: "$district_nexus_desc$"
+  district_machine_arms_industry: "Ливарний машинний цех"
+  district_machine_arms_industry_plural: "Ливарні машинні цехи"
+  district_machine_arms_industry_desc: "$district_arcology_arms_industry_desc$"
+  district_machine_assembly: "Складальний машинний цех"
+  district_machine_assembly_plural: "Складальні машинні цехи"
+  district_machine_assembly_desc: "$district_arcology_assembly_desc$"
+  district_machine_fortress: "Військова машинерія"
+  district_machine_fortress_plural: "Військова машинерія"
+  district_machine_fortress_desc: "$district_na_arcology_fortress_desc$"
+  district_genohive: "$district_hive$"
+  district_genohive_plural: "$district_hive_plural$"
+  district_genohive_desc: "$district_hive_desc$"
+  district_genotrade: "Геноогістичний вузол"
+  district_genotrade_plural: "Геноогістичні вузли"
+  district_genotrade_desc: "Гігантський організм, здатний забезпечувати бездоганну логістику, використовуючи окремих особин як нейронні з'єднання для ефективного управління мережею постачання вулика."
+  district_genorefinery: "Геропереробний вузол"
+  district_genorefinery_plural: "Геропереробні вузли"
+  district_genorefinery_desc: "Гігантський організм, що здійснює складні хімічні реакції та переробляє неорганічні матеріали на рідкісні ресурси для вулика."
+  district_genofarms: "Генофарми"
+  district_genofarms_plural: "Генофарми"
+  district_genofarms_desc: "Величезні плантації гнізд вулика перебувають у процесі постійного генетичного вдосконалення для ефективного виробництва їжі, вирощування нових особин та генетичних компонентів органічних кораблів."
+
+
+  ####################################
+  # Planet Decision
+  ####################################
+
+  decision_industrial_arcology_project: "Проєкт промислової аркології"
+  decision_industrial_arcology_project_effects: "Перетворює планету на §Y$pc_manufactorum$§!, збільшуючи такі параметри, як £housing£ §Y$PLANET_HOUSING_TITLE$§!, §YВиробництво ресурсів§! та §YПриріст населення§!, і відкриваючи спеціальні промислові £district£ §YРайони аркології§!. Водночас природні ресурси планети стають §Rнедоступними§!, що унеможливлює подальше будівництво £district£ §YГенераторних§!, §YВидобувних§! та §YСільськогосподарських районів§!, а §Yпридатність для життя§! знижується."
+  decision_agricultural_arcology_project: "Проєкт сільськогосподарської аркології"
+  decision_agricultural_arcology_project_requirements: "£trigger_no£ §RУсі клітини районів планети мають бути§! §Y$district_city_plural$§!, §Y$district_industrial_plural$§! або §Y$district_farming_plural$§!."
+  decision_agricultural_arcology_project_effects: "Перетворює планету на §Y$pc_agropolis$§!, збільшуючи такі параметри, як £housing£ §Y$PLANET_HOUSING_TITLE$§!, §YВиробництво ресурсів§! та §YПриріст населення§!, і відкриваючи спеціальні £district£ §YВиробничі райони§! та §YСільськогосподарські райони§!, більше не залежні від природних ресурсів планети, які стають §Rнедоступними§!, що унеможливлює подальше будівництво £district£ §YГенераторних§! та §YВидобувних районів§!."
+  decision_military_arcology_project: "Проєкт військової аркології"
+  decision_military_arcology_project_effects: "Перетворює планету на §Y$pc_fortoria$§!, збільшуючи такі параметри, як £housing£ §Y$PLANET_HOUSING_TITLE$§!, §YВиробництво ресурсів§! та §YПриріст населення§!, і відкриваючи спеціальні промислові та військові £district£ §YРайони аркології§!. Завдяки підвищенню §Yенергетичного наповнення ділянок і споруд§! значно знижується §Yшкода від планетарного бомбардування§!. Водночас природні ресурси планети стають §Rнедоступними§!, що унеможливлює подальше будівництво £district£ §YГенераторних§!, §YВидобувних§! та §YСільськогосподарських районів§!."
+  decision_assembly_world_project: "Проєкт світу-складання"
+  decision_assembly_world_project_effects: "Перетворює планету на §Y$pc_machinarium$§!, збільшуючи £housing£ §YPLANET_HOUSING_TITLE$§!, §Yвиробництво ресурсів§! та §Yприріст поселень§!, і відкриваючи спеціальні промислові та військові £district£ §Yрайони§!. Завдяки підвищенню §Yенергетичного наповнення районів і споруд§! значно знижується §Yшкода від планетарного бомбардування§!."
+  decision_genetic_farm_project: "Проєкт генетичної ферми"
+  decision_genetic_farm_project_effects: "Перетворює планету на §Y$pc_genoworld$§!, збільшуючи такі показники, як £housing£ §YPLANET_HOUSING_TITLE$§!, §Yвиробництво ресурсів§! та §Yприріст поселень§!, і відкриваючи спеціальні £district£ §Yрайони§! для покращеної логістики, виробництва їжі та рідкісних ресурсів."
+
+
+  ####################################
+  # Technology
+  ####################################
+
+  tech_heavy_engineering_arcology: "Важка інженерна аркологія"
+  tech_heavy_engineering_arcology_desc: "Розвиток складних автоматизованих виробничих систем відкриває можливість нового етапу інфраструктурної індустріалізації планетарного масштабу."
+  tech_heavy_engineering_arcology_effect: "§HРішення:§! $decision_industrial_arcology_project$"
+  tech_eco_arcology: "Екоаркологія"
+  tech_eco_arcology_desc: "Одна з головних проблем стрімко розвинутих мегаполісів і промислових підприємств — підтримка стійких екосистем для сільськогосподарських і рекреаційних цілей."
+  tech_eco_arcology_effect: "§HРішення:§! $decision_agricultural_arcology_project$"
+  tech_military_arcology: "Військова аркологія"
+  tech_military_arcology_desc: "Стандартна архітектурна й містобудівна концепція абсолютно непридатна для завдань ефективної планетарної оборони, де на першому місці практичність і живучість."
+  tech_military_arcology_effect: "§HРішення:§! $decision_military_arcology_project$"
+  tech_assembly_world: "Світ-складання"
+  tech_assembly_world_desc: "Синергія оборонних розробок і надважких інженерних проєктів дозволить створити захищені планетарні складальні лінії, що спеціалізуються на військовому виробництві на основі §Yсвіту Машин§!"
+  tech_assembly_world_effect: "§HРішення:§! $decision_assembly_world_project$"
+  tech_genetic_farm: "Генетичні ферми"
+  tech_genetic_farm_desc: "Інтенсивні дослідження у сфері активної генетичної трансформації та супермутацій дозволять створити передовіший планетарний організм на основі §Yсвіту-вулика§!, здатний вирощувати їжу, нових особин і навіть рідкісні ресурси."
+  tech_genetic_farm_effect: "§HРішення:§! $decision_genetic_farm_project$"
+
+
+  ####################################
+  # Planet Classes
+  ####################################
+
+  pc_manufactorum: "Мануфакторум"
+  pc_manufactorum_desc: "Цей світ повністю захоплений інфраструктурою промислового виробництва, що розвивається. Природна літосфера планети більше не видна з орбіти, а атмосфера забруднена викидами промислових і хімічних заводів."
+  pc_agropolis: "Агрополіс"
+  pc_agropolis_desc: "Цей світ ідеально поєднує промислові міські агломерації та сільськогосподарські регіони. Чисті водойми та родючі луки створюються й підтримуються штучно для потреб харчової та виробничої промисловості, що розвивається. Тому природна літосфера планети більше не видна з орбіти, навіть там, де спостерігається зелена поверхня."
+  pc_fortoria: "Форторія"
+  pc_fortoria_desc: "Цей закутий у метал світ оточений потужним енергетичним щитом, а більшість військової та промислової інфраструктури розташована під поверхнею. Його природна літосфера більше не видна з орбіти."
+  pc_machinarium: "Машинаріум"
+  pc_machinarium_desc: "Світ перетворено на гігантський складальний комплекс, з військовим виробництвом на поверхні, захищеним планетарним щитом. Розріджена атмосфера складається переважно з промислових викидів і непридатна для біологічного життя."
+  pc_genoworld: "Геносвіт"
+  pc_genoworld_desc: "Уся планета — гігантський живий організм, що постійно змінюється під впливом генетичних мутацій, керованих завданнями колективного розуму. Цей світ активно займається виробництвом організмів, які стають частиною вулика або споживаються як їжа."
+
+  ####################################
+  # Jobs
+  ####################################
+
+  job_assembly_operator: "Оператор складання"
+  job_assembly_operator_plural: "Оператори складання"
+  job_assembly_operator_desc: "Ці фахівці обслуговують і підтримують функціональність автоматизованих складальних цехів."
+  job_assembly_operator_effect_desc: "£job_assembly_operator£ $job_assembly_operator_plural$ перетворюють £rare_crystals£ §Y$rare_crystals$§! і велику кількість £alloys£ §Y$alloys$§! на нові £pop£ §YРоботизовані поселення§! та покращують §Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§! в державі"
+  mod_job_assembly_operator_add: "Робочі місця $job_assembly_operator$"
+  mod_job_assembly_operator_per_pop: "§G+1§! робоче місце $job_assembly_operator$ на кожні $VALUE$ поселень"
+  mod_job_assembly_operator_per_pop_short: "\n§G+1§! £mod_job_assembly_operator_add£ на $VALUE$ £pop£"
+  job_operative: "Оперативник"
+  job_operative_plural: "Оперативники"
+  job_operative_desc: "Співробітники секретного відділу зовнішньої та внутрішньої розвідки — невидимі, але всевидющі охоронці імперії."
+  job_operative_effect_desc: "£job_operative£ $job_operative_plural$ споживають £energy£ §Y$energy$§! та £consumer_goods£ §Y$consumer_goods$§!, покращують £stability£§Y$MOD_PLANET_STABILITY_ADD$§! та §Y$MOD_SPY_NETWORK_DAILY_VALUE_MULT$§! в державі"
+  mod_job_operative_add: "Робочі місця $job_operative$"
+  mod_job_operative_per_pop: "§G+1§! робоче місце $job_operative$ на кожні $VALUE$ поселень"
+  mod_job_operative_per_pop_short: "\n§G+1§! £mod_job_operative_add£ на $VALUE$ £pop£"
+  job_assembly_drone: "Дрон складання"
+  job_assembly_drone_plural: "Дрони складання"
+  job_assembly_drone_desc: "Ці дрони обслуговують і підтримують автоматизовані складальні лінії."
+  job_assembly_drone_effect_desc: "£job_assembly_drone£ $job_assembly_drone_plural$ перетворюють £rare_crystals£ §Y$rare_crystals$§! і велику кількість £alloys£ §Y$alloys$§! на нові £pop£ §YРоботизовані поселення§! та покращують §Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§! в державі"
+  mod_job_assembly_drone_add: "Робочі місця $job_assembly_drone$"
+  mod_job_assembly_drone_per_pop: "§G+1§! робоче місце $job_assembly_drone$ на кожні $VALUE$ поселень"
+  mod_job_assembly_drone_per_pop_short: "\n§G+1§! £mod_job_assembly_drone_add£ на $VALUE$ £pop£"
+  job_genofarmer_drone: "Дрон-генофермер"
+  job_genofarmer_drone_plural: "Дрони-генофермери"
+  job_genofarmer_drone_desc: "Ці дрони займаються обслуговуванням генетичних плантацій і контролюють хід мутацій вирощуваних організмів."
+  job_genofarmer_drone_effect_desc: "£job_genofarmer_drone£ $job_genofarmer_drone_plural$ перетворюють £exotic_gases£ §Y$exotic_gases$§! на £food£ §Y$food$§!, нові £pop£ §YПоселення§!, виробляють £society£ §Y$society_research$§! та покращують §Y$MOD_STARBASE_SHIPYARD_SPACE_FAUNA_BUILD_SPEED_MULT$§! в державі"
+  mod_job_genofarmer_drone_add: "Робочі місця $job_genofarmer_drone$"
+  mod_job_genofarmer_drone_per_pop: "§G+1§! робоче місце $job_genofarmer_drone$ на кожні $VALUE$ поселень"
+  mod_job_genofarmer_drone_per_pop_short: "\n§G+1§! £mod_job_genofarmer_drone_add£ на $VALUE$ £pop£"
+
+  ####################################
+  # Modifiers
+  ####################################
+
+  mod_planet_district_na_arcology_arms_industry_build_speed_mult: "Швидкість будівництва $district_arcology_arms_industry$"
+  mod_planet_district_na_arcology_civilian_industry_build_speed_mult: "Швидкість будівництва $district_arcology_civilian_industry$"
+  mod_planet_district_arcology_farming_build_speed_mult: "Швидкість будівництва $district_arcology_farming$"
+  mod_planet_district_na_arcology_fortress_build_speed_mult: "Швидкість будівництва $district_na_arcology_fortress$"
+  mod_planet_district_arcology_intelligence_build_speed_mult: "Швидкість будівництва $district_arcology_intelligence$"

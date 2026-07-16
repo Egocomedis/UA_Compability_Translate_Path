@@ -1,0 +1,36 @@
+﻿l_english:
+
+###Shroud Planets
+#AP
+ap_pd_shroud_worlds: "Фазування Савану"
+ap_pd_shroud_worlds_desc: "Бар'єри між світом смертних і Саваном тонші, ніж очікувалося. Зосередивши нашу псіонічну енергію, ми можемо додатково послабити ці бар'єри та створити світи, що охоплюють обидва виміри."
+allow_shroud_worlds: "§YUnlocks Decision:§! $decision_pd_aw_shroud_planet$"
+describe_shroud_worlds: "Модифікатор §Y$decision_pd_aw_shroud_planet$§!:\n$t$- §GПсіонічні§! £pop£ Поселення:\n- $mod_planet_psionic_jobs_produces_mult$: §G10%§!\n- $MOD_POP_HAPPINESS$: §G10%§!\n\n§YНепсіонічні§! £pop£ Поселення:\n- £mod_pop_environment_tolerance£ §YПридатність планети§!: §R-50%§!\n- $MOD_POP_HAPPINESS$: §R-25%§!\n- $MOD_LOGISTIC_GROWTH_MULT$: §R-25%§"
+
+#Decisions
+decision_pd_aw_shroud_planet: "Фазування Савану"
+decision_pd_aw_shroud_planet_desc: "Ми можемо послабити бар'єр між цією планетою й Саваном та створити баланс між матеріальним і псіонічним світами."
+decision_pd_aw_shroud_planet_effects_short: "Додано модифікатор §Y$pd_aw_shroud_planet$§!.\n\nЗбільшує £pop£ §GВихід псіонічних поселень§!, але зменшує £pop£ §YВихід непсіонічних поселень§!."
+decision_pd_aw_shroud_planet_cleanup: "Фазово Заблокувати Планету"
+decision_pd_aw_shroud_planet_cleanup_desc: "Наші фізики можуть зміцнити бар'єр між цією планетою й Саваном, замкнувши її в матеріальному світі."
+decision_pd_aw_shroud_planet_cleanup_tooltip: "\nМи видалимо псіонічний вплив з цієї планети."
+decision_pd_aw_sever_shroud_planet: "Фазово Розірвати Планету"
+decision_pd_aw_sever_shroud_planet_desc: "Наші псіони можуть розірвати єднання між цією планетою й Саваном, повернувши її до матеріального світу."
+decision_pd_aw_sever_shroud_planet_tooltip: "\nМи розірвемо єднання цієї планети з Саваном."
+
+#Modifiers
+pd_aw_shroud_planet: "Торкнута Саваном"
+pd_aw_shroud_planet_desc: "У цьому місці навмисно послаблений бар'єр між матеріальним світом і Саваном дозволив особам з псіонічними здібностями певною мірою переформовувати реальність. Однак для тих, хто не має таких дарів, межа між кошмаром і реальністю розмивається, породжуючи нескінченне полотно страждання й муки."
+pd_aw_shroud_planet_tooltip: "§GПсіонічні§! £pop£ Поселення:\n- $mod_psionic_pop_bonus_workforce_mult$: §G10%§!\n- $MOD_POP_HAPPINESS$: §G25%§!\n\n§YНепсіонічні§! £pop£ Поселення:\n- £mod_pop_environment_tolerance£ §YПридатність планети§!: §R-50%§!\n- $MOD_POP_HAPPINESS$: §R-25%§!\n- $MOD_LOGISTIC_GROWTH_MULT$: §R-25%§!"
+pd_shroud_planet: "$pd_aw_shroud_planet$"
+pd_shroud_planet_desc: "$pd_aw_shroud_planet_desc$"
+pd_shroud_planet_tooltip: "$pd_aw_shroud_planet_tooltip$"
+pd_aw_shroud_severed: "Розірване Єднання"
+pd_aw_shroud_severed_desc: "Зв'язок між цим світом і Саваном було силою розірвано. Ті, хто колись єднався з ним, залишилися оголеними й приголомшеними."
+
+#Notification Message
+MESSAGE_PD_AW_SHROUD_DESC:1 "$PLANET|Y$ тепер §Y$pd_aw_shroud_planet$§!"
+MESSAGE_PD_AW_SHROUD_MESSAGE_TYPE_TITLE: "Планетарне єднання з Саваном завершено"
+MESSAGE_PD_AW_SHROUD_CLEANUP_DESC:1 "Вплив Савану видалено на $PLANET|Y$."
+MESSAGE_PD_AW_SHROUD_CLEANUP_MESSAGE_TYPE_TITLE: "Планету звільнено від Савану"
+MESSAGE_PD_AW_SHROUD_SEVER_DESC:1 "Єднання з Саваном розірвано на $PLANET|Y$."

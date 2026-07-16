@@ -1,0 +1,12 @@
+l_english:
+ ALICE_JUMP_DRIVE:0 "Казковий двигун"
+
+ ALICE_SHIP_THRUSTER:0 "Прадавній двигун"
+
+ ALICE_REACTOR:0 "Таємнича енергія"
+
+ ALICE_FILED:0 "Володіння Аліси"
+
+ ALICE_SENSOR:0 "Таємничий сенсор"
+
+ ALICE_SHIELD:0 "Легендарний щит"

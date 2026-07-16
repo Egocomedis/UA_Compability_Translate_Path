@@ -1,0 +1,57 @@
+l_english:
+###############################
+ MSY_FISSION_REACTOR:0 "$FISSION_REACTOR$"
+ MSY_FISSION_REACTOR_DESC:0 "$FISSION_REACTOR_DESC$"
+ MSY_FUSION_REACTOR:0 "$FUSION_REACTOR$"
+ MSY_FUSION_REACTOR_DESC:0 "$FUSION_REACTOR_DESC$"
+ MSY_COLD_FUSION_REACTOR:0 "$COLD_FUSION_REACTOR$"
+ MSY_COLD_FUSION_REACTOR_DESC:0 "$COLD_FUSION_REACTOR_DESC$"
+ MSY_ZERO_POINT_REACTOR:0 "$ZERO_POINT_REACTOR$"
+ MSY_ZERO_POINT_REACTOR_DESC:0 "$ZERO_POINT_REACTOR_DESC$"
+ MSY_ANTIMATTER_REACTOR:0 "$ANTIMATTER_REACTOR$"
+ MSY_ANTIMATTER_REACTOR_DESC:0 "$ANTIMATTER_REACTOR_DESC$"
+ MSY_DARK_MATTER_REACTOR:0 "$DARK_MATTER_REACTOR$"
+ MSY_DARK_MATTER_REACTOR_DESC:0 "$DARK_MATTER_REACTOR_DESC$"
+ MSY_SRSE_REACTOR:0 "Реактор синергії"
+ MSY_SRSE_REACTOR_DESC:0 "Експериментальний реактор на основі вивчення синергетичних потоків із підвищеною ефективністю."
+ MSY_ALPHA_REACTOR:0 "Альфа-реактор"
+ MSY_ALPHA_REACTOR_DESC:0 "Модифікований експериментальний реактор на основі вивчення темної матерії з підвищеною ефективністю."
+
+ SHIP_GRAPHICS_WSG_MOBILE_SHIPYARD_DESC:0 "На відміну від Джаггернаута, Рухома верф орієнтована передусім на складання та ремонт, а не на бойові операції. Маючи 6 стапелів і хорошу швидкість, вона чудово підходить як для ремонтних робіт, так і для постачання передового флоту."
+
+ MSY_THRUSTER_1:0 "$SHIP_THRUSTER_1$"
+ MSY_THRUSTER_1_DESC:0 "$SHIP_THRUSTER_1_DESC$"
+ MSY_THRUSTER_2:0 "$SHIP_THRUSTER_2$"
+ MSY_THRUSTER_2_DESC:0 "$SHIP_THRUSTER_2_DESC$"
+ MSY_THRUSTER_3:0 "$SHIP_THRUSTER_3$"
+ MSY_THRUSTER_3_DESC:0 "$SHIP_THRUSTER_3_DESC$"
+ MSY_THRUSTER_4:0 "$SHIP_THRUSTER_4$"
+ MSY_THRUSTER_4_DESC:0 "$SHIP_THRUSTER_4_DESC$"
+ MSY_THRUSTER_5:0 "$SHIP_THRUSTER_5$"
+ MSY_THRUSTER_5_DESC:0 "$SHIP_THRUSTER_5_DESC$"
+ MSY_SHIP_THRUSTER_WSG:0 "Двигун WSG"
+ MSY_SHIP_THRUSTER_WSG_DESC:0 "Рушій на основі темної матерії, що забезпечує кораблю високу швидкість."
+ MSY_SHIP_THRUSTER_SH:0 "Двигун SH"
+ MSY_SHIP_THRUSTER_SH_DESC:0 "Рушій на основі синергетичних потоків надає кораблю чудову швидкість і маневреність."
+
+ COMBAT_COMPUTER_MSY:0 "Командний центр Рухомої верфі"
+
+ MOBILE_SHIPYARD_BOW:0 "Інженерна зона"
+ MOBILE_SHIPYARD_STERN:0 "Логістична зона"
+ wsg_mobile_shipyard:0 "Рухома верф"
+
+ AFTERBURNER_MSY_1:0 "$AFTERBURNER_1$"
+ AFTERBURNER_MSY_1_DESC:0 "$AFTERBURNER_1$"
+ AFTERBURNER_MSY_2:0 "$AFTERBURNER_2$"
+ AFTERBURNER_MSY_2_DESC:0 "$AFTERBURNER_2$"
+
+ tech_mobile_shipyard:0 "Рухома верф"
+ tech_mobile_shipyard_desc:0 "Величезна Рухома верф, зіставна за розмірами із зоряною базою. Вона має 6 стапелів і хорошу швидкість, що допомагає підтримувати належний рівень обслуговування та поповнення передового флоту."
+
+ SHIP_AURA_MSY_REPAIR:0 "Нано-ремонтні дрони"
+ SHIP_AURA_MSY_REPAIR_DESC:0 "Спеціально розроблені ремонтні дрони для дистанційного обслуговування кораблів із надзвичайно високим показником ефективності."
+
+ origin_mobile_shipyard:0 "Рухома верф"
+ origin_msy_mobile_shipyard:0 "Творець світів"
+ origin_msy_mobile_shipyard_desc:0 "Цій цивілізації пощастило здобути Рухому верф, залишену Предтечами. Завдяки зворотній інженерії вони опанували всі виробничі технології Рухомої верфі та готові вирушити на цьому величезному кораблі в подорож до інших систем."
+ origin_tooltip_mobile_shipyard_effects:0 "- Ви розпочнете гру з 1 збудованою §Yрухомою верф'ю§! у домашній системі \n- Із самого початку у вас буде доступ до §Yтехнології будівництва рухомої верфі§! \n§Y- ПРИМІТКА: для цього типу кораблів немає обмеження на кількість§!"

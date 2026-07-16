@@ -1,0 +1,45 @@
+l_english:
+ #Назви, пов'язані з набором пресетів
+ name_list_CELESTIAL1: "Людство (китайське)"
+ CELESTIAL1_FLEET: "$ORD$ ескадра Небесного війська"
+ CELESTIAL1_PLANETARYGUARD_M: "$C$ механізовані сили планетарної оборони"
+ CELESTIAL1_EXPEDITIONARYFORCE_M: "$ORD$ механізовані ударні сили"
+ CELESTIAL1_PLANETARYGUARD: "$C$ сили планетарної оборони"
+ CELESTIAL1_EXPEDITIONARYFORCE: "$ORD$ ударні сили"
+ CELESTIAL1_INDENTUREDRIFLES: "$ORD$ легіон рабів"
+ CELESTIAL1_CLONEARMY: "$ORD$ легіон клонів"
+ CELESTIAL1_DREADCOMMANDO: "$ORD$ легіон живих мерців"
+ CELESTIAL1_HUNTERKILLERGROUP: "$ORD$ легіон мисливців-вбивць"
+ CELESTIAL1_GROUNDDEFENSEMATRIX: "$ORD$ інтелектуальна оборонна матриця"
+ CELESTIAL1_PSICOMMANDO: "$ORD$ псіонічний легіон"
+ CELESTIAL1_BIOWARFAREDIVISION: "$ORD$ легіон синтетичних чужинців"
+ CELESTIAL1_BIOENGINEEREDSQUADRON: "$ORD$ легіон піднесених"
+ CELESTIAL1_GARRISONFORCE: "$ORD$ гарнізонні сили"
+ CELESTIAL1_MECHANIZEDGARRISON:0 "$ORD$ механізовані гарнізонні сили"
+ CELESTIAL1_PRIMITIVEARMY: "$C$ нерегулярна армія"
+ CELESTIAL1_INDUSTRIALARMY: "$C$ народна армія"
+ CELESTIAL1_POSTATOMICARMY: "$C$ регулярна армія"
+
+ #Застарілі варіанти (для зворотної сумісності)
+ CELESTIAL1_xxFLEET_ORD: "$ORD$ ескадра Небесного війська"
+ CELESTIAL1_xxPLANETARYGUARD_M_ORD: "$C$ механізовані сили планетарної оборони"
+ CELESTIAL1_xxEXPEDITIONARYFORCE_M_ORD: "$ORD$ механізовані ударні сили"
+ CELESTIAL1_xxPLANETARYGUARD_ORD: "$C$ сили планетарної оборони"
+ CELESTIAL1_xxEXPEDITIONARYFORCE_ORD: "$ORD$ ударні сили"
+ CELESTIAL1_xxINDENTUREDRIFLES_ORD: "$ORD$ легіон рабів"
+ CELESTIAL1_xxCLONEARMY_ORD: "$ORD$ легіон клонів"
+ CELESTIAL1_xxDREADCOMMANDO_ORD: "$ORD$ легіон живих мерців"
+ CELESTIAL1_xxHUNTERKILLERGROUP_ORD: "$ORD$ легіон мисливців-вбивць"
+ CELESTIAL1_xxGROUNDDEFENSEMATRIX_ORD: "$ORD$ інтелектуальна оборонна матриця"
+ CELESTIAL1_xxPSICOMMANDO_ORD: "$ORD$ псіонічний легіон"
+ CELESTIAL1_xxBIOWARFAREDIVISION_ORD: "$ORD$ легіон синтетичних чужинців"
+ CELESTIAL1_xxBIOENGINEEREDSQUADRON_ORD: "$ORD$ легіон піднесених"
+ CELESTIAL1_xxGARRISONFORCE_ORD: "$ORD$ гарнізонні сили"
+ CELESTIAL1_xxMECHANIZEDGARRISON_ORD:0 "$ORD$ механізовані гарнізонні сили"
+ CELESTIAL1_xxPRIMITIVEARMY_ORD: "$C$ нерегулярна армія"
+ CELESTIAL1_xxINDUSTRIALARMY_ORD: "$C$ народна армія"
+ CELESTIAL1_xxPOSTATOMICARMY_ORD: "$C$ регулярна армія"
+
+ # Далі йде незмінений блок ванільних рядків Stellaris (науковці/уряди/етики),
+ # який мод підключає повторно лише через технічну необхідність оверрайду
+ # файлу — оригінального внеску мода тут немає, тому не перекладаємо повторно.

@@ -1,0 +1,78 @@
+﻿l_english:
+#Planetary Superprojects
+ #Notification
+ MESSAGE_PD_AW_SUPERPROJECT_DESC: "Надпроєкт на $PLANET|Y$ завершено."
+ MESSAGE_PD_AW_SUPERPROJECT_MESSAGE_TYPE_TITLE: "Планетарний надпроєкт завершено"
+
+#Core Tap
+ #Planet Class
+ pc_pd_core_tap: "Ядровідбір"
+ pc_pd_core_tap_desc: "Цей кам'янистий світ тепер вміщує величезну мережу машин, що вгризаються в його ядро для видобутку первісної енергії — свідчення інженерної майстерності, яка знищила первісну екосистему планети."
+ pc_pd_core_tap_adj: "енергетичний"
+ mod_pc_pd_core_tap_habitability: "Придатність Ядровідбору"
+ trait_pc_pd_core_tap_preference: "Уподобання Ядровідбору"
+ trait_pc_pd_core_tap_preference_desc: "$trait_pc_arctic_preference_desc$"
+
+ #Decision
+ decision_pd_aw_core_tap: "Планетарний надпроєкт: Ядровідбір"
+ decision_pd_aw_core_tap_desc: "Створивши мережу машин, що вгризаються в саме ядро цього світу, ми зможемо генерувати неймовірну кількість енергії за рахунок екосистеми планети."
+ decision_pd_megacoretap_requirements: "£trigger_no£ §RНеобхідно мати §Y3§! або більше £district£ §Y$district_generator_plural$§! і жодних інших £district£ §YСільських районів§! на планеті."
+
+
+ #Modifier
+ pd_aw_core_tap: "Ядровідбір"
+ pd_aw_core_tap_desc: "Цей світ може похвалитися величезною мережею машин, що вгризаються в його ядро для видобутку первісної енергії, знищуючи при цьому первісну екосистему."
+ pd_aw_core_tap_tooltip: "£district£ §G$district_generator_plural$§! без обмеження"
+
+ #Technology
+ tech_pd_planetary_core_tap: "Планетарний надпроєкт: Ядровідбір"
+ tech_pd_planetary_core_tap_desc: "Створивши мережу машин, що вгризаються в саме ядро світу, ми зможемо генерувати неймовірну кількість енергії за рахунок екосистеми планети."
+ tech_pd_planetary_core_tap_tooltip: "§HВідкриває рішення:§! $decision_pd_aw_core_tap$"
+
+#Agriworld
+ #Planet Class
+ pc_pd_agriworld: "Агросвіт"
+ pc_pd_agriworld_desc: "Ця кам'яниста планета переповнена нескінченним промисловим землеробством, що значною мірою покладається на потужні добрива, складний контроль погоди та передові системи зрошення. Хоча вона підтримує невпинний врожай, це замінило природну екосистему планети."
+ pc_pd_agriworld_adj: "аграрний"
+ mod_pc_pd_agriworld_habitability: "Придатність Агросвіту"
+ trait_pc_pd_agriworld_preference: "Уподобання Агросвіту"
+ trait_pc_pd_agriworld_preference_desc: "$trait_pc_arctic_preference_desc$"
+
+ #Decision
+ decision_pd_aw_agriworld: "Планетарний надпроєкт: Агросвіт"
+ decision_pd_aw_agriworld_desc: "Перетворивши цю планету на Агросвіт, ми створимо величезні поля промислового землеробства, замінивши природну екосистему щедрими штучними сільськогосподарськими просторами."
+ decision_pd_agriworld_requirements: "£trigger_no£ §RНеобхідно мати §Y3§! або більше £district£ §Y$district_farming_plural$§! і жодних інших £district£ §YСільських районів§! на планеті."
+
+ #Modifier
+ pd_aw_agriworld: "Агросвіт"
+ pd_aw_agriworld_desc: "Цей світ може похвалитися промисловим землеробством, що значною мірою покладається на потужні добрива, складний контроль погоди та передові системи зрошення."
+ pd_aw_agriworld_tooltip: "£district£ §G$district_farming_plural$§! без обмеження"
+
+ #Technology
+ tech_pd_planetary_agriworld: "Планетарний надпроєкт: Агросвіт"
+ tech_pd_planetary_agriworld_desc: "Перетворивши планету на Агросвіт, ми створимо величезні поля промислового землеробства, замінивши природну екосистему щедрими штучними сільськогосподарськими просторами."
+ tech_pd_planetary_agriworld_tooltip: "§HВідкриває рішення:§! $decision_pd_aw_agriworld$"
+
+#Stripmine
+ #Planet Class
+ pc_pd_stripmine: "Кар'єр"
+ pc_pd_stripmine_desc: "Ця планета тепер — простір глибоких кар'єрних розробок, її поверхня перетнута лабіринтом промислових екскаваторів і бурових установок. Природну екосистему зруйновано в невпинних пошуках ресурсів."
+ pc_pd_stripmine_adj: "видобувний"
+ mod_pc_pd_stripmine_habitability: "Придатність Кар'єру"
+ trait_pc_pd_stripmine_preference: "Уподобання Кар'єру"
+ trait_pc_pd_stripmine_preference_desc: "$trait_pc_arctic_preference_desc$"
+
+ #Decision
+ decision_pd_aw_stripmine: "Планетарний надпроєкт: Кар'єр"
+ decision_pd_aw_stripmine_desc: "Ми могли б збирати ресурси з кожного клаптика поверхні цієї планети, збудувавши передові промислові екскаватори та бурові установки. Природна екосистема значно постраждає від цього процесу."
+ decision_pd_stripmine_requirements: "£trigger_no£ §RНеобхідно мати §Y3§! або більше £district£ §Y$district_mining_plural$§! і жодних інших £district£ §YСільських районів§! на планеті."
+
+ #Modifier
+ pd_aw_stripmine: "Кар'єр"
+ pd_aw_stripmine_desc: "Ця планета — простір глибоких кар'єрних розробок, її поверхня перетнута лабіринтом промислових екскаваторів і бурових установок."
+ pd_aw_stripmine_tooltip: "£district£ §G$district_mining_plural$§! без обмеження"
+
+ #Technology
+ tech_pd_planetary_stripmine: "Планетарний надпроєкт: Кар'єр"
+ tech_pd_planetary_stripmine_desc: "Ми могли б збирати ресурси з кожного клаптика поверхні планети, збудувавши передові промислові екскаватори та бурові установки. Природна екосистема значно постраждає від цього процесу."
+ tech_pd_planetary_stripmine_tooltip: "§HВідкриває рішення:§! $decision_pd_aw_stripmine$"

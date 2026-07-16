@@ -1,0 +1,45 @@
+﻿l_english:
+#################################
+SHYNZsp:0 "Раса SHYNZ"
+SHYNZsp_M:0 "Машинна раса SHYNZ"
+
+SHYNZ_trait_nude:0 "Оголені"
+SHYNZ_trait_nude_desc:0 "Дай-но подивлюся, чи великі в тебе груди."
+SHYNZ_M_trait_nude:0 "Оголена машина"
+SHYNZ_M_trait_nude_desc:0 "Дай-но подивлюся, чи великі в тебе груди."
+
+edict_SHYNZ_species_add:0 "Створення поселень"
+edict_SHYNZ_species_add_desc:0 "Створює п'ять поселень раси «SHYNZ» у вашій столиці"
+
+Sspecies.01.name:0 "Створення поселень"
+Sspecies.01.desc:0 "Створює п'ять поселень раси «SHYNZ» у вашій столиці"
+Sspecies.01.a:0 "Поселення +5"
+
+FLAG_CATEGORY_SHYNZ:0 "§BПрапори SHYNZ§!"
+
+#######nations#####################
+PRESCRIPTED_species_name_SHYNZ1: "Vtuber"
+PRESCRIPTED_species_plural_SHYNZ1: "Vtuber-и"
+PRESCRIPTED_species_adjective_SHYNZ1: "Vtuber"
+
+PRESCRIPTED_adjective_SHYNZ1: "Альянс Vtuber-ів за Відродження"
+PRESCRIPTED_ruler_name_SHYNZ1: "Shirakami Fubuki"
+
+NAME_SHYNZ1_planet:0"Початок Відродження"
+NAME_SHYNZ1_system:0"Yagoo"
+
+EMPIRE_DESIGN_SHYNZ1:"Альянс Vtuber-ів за Відродження"
+EMPIRE_DESIGN_SHYNZ1_desc:"Vtuber-и — частина величезної міжзоряної імперії, генетично адаптована так, щоб бути повністю жіночою й здатною до одностатевого розмноження. Вони живуть на одній зі столичних планет імперії та заробляють на життя, надаючи послуги прямих трансляцій для всієї імперії.\n\nДні миру та спокою тривали недовго, і планета-місто спорожніла наприкінці існування Імперії. Але працьовиті й відважні Vtuber-и провели століття, відбудовуючи порядок і цивілізацію, і вирішили повернутися на міжзоряну сцену!"
+
+PRESCRIPTED_species_name_SHYNZ2: "Валькірія"
+PRESCRIPTED_species_plural_SHYNZ2: "Валькірії"
+PRESCRIPTED_species_adjective_SHYNZ2: "Валькірійська"
+
+PRESCRIPTED_adjective_SHYNZ2: "Федерація Валькірій Schicksal"
+PRESCRIPTED_ruler_name_SHYNZ2: "Кіана Каслана"
+
+NAME_SHYNZ2_planet:0"Земля"
+NAME_SHYNZ2_system:0"Сонячна система"
+
+EMPIRE_DESIGN_shynz2:0"Федерація Валькірій Schicksal"
+EMPIRE_DESIGN_shynz2_desc:0 "Валькірії — вершина воїнів цієї цивілізації. Посилені модифікаціями, вони мають надзвичайну силу і присвячують себе протистоянню таємничим ворогам з-поза меж зірок. Раз у раз ворог вторгався; раз у раз цивілізація занепадала, лише щоб відродитися знову. Нарешті, цього разу, вони піднялися на міжзоряну сцену."

@@ -1,0 +1,30 @@
+﻿l_english:
+
+ ####################################
+ # Modifiers
+ ####################################
+
+ exomycosis_infestation: "Екзогрибкове зараження"
+ exomycosis_infestation_desc: "Ця планета заражена екзомікозною інфекцією. Атмосфера насичена шкідливими спорами, а чорна цвіль вкриває інфраструктуру, живі організми та будь-яку техніку."
+ planetary_quarantine: "Планетарний карантин"
+ planetary_quarantine_desc: "Ця планета зазнала важкого зараження та перебуває під блокадою."
+ planetary_quarantine_gestalt: "$planetary_quarantine$"
+ planetary_quarantine_gestalt_desc: "$planetary_quarantine_desc$"
+ terrible_measures_1: "Жахливі заходи"
+ terrible_measures_1_desc: "Населення імперії охоплене панікою та страхом через звістку про різанину заражених колоністів."
+ terrible_measures_2: "$terrible_measures_1$"
+ terrible_measures_2_desc: "$terrible_measures_1_desc$"
+ terrible_measures_3: "$terrible_measures_1$"
+ terrible_measures_3_desc: "$terrible_measures_1_desc$"
+ terrible_measures_4: "$terrible_measures_1$"
+ terrible_measures_4_desc: "$terrible_measures_1_desc$"
+ terrible_measures_5: "$terrible_measures_1$"
+ terrible_measures_5_desc: "$terrible_measures_1_desc$"
+ terrible_measures_6: "$terrible_measures_1$"
+ terrible_measures_6_desc: "$terrible_measures_1_desc$"
+ terrible_measures_7: "$terrible_measures_1$"
+ terrible_measures_7_desc: "$terrible_measures_1_desc$"
+ terrible_measures_8: "$terrible_measures_1$"
+ terrible_measures_8_desc: "$terrible_measures_1_desc$"
+ mold_contaminated: "Заражено екзоцвіллю"
+ mold_contaminated_desc: "Об'єкт повністю перетворено грибком на гігантський макроміцеліальний організм. Численні мікоризні нитки пронизують кожну придатну для життя ділянку цього зараженого світу."

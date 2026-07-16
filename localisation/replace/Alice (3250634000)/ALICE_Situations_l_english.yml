@@ -1,0 +1,7 @@
+l_english:
+ research_gray:0 "Дослідити сірий слиз"
+ research_gray_type:0 "$research_gray$"
+ research_gray_desc:0 "Ми допоможемо Алісі дослідити сірий слиз — вона перевірить сумісність своєї магії з ним. У разі успіху це значно підвищить можливості Сірої."
+ research_gray.approach1:0 "Допомогти дослідженням Аліси"
+ research_gray.approach2:0 "Забити на це"
+ research_gray.approach3:0 "Прискорити дослідження"

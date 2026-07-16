@@ -1,0 +1,12 @@
+﻿l_english:
+
+#Terraforming Warning
+ pd_planet_no_terraform: "$TRIGGER_FAIL$ Цю планету неможливо тераформувати стандартними процедурами."
+
+###Arcology/Relic
+ pc_pd_nuked_arcology: "Опромінений Релікт-Світ"
+ pc_pd_nuked_arcology_desc: "Колись місто простягалося на весь цей світ. Зараз він переживає ядерну зиму з щільними шарами кіптявих аерозолів в атмосфері. Високий рівень поверхневої радіації. Мінімальні ознаки життя."
+ pc_pd_nuked_arcology_tooltip: "Придатність для життя: §R-100%§!\nПридатність для життя: §G+100%§! з рисою §Y$trait_pc_nuked_preference$§! або §Y$trait_survivor$§!"
+
+###Dummy Class Warning
+ DO_NOT_USE: "ЗАГЛУШКА-КЛАС — НЕ ВИКОРИСТОВУВАТИ"
