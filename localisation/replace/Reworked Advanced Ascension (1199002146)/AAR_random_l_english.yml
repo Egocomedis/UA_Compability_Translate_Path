@@ -8,8 +8,8 @@
 AAR_DESIGN_leader_revive:0 "Човен душі"
 AAR_DESIGN_tgt:0 "Локатор цілі"
 AAR_DESIGN_tgt_WEBWAY:0 "Маяк навігації"
-NAME_AAR_mega_WEBWAY_NEXUS:0 "[root.owner.GetName]'s Вебвей Нексус"
-NAME_AAR_mega_WEBWAY_NODE:0 "[root.controller.GetName]'s Вебвей Нода"
+NAME_AAR_mega_WEBWAY_NEXUS:0 "Вебвей-Нексус [root.owner.GetName]"
+NAME_AAR_mega_WEBWAY_NODE:0 "Вебвей-Вузол [root.controller.GetName]"
 NAME_AAR_mega_WEBWAY_BASE:0 "Сайт дослідження Вебвею"
 
 
@@ -28,6 +28,8 @@ AAR_NAME_sb_line_skw_1:0 "Гравітаційний удар"
 AAR_NAME_sb_line_skw_2:0 ""
 
 ###浴血
+AAR_design_BLOOD:0 "Прикордонна варта"
+AAR_name_BLOOD_garrison_nomadic:0 "§EОборонна флотилія королівської гвардії§!"
 AAR_name_BLOOD_garrison:0 "§EДержавна оборонна флотилія§!"
 
 ###狂月
