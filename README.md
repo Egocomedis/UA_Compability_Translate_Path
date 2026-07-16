@@ -106,8 +106,9 @@ Steam Workshop.
 | [2616955720](https://steamcommunity.com/sharedfiles/filedetails/?id=2616955720) | 额外传统 | modpack-dev |
 | [3242109265](https://steamcommunity.com/sharedfiles/filedetails/?id=3242109265) | 额外领袖特质选项+99 | modpack-dev |
 | [2841481791](https://steamcommunity.com/sharedfiles/filedetails/?id=2841481791) | 香草科研助手-Vanilla Research Helper | modpack-dev |
+| [3292390779](https://steamcommunity.com/sharedfiles/filedetails/?id=3292390779) | 虚空的更多星系开局 | modpack-dev |
 
-51 модів синхронізовано з `stellaris-modpack-dev` (2026-07-16), 6 модів —
+52 моди синхронізовано з `stellaris-modpack-dev` (2026-07-16), 6 модів —
 старіші ручні переклади, що передували цьому проєкту.
 
 ## Відомі проблеми
