@@ -12,7 +12,7 @@ FW_tip_NON:0 ""
 
 ### 月历
 FW_btn_MONTH_1:0 "§GСічень§!"
-FW_btn_MONTH_2:0 "§GLютий§!"
+FW_btn_MONTH_2:0 "§GЛютий§!"
 FW_btn_MONTH_3:0 "§GБерезень§!"
 FW_btn_MONTH_4:0 "§GКвітень§!"
 FW_btn_MONTH_5:0 "§GТравень§!"
@@ -49,6 +49,6 @@ mod_UGRC_smod_plnt_CAPITAL_4:0 "Столиця рівня 4"
 mod_UGRC_smod_plnt_CAPITAL_level:0 "Рівень столиці"
 mod_UGRC_smod_plnt_CAPITAL_count:0 "Кількість столиць"
 #cntr
-UGRC_smod_cntr_RULE_full_sensor:0 "Усі бачачий датчик"
+UGRC_smod_cntr_RULE_full_sensor:0 "Всевидющий датчик"
 #sstm
 UGRC_smod_sstm_RULE_block_sensor:0 "Блокування датчика"

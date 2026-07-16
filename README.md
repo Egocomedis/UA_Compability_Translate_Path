@@ -53,7 +53,7 @@ Steam Workshop.
 | [1302897684](https://steamcommunity.com/sharedfiles/filedetails/?id=1302897684) | Astronomical Emblem Pack | modpack-dev |
 | [3156472795](https://steamcommunity.com/sharedfiles/filedetails/?id=3156472795) | building solt + | modpack-dev |
 | [2878396142](https://steamcommunity.com/sharedfiles/filedetails/?id=2878396142) | DAP扩展-永世飞升 | modpack-dev |
-| [2411818376](https://steamcommunity.com/sharedfiles/filedetails/?id=2411818376) | Dark Blue UI Remake | ⚠️ старий чернетковий переклад, мод є в збірці — у черзі на переклад (див. «Відомі проблеми») |
+| [2411818376](https://steamcommunity.com/sharedfiles/filedetails/?id=2411818376) | Dark Blue UI Remake | modpack-dev |
 | [2572843550](https://steamcommunity.com/sharedfiles/filedetails/?id=2572843550) | Elegant Chinese Random Names & Localisation Fix | modpack-dev |
 | [2571844795](https://steamcommunity.com/sharedfiles/filedetails/?id=2571844795) | ! Ember UI Remake ! | modpack-dev |
 | [2938897848](https://steamcommunity.com/sharedfiles/filedetails/?id=2938897848) | Endless Space 2: Cravers Shipset | modpack-dev |
@@ -108,24 +108,38 @@ Steam Workshop.
 | [2841481791](https://steamcommunity.com/sharedfiles/filedetails/?id=2841481791) | 香草科研助手-Vanilla Research Helper | modpack-dev |
 | [3292390779](https://steamcommunity.com/sharedfiles/filedetails/?id=3292390779) | 虚空的更多星系开局 | modpack-dev |
 
-52 моди синхронізовано з `stellaris-modpack-dev` (2026-07-16), 6 модів —
+53 моди синхронізовано з `stellaris-modpack-dev` (2026-07-16), 5 модів —
 старіші ручні переклади, що передували цьому проєкту.
 
 ## Відомі проблеми
 
-При перевірці 2026-07-16 у папках, позначених ⚠️ вище, знайдено:
+**Dark Blue UI Remake (2411818376) виправлено (2026-07-16):** старий
+чернетковий переклад замінено повним — додано 4 пропущені рядки
+(`TRTE_btn_ldr_ENTRY_common_failtip_mod`, `MUI_option_REROLL_use_unity`,
+`MUI_option_REROLL_use_influence_tip`, `MUI_btn_REROLL_all_tip`),
+переписано 2 рядки з вигаданим текстом, що не відповідав оригіналу
+(`MUI_option_REROLL_use_credits`/`use_influence` посилалися на
+неіснуючі змінні `$@REROLL_credits$`/`$@REROLL_influence$`), виправлено
+синтаксичну помилку з нерозірваними лапками (рядки 90, 96 → «ялинки»),
+одну явну помилку перекладу («Есмінці» замість «Корвети») та одну
+друкарську («Lютий» латиницею замість «Лютий»). Заразом виявлено чужий
+файл `FW_MISC/ATEC_l_english.yml`, що насправді належить окремому моду
+`! Core Framework of Kasako (2466607238)` (залежність Dark Blue UI, сам
+ще не в черзі на переклад) — переміщено у власну підпапку, чернетка там
+неповна (лишився невиправлений англійський/китайський текст), доперекласти
+пізніше.
+
+При перевірці 2026-07-16 у папках, позначених ⚠️ вище, ще лишилося:
 
 - **Незавершений переклад**: у файлах лишився невиправлений китайський
   текст упереміш з українським —
   `Expanded Stellaris Ascension Perks (1067631798)/esap_l_english.yml`,
   `Galaxy Generation (1998204784)/00_emo_l_english.yml`,
   `Planetary Diversity (819148835)/planetarydiversity_planet_classes_l_english.yml`,
-  усі 3 файли `Reworked Advanced Ascension (1199002146)/`,
-  обидва файли `Dark Blue UI Remake (2411818376)/`.
+  усі 3 файли `Reworked Advanced Ascension (1199002146)/`.
 - **Синтаксична помилка** (літеральні лапки `"` усередині рядка розривають
   значення й ламають парсинг файлу рушієм Paradox — треба замінювати на
   «ялинки» `«...»`):
-  - `Dark Blue UI Remake (2411818376)/MUI_l_english.yml`, рядки 90, 96
   - `Reworked Advanced Ascension (1199002146)/AAR_l_english.yml`, рядок 198
 
 `UI Overhaul Dynamic - Ascension Slots (1890399946)` синтаксично чистий,
