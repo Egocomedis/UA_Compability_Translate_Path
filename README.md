@@ -69,7 +69,7 @@ Steam Workshop.
 | [2868514243](https://steamcommunity.com/sharedfiles/filedetails/?id=2868514243) | Master of Orion: Antaran Shipset | modpack-dev |
 | [2868168109](https://steamcommunity.com/sharedfiles/filedetails/?id=2868168109) | Master of Orion: Darlok Shipset | modpack-dev |
 | [2887758432](https://steamcommunity.com/sharedfiles/filedetails/?id=2887758432) | Master of Orion: Terran Shipset | modpack-dev |
-| [819148835](https://steamcommunity.com/sharedfiles/filedetails/?id=819148835) | Planetary Diversity | ⚠️ старий чернетковий переклад, мод є в збірці (найбільший за обсягом, ~2.7МБ) — у черзі на переклад |
+| [819148835](https://steamcommunity.com/sharedfiles/filedetails/?id=819148835) | Planetary Diversity | modpack-dev |
 | [3241119393](https://steamcommunity.com/sharedfiles/filedetails/?id=3241119393) | Planetary Diversity - Ascension Worlds | modpack-dev |
 | [3142294658](https://steamcommunity.com/sharedfiles/filedetails/?id=3142294658) | Planetary Diversity - City Sets | modpack-dev |
 | [1732437279](https://steamcommunity.com/sharedfiles/filedetails/?id=1732437279) | Planetary Diversity - Exotic Worlds | modpack-dev |
@@ -108,10 +108,32 @@ Steam Workshop.
 | [2841481791](https://steamcommunity.com/sharedfiles/filedetails/?id=2841481791) | 香草科研助手-Vanilla Research Helper | modpack-dev |
 | [3292390779](https://steamcommunity.com/sharedfiles/filedetails/?id=3292390779) | 虚空的更多星系开局 | modpack-dev |
 
-53 моди синхронізовано з `stellaris-modpack-dev` (2026-07-16), 5 модів —
+54 моди синхронізовано з `stellaris-modpack-dev` (2026-07-16), 5 модів —
 старіші ручні переклади, що передували цьому проєкту.
 
 ## Відомі проблеми
+
+**Planetary Diversity (819148835) виправлено (2026-07-16):** старий
+чернетковий переклад мав 11 повністю відсутніх біомів (65 ключів:
+ash, barnacle, carotene, magma, ravine, silvergrass, sodalite,
+superbloom, supraglacial_lakes, thunder, travertine — в
+`planetarydiversity_planet_classes_l_english.yml` та відповідні
+змінні-посилання в інших файлах модуля), один ключ був перейменований
+з `pd_volcano` на `pd_volcanic` (зіткнення з реальним `pd_volcanic` —
+довелося повернути справжню назву й додати відсутній), два ключі з
+іншого, ще не перекладеного мода (`mod_planet_artisans_unity_produces_add`,
+`mod_planet_bio_trophies_unity_produces_add` з 2389589691;
+`mod_job_trader_per_pop`(`_short`) з 2907350739) помилково опинилися
+в файлах Planetary Diversity — видалено. Наскрізно виправлено
+термінологію: «Гайя»/«Гая» → «Гея», «tidally-замкнений»/«тідально
+заблокований» → «припливно захоплений» (усталений термін проєкту,
+див. glossary.md), кілька суржикових слів («Приспособленість» →
+«Придатність», «насучасшніий» → «найсучасніший», «Металосодержащі» →
+«Металовмісні») та зламаних перемішаних кирилиця/латиниця слів
+(«Кelp» → «Ламінарія»). Знайдено й виправлено зламане посилання
+(`pd_domed_mining_site_3_desc` вказувало на опис moonbase замість
+mining) і кілька випадків неузгодження роду/відмінку («Цей планет
+має» → «Ця планета має» тощо, «Місячну Форпост» → «Місячний Форпост»).
 
 **Dark Blue UI Remake (2411818376) виправлено (2026-07-16):** старий
 чернетковий переклад замінено повним — додано 4 пропущені рядки
@@ -135,7 +157,6 @@ Steam Workshop.
   текст упереміш з українським —
   `Expanded Stellaris Ascension Perks (1067631798)/esap_l_english.yml`,
   `Galaxy Generation (1998204784)/00_emo_l_english.yml`,
-  `Planetary Diversity (819148835)/planetarydiversity_planet_classes_l_english.yml`,
   усі 3 файли `Reworked Advanced Ascension (1199002146)/`.
 - **Синтаксична помилка** (літеральні лапки `"` усередині рядка розривають
   значення й ламають парсинг файлу рушієм Paradox — треба замінювати на
