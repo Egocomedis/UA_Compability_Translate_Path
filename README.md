@@ -53,7 +53,7 @@ Steam Workshop.
 | [1302897684](https://steamcommunity.com/sharedfiles/filedetails/?id=1302897684) | Astronomical Emblem Pack | modpack-dev |
 | [3156472795](https://steamcommunity.com/sharedfiles/filedetails/?id=3156472795) | building solt + | modpack-dev |
 | [2878396142](https://steamcommunity.com/sharedfiles/filedetails/?id=2878396142) | DAP扩展-永世飞升 | modpack-dev |
-| [2411818376](https://steamcommunity.com/sharedfiles/filedetails/?id=2411818376) | Dark Blue UI Remake | ⚠️ старий, потребує перевірки (див. «Відомі проблеми») |
+| [2411818376](https://steamcommunity.com/sharedfiles/filedetails/?id=2411818376) | Dark Blue UI Remake | ⚠️ старий чернетковий переклад, мод є в збірці — у черзі на переклад (див. «Відомі проблеми») |
 | [2572843550](https://steamcommunity.com/sharedfiles/filedetails/?id=2572843550) | Elegant Chinese Random Names & Localisation Fix | modpack-dev |
 | [2571844795](https://steamcommunity.com/sharedfiles/filedetails/?id=2571844795) | ! Ember UI Remake ! | modpack-dev |
 | [2938897848](https://steamcommunity.com/sharedfiles/filedetails/?id=2938897848) | Endless Space 2: Cravers Shipset | modpack-dev |
@@ -62,14 +62,14 @@ Steam Workshop.
 | [2930813098](https://steamcommunity.com/sharedfiles/filedetails/?id=2930813098) | Endless Space 2: Unfallen Shipset | modpack-dev |
 | [2930369811](https://steamcommunity.com/sharedfiles/filedetails/?id=2930369811) | Endless Space 2: United Empire Shipset | modpack-dev |
 | [2950661639](https://steamcommunity.com/sharedfiles/filedetails/?id=2950661639) | Endless Space 2: Vodyani Shipset | modpack-dev |
-| [1067631798](https://steamcommunity.com/sharedfiles/filedetails/?id=1067631798) | Expanded Stellaris Ascension Perks | ⚠️ старий, потребує перевірки |
-| [1998204784](https://steamcommunity.com/sharedfiles/filedetails/?id=1998204784) | Galaxy Generation | ⚠️ старий, потребує перевірки |
+| [1067631798](https://steamcommunity.com/sharedfiles/filedetails/?id=1067631798) | Expanded Stellaris Ascension Perks | ⚠️ старий, мода немає у збірці — окреме питання |
+| [1998204784](https://steamcommunity.com/sharedfiles/filedetails/?id=1998204784) | Galaxy Generation | ⚠️ старий, мода немає у збірці — окреме питання |
 | [2409209888](https://steamcommunity.com/sharedfiles/filedetails/?id=2409209888) | ! Immersive Stellaris Collection ! | modpack-dev |
 | [2077186491](https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491) | Machine Shipset | modpack-dev |
 | [2868514243](https://steamcommunity.com/sharedfiles/filedetails/?id=2868514243) | Master of Orion: Antaran Shipset | modpack-dev |
 | [2868168109](https://steamcommunity.com/sharedfiles/filedetails/?id=2868168109) | Master of Orion: Darlok Shipset | modpack-dev |
 | [2887758432](https://steamcommunity.com/sharedfiles/filedetails/?id=2887758432) | Master of Orion: Terran Shipset | modpack-dev |
-| [819148835](https://steamcommunity.com/sharedfiles/filedetails/?id=819148835) | Planetary Diversity | ⚠️ старий, потребує перевірки |
+| [819148835](https://steamcommunity.com/sharedfiles/filedetails/?id=819148835) | Planetary Diversity | ⚠️ старий чернетковий переклад, мод є в збірці (найбільший за обсягом, ~2.7МБ) — у черзі на переклад |
 | [3241119393](https://steamcommunity.com/sharedfiles/filedetails/?id=3241119393) | Planetary Diversity - Ascension Worlds | modpack-dev |
 | [3142294658](https://steamcommunity.com/sharedfiles/filedetails/?id=3142294658) | Planetary Diversity - City Sets | modpack-dev |
 | [1732437279](https://steamcommunity.com/sharedfiles/filedetails/?id=1732437279) | Planetary Diversity - Exotic Worlds | modpack-dev |
@@ -79,14 +79,14 @@ Steam Workshop.
 | [1915620447](https://steamcommunity.com/sharedfiles/filedetails/?id=1915620447) | Real Space - Ships in Scaling | modpack-dev |
 | [1836457943](https://steamcommunity.com/sharedfiles/filedetails/?id=1836457943) | Real Space - Star Cluster | modpack-dev |
 | [2902512011](https://steamcommunity.com/sharedfiles/filedetails/?id=2902512011) | Real Space - The Infestation | modpack-dev |
-| [1199002146](https://steamcommunity.com/sharedfiles/filedetails/?id=1199002146) | Reworked Advanced Ascension | ⚠️ старий, потребує перевірки |
+| [1199002146](https://steamcommunity.com/sharedfiles/filedetails/?id=1199002146) | Reworked Advanced Ascension | ⚠️ старий чернетковий переклад, мод є в збірці (найбільший мод у паці, ~3.6МБ) — у черзі на переклад |
 | [3250900527](https://steamcommunity.com/sharedfiles/filedetails/?id=3250900527) | Starbase Extended 3.0 | modpack-dev |
 | [2972849902](https://steamcommunity.com/sharedfiles/filedetails/?id=2972849902) | Tall White Reborn | modpack-dev |
 | [3267309850](https://steamcommunity.com/sharedfiles/filedetails/?id=3267309850) | The Abyss Contract: EPOCH | modpack-dev |
 | [3086143878](https://steamcommunity.com/sharedfiles/filedetails/?id=3086143878) | Tradition UI 4.2~4.0 | modpack-dev |
 | [3156474398](https://steamcommunity.com/sharedfiles/filedetails/?id=3156474398) | traits + | modpack-dev |
 | [1623423360](https://steamcommunity.com/sharedfiles/filedetails/?id=1623423360) | UI Overhaul Dynamic | modpack-dev |
-| [1890399946](https://steamcommunity.com/sharedfiles/filedetails/?id=1890399946) | UI Overhaul Dynamic - Ascension Slots | ⚠️ старий, потребує перевірки |
+| [1890399946](https://steamcommunity.com/sharedfiles/filedetails/?id=1890399946) | UI Overhaul Dynamic - Ascension Slots | ⚠️ старий, мода немає у збірці — окреме питання |
 | [2244483797](https://steamcommunity.com/sharedfiles/filedetails/?id=2244483797) | [United Fleet]Mobile Shipyard | modpack-dev |
 | [2027015321](https://steamcommunity.com/sharedfiles/filedetails/?id=2027015321) | United Fleet Shipset | modpack-dev |
 | [2409276081](https://steamcommunity.com/sharedfiles/filedetails/?id=2409276081) | ! Universal Game Rules Patch | modpack-dev |
@@ -131,9 +131,22 @@ Steam Workshop.
 `UI Overhaul Dynamic - Ascension Slots (1890399946)` синтаксично чистий,
 але не перевірявся на повноту перекладу.
 
-Ці 6 модів **не входять** до збірки, яку перекладає `stellaris-modpack-dev`
-(перевірено — їх немає серед 194 модів пака), тому їх ніхто не допрацьовував
-у рамках основного проєкту. Якщо вони потрібні — це окрема задача.
+**Виправлення (2026-07-16):** початкове твердження «ці 6 модів не входять
+до збірки» було помилковим для трьох із них. Перевірено точно за списком
+модів зі збірки (194 моди, файл `no-translate-mods/` у `stellaris-modpack-dev`):
+
+- **Dark Blue UI Remake (2411818376)**, **Planetary Diversity (819148835)**,
+  **Reworked Advanced Ascension (1199002146)** — це реальні моди зі збірки,
+  просто ще не дійшли руки їх перекласти (два з них — найбільші моди в
+  усій паці за обсягом тексту). Додано в чергу `stellaris-modpack-dev`,
+  чернетки з помилками вище будуть замінені повноцінним перекладом у
+  наступних хвилях.
+- **Expanded Stellaris Ascension Perks (1067631798)**,
+  **Galaxy Generation (1998204784)**,
+  **UI Overhaul Dynamic - Ascension Slots (1890399946)** — дійсно **не
+  входять** до збірки з 194 модів. Це залишки окремого ручного перекладу
+  користувача під іншу збірку/сейв. У рамках основного проєкту не
+  допрацьовуються — це окрема задача, якщо колись знадобиться.
 
 ## Формат для Steam Workshop
 
