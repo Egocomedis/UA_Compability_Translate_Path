@@ -1,193 +1,97 @@
 # UA Compability Translate Path
 
-Патч сумісності для Stellaris: один мод, що пакетно перекриває англійський
-слот локалізації українським перекладом для десятків інших модів,
-об'єднаних в одній збірці. Гра не підтримує українську мову офіційно, тому
-переклад кладеться у файли `..._l_english.yml` з заголовком `l_english:`
-всередині — рушій вважає, що це англійська, а показує український текст.
+Український переклад модів для Stellaris (v4.4.*), зібраний в один
+мод-пакет. Гра офіційно не підтримує українську мову, тому переклад
+кладеться у слот англійської (`l_english`) — вмикаєте англійську мову
+інтерфейсу, а текст бачите український.
 
-Опубліковано в Steam Workshop: `remote_file_id = 3640770247` (`descriptor.mod`).
+Опубліковано в Steam Workshop:
+[сторінка мода](https://steamcommunity.com/sharedfiles/filedetails/?id=3640770247).
 
-## Як це працює
+Переклад виконано за допомогою ШІ-агента.
 
-Кожен перекладений мод отримує власну підпапку у форматі:
+## Авторські права
 
-```
-localisation/replace/<Оригінальна назва моду> (<Steam Workshop ID>)/<файли>.yml
-```
+Це лише переклад. Пакет не претендує на жодні права щодо оригінальних
+модів — увесь контент, механіки, арт і назви належать їхнім авторам, усі
+авторські права захищені. Кожен переклад працює тільки поверх
+оригінального мода і без нього не має сенсу — підписуйтесь на оригінали.
+Якщо ви автор одного з модів і хочете, щоб переклад було прибрано —
+напишіть в issues, приберемо.
 
-Внутрішня структура файлів усередині підпапки повторює оригінальну
-(мінус мовна папка) — наприклад, якщо оригінальний мод тримав переклад у
-`localisation/replace/foo_l_simp_chinese.yml`, тут буде
-`.../<Назва моду> (id)/replace/foo_l_english.yml`. Це не обов'язково
-функціонально (рушій шукає файли рекурсивно й визначає мову за заголовком
-усередині файлу, а не за назвою папки), але зберігає відповідність
-структурі оригіналу для зручності звірки.
+## Стан перекладів
 
-Оскільки цей патч — окремий мод, він має завантажуватися **після** усіх
-модів, чий текст він перекриває (нижче в списку активних модів = вищий
-пріоритет при конфлікті файлів з однаковим відносним шляхом... а тут шлях
-свідомо унікальний для кожного мода, тому пріоритет визначається лише тим,
-що в грі буде видно останній *завантажений* варіант ключа локалізації —
-детальніше дивіться нижче).
+Повний список за категоріями (геймплей, генерація, інтерфейс, кораблі,
+аніме/портрети, сюжет, прапори) — у [MODLIST.md](./MODLIST.md).
 
-## Джерело перекладів
+**Останнє оновлення перекладу: 2026-07-18.**
 
-Увесь переклад веде окремий приватний робочий репозиторій
-[`stellaris-modpack-dev`](https://github.com/Egocomedis/stellaris-modpack-dev) —
-там повний лог роботи (`DEVLOG.md`), глосарій термінів (`glossary.md`) і
-необроблені матеріали. Цей репозиторій (`UA_Compability_Translate_Path`) —
-лише «дистрибутив»: сюди копіюється вже готовий, перевірений результат з
-`translated-mods/` у форматі, придатному для публікації одним модом у
-Steam Workshop.
+Позначки: ✅ готово · 🔧 в роботі · ⚠️ стара версія, ще не оновлювався
 
-**Якщо мод тут виглядає застарілим або неповним — виправляти в
-`stellaris-modpack-dev`, а потім синхронізувати сюди, а не редагувати
-напряму тут.**
-
-## Список перекладених модів
-
-| Steam Workshop ID | Назва мода | Джерело |
+| Steam Workshop ID | Мод | Стан |
 |---|---|---|
-| [3250634000](https://steamcommunity.com/sharedfiles/filedetails/?id=3250634000) | Alice | modpack-dev |
-| [1302897684](https://steamcommunity.com/sharedfiles/filedetails/?id=1302897684) | Astronomical Emblem Pack | modpack-dev |
-| [3156472795](https://steamcommunity.com/sharedfiles/filedetails/?id=3156472795) | building solt + | modpack-dev |
-| [2878396142](https://steamcommunity.com/sharedfiles/filedetails/?id=2878396142) | DAP扩展-永世飞升 | modpack-dev |
-| [2411818376](https://steamcommunity.com/sharedfiles/filedetails/?id=2411818376) | Dark Blue UI Remake | modpack-dev |
-| [2572843550](https://steamcommunity.com/sharedfiles/filedetails/?id=2572843550) | Elegant Chinese Random Names & Localisation Fix | modpack-dev |
-| [2571844795](https://steamcommunity.com/sharedfiles/filedetails/?id=2571844795) | ! Ember UI Remake ! | modpack-dev |
-| [2938897848](https://steamcommunity.com/sharedfiles/filedetails/?id=2938897848) | Endless Space 2: Cravers Shipset | modpack-dev |
-| [2932557948](https://steamcommunity.com/sharedfiles/filedetails/?id=2932557948) | Endless Space 2: Horatio Shipset | modpack-dev |
-| [2935276961](https://steamcommunity.com/sharedfiles/filedetails/?id=2935276961) | Endless Space 2: Sophon Shipset | modpack-dev |
-| [2930813098](https://steamcommunity.com/sharedfiles/filedetails/?id=2930813098) | Endless Space 2: Unfallen Shipset | modpack-dev |
-| [2930369811](https://steamcommunity.com/sharedfiles/filedetails/?id=2930369811) | Endless Space 2: United Empire Shipset | modpack-dev |
-| [2950661639](https://steamcommunity.com/sharedfiles/filedetails/?id=2950661639) | Endless Space 2: Vodyani Shipset | modpack-dev |
-| [1067631798](https://steamcommunity.com/sharedfiles/filedetails/?id=1067631798) | Expanded Stellaris Ascension Perks | ⚠️ старий, мода немає у збірці — окреме питання |
-| [1998204784](https://steamcommunity.com/sharedfiles/filedetails/?id=1998204784) | Galaxy Generation | ⚠️ старий, мода немає у збірці — окреме питання |
-| [2409209888](https://steamcommunity.com/sharedfiles/filedetails/?id=2409209888) | ! Immersive Stellaris Collection ! | modpack-dev |
-| [2077186491](https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491) | Machine Shipset | modpack-dev |
-| [2868514243](https://steamcommunity.com/sharedfiles/filedetails/?id=2868514243) | Master of Orion: Antaran Shipset | modpack-dev |
-| [2868168109](https://steamcommunity.com/sharedfiles/filedetails/?id=2868168109) | Master of Orion: Darlok Shipset | modpack-dev |
-| [2887758432](https://steamcommunity.com/sharedfiles/filedetails/?id=2887758432) | Master of Orion: Terran Shipset | modpack-dev |
-| [819148835](https://steamcommunity.com/sharedfiles/filedetails/?id=819148835) | Planetary Diversity | modpack-dev |
-| [3241119393](https://steamcommunity.com/sharedfiles/filedetails/?id=3241119393) | Planetary Diversity - Ascension Worlds | modpack-dev |
-| [3142294658](https://steamcommunity.com/sharedfiles/filedetails/?id=3142294658) | Planetary Diversity - City Sets | modpack-dev |
-| [1732437279](https://steamcommunity.com/sharedfiles/filedetails/?id=1732437279) | Planetary Diversity - Exotic Worlds | modpack-dev |
-| [1732447147](https://steamcommunity.com/sharedfiles/filedetails/?id=1732447147) | Planetary Diversity - More Arcologies | modpack-dev |
-| [1740165239](https://steamcommunity.com/sharedfiles/filedetails/?id=1740165239) | Planetary Diversity - Unique Worlds | modpack-dev |
-| [3082164342](https://steamcommunity.com/sharedfiles/filedetails/?id=3082164342) | Real Space - New Arcologies | modpack-dev |
-| [1915620447](https://steamcommunity.com/sharedfiles/filedetails/?id=1915620447) | Real Space - Ships in Scaling | modpack-dev |
-| [1836457943](https://steamcommunity.com/sharedfiles/filedetails/?id=1836457943) | Real Space - Star Cluster | modpack-dev |
-| [2902512011](https://steamcommunity.com/sharedfiles/filedetails/?id=2902512011) | Real Space - The Infestation | modpack-dev |
-| [1199002146](https://steamcommunity.com/sharedfiles/filedetails/?id=1199002146) | Reworked Advanced Ascension | modpack-dev |
-| [3250900527](https://steamcommunity.com/sharedfiles/filedetails/?id=3250900527) | Starbase Extended 3.0 | modpack-dev |
-| [2972849902](https://steamcommunity.com/sharedfiles/filedetails/?id=2972849902) | Tall White Reborn | modpack-dev |
-| [3267309850](https://steamcommunity.com/sharedfiles/filedetails/?id=3267309850) | The Abyss Contract: EPOCH | modpack-dev |
-| [3086143878](https://steamcommunity.com/sharedfiles/filedetails/?id=3086143878) | Tradition UI 4.2~4.0 | modpack-dev |
-| [3156474398](https://steamcommunity.com/sharedfiles/filedetails/?id=3156474398) | traits + | modpack-dev |
-| [1623423360](https://steamcommunity.com/sharedfiles/filedetails/?id=1623423360) | UI Overhaul Dynamic | modpack-dev |
-| [1890399946](https://steamcommunity.com/sharedfiles/filedetails/?id=1890399946) | UI Overhaul Dynamic - Ascension Slots | ⚠️ старий, мода немає у збірці — окреме питання |
-| [2244483797](https://steamcommunity.com/sharedfiles/filedetails/?id=2244483797) | [United Fleet]Mobile Shipyard | modpack-dev |
-| [2027015321](https://steamcommunity.com/sharedfiles/filedetails/?id=2027015321) | United Fleet Shipset | modpack-dev |
-| [2409276081](https://steamcommunity.com/sharedfiles/filedetails/?id=2409276081) | ! Universal Game Rules Patch | modpack-dev |
-| [1970249743](https://steamcommunity.com/sharedfiles/filedetails/?id=1970249743) | Warship Girls Advisor | modpack-dev |
-| [899929086](https://steamcommunity.com/sharedfiles/filedetails/?id=899929086) | Warship Girls R Species Mod | modpack-dev |
-| [3424792050](https://steamcommunity.com/sharedfiles/filedetails/?id=3424792050) | 多彩银河+ 多彩事件拓展 个人修复和修改 | modpack-dev |
-| [3243731913](https://steamcommunity.com/sharedfiles/filedetails/?id=3243731913) | 小狐狸的底层框架 | modpack-dev |
-| [2752229316](https://steamcommunity.com/sharedfiles/filedetails/?id=2752229316) | 少女前线群星故事集：危机联合扩展 | modpack-dev |
-| [2824296980](https://steamcommunity.com/sharedfiles/filedetails/?id=2824296980) | 星之誓约扩展 - Eos曙光女神实验室 | modpack-dev |
-| [3284159548](https://steamcommunity.com/sharedfiles/filedetails/?id=3284159548) | 星球建筑槽位扩建决议 | modpack-dev |
-| [3261046175](https://steamcommunity.com/sharedfiles/filedetails/?id=3261046175) | 更多主线飞升：物质纪元 | modpack-dev |
-| [2409022407](https://steamcommunity.com/sharedfiles/filedetails/?id=2409022407) | 更多旗帜 | modpack-dev |
-| [2949117070](https://steamcommunity.com/sharedfiles/filedetails/?id=2949117070) | SHYNZ Portraits Pack | modpack-dev |
-| [3160618037](https://steamcommunity.com/sharedfiles/filedetails/?id=3160618037) | 虚空的科技扩展 | modpack-dev |
-| [3340600231](https://steamcommunity.com/sharedfiles/filedetails/?id=3340600231) | 迷迭香领袖 | modpack-dev |
-| [3103861276](https://steamcommunity.com/sharedfiles/filedetails/?id=3103861276) | 领袖：不，我不要负面特质！ | modpack-dev |
-| [2616955720](https://steamcommunity.com/sharedfiles/filedetails/?id=2616955720) | 额外传统 | modpack-dev |
-| [3242109265](https://steamcommunity.com/sharedfiles/filedetails/?id=3242109265) | 额外领袖特质选项+99 | modpack-dev |
-| [2841481791](https://steamcommunity.com/sharedfiles/filedetails/?id=2841481791) | 香草科研助手-Vanilla Research Helper | modpack-dev |
-| [3292390779](https://steamcommunity.com/sharedfiles/filedetails/?id=3292390779) | 虚空的更多星系开局 | modpack-dev |
+| [3250634000](https://steamcommunity.com/sharedfiles/filedetails/?id=3250634000) | Alice | ✅ |
+| [1302897684](https://steamcommunity.com/sharedfiles/filedetails/?id=1302897684) | Astronomical Emblem Pack | ✅ |
+| [3156472795](https://steamcommunity.com/sharedfiles/filedetails/?id=3156472795) | building solt + | ✅ |
+| [2878396142](https://steamcommunity.com/sharedfiles/filedetails/?id=2878396142) | DAP扩展-永世飞升 | ✅ |
+| [2411818376](https://steamcommunity.com/sharedfiles/filedetails/?id=2411818376) | Dark Blue UI Remake | ✅ |
+| [2572843550](https://steamcommunity.com/sharedfiles/filedetails/?id=2572843550) | Elegant Chinese Random Names & Localisation Fix | ✅ |
+| [2571844795](https://steamcommunity.com/sharedfiles/filedetails/?id=2571844795) | ! Ember UI Remake ! | ✅ |
+| [2938897848](https://steamcommunity.com/sharedfiles/filedetails/?id=2938897848) | Endless Space 2: Cravers Shipset | ✅ |
+| [2932557948](https://steamcommunity.com/sharedfiles/filedetails/?id=2932557948) | Endless Space 2: Horatio Shipset | ✅ |
+| [2935276961](https://steamcommunity.com/sharedfiles/filedetails/?id=2935276961) | Endless Space 2: Sophon Shipset | ✅ |
+| [2930813098](https://steamcommunity.com/sharedfiles/filedetails/?id=2930813098) | Endless Space 2: Unfallen Shipset | ✅ |
+| [2930369811](https://steamcommunity.com/sharedfiles/filedetails/?id=2930369811) | Endless Space 2: United Empire Shipset | ✅ |
+| [2950661639](https://steamcommunity.com/sharedfiles/filedetails/?id=2950661639) | Endless Space 2: Vodyani Shipset | ✅ |
+| [1067631798](https://steamcommunity.com/sharedfiles/filedetails/?id=1067631798) | Expanded Stellaris Ascension Perks | ⚠️ |
+| [1998204784](https://steamcommunity.com/sharedfiles/filedetails/?id=1998204784) | Galaxy Generation | ⚠️ |
+| [2409209888](https://steamcommunity.com/sharedfiles/filedetails/?id=2409209888) | ! Immersive Stellaris Collection ! | ✅ |
+| [2466607238](https://steamcommunity.com/sharedfiles/filedetails/?id=2466607238) | ! Core Framework of Kasako | ⚠️ |
+| [2077186491](https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491) | Machine Shipset | ✅ |
+| [2868514243](https://steamcommunity.com/sharedfiles/filedetails/?id=2868514243) | Master of Orion: Antaran Shipset | ✅ |
+| [2868168109](https://steamcommunity.com/sharedfiles/filedetails/?id=2868168109) | Master of Orion: Darlok Shipset | ✅ |
+| [2887758432](https://steamcommunity.com/sharedfiles/filedetails/?id=2887758432) | Master of Orion: Terran Shipset | ✅ |
+| [819148835](https://steamcommunity.com/sharedfiles/filedetails/?id=819148835) | Planetary Diversity | ✅ |
+| [3241119393](https://steamcommunity.com/sharedfiles/filedetails/?id=3241119393) | Planetary Diversity - Ascension Worlds | ✅ |
+| [3142294658](https://steamcommunity.com/sharedfiles/filedetails/?id=3142294658) | Planetary Diversity - City Sets | ✅ |
+| [1732437279](https://steamcommunity.com/sharedfiles/filedetails/?id=1732437279) | Planetary Diversity - Exotic Worlds | ✅ |
+| [1732447147](https://steamcommunity.com/sharedfiles/filedetails/?id=1732447147) | Planetary Diversity - More Arcologies | ✅ |
+| [1740165239](https://steamcommunity.com/sharedfiles/filedetails/?id=1740165239) | Planetary Diversity - Unique Worlds | ✅ |
+| [3082164342](https://steamcommunity.com/sharedfiles/filedetails/?id=3082164342) | Real Space - New Arcologies | ✅ |
+| [1915620447](https://steamcommunity.com/sharedfiles/filedetails/?id=1915620447) | Real Space - Ships in Scaling | ✅ |
+| [1836457943](https://steamcommunity.com/sharedfiles/filedetails/?id=1836457943) | Real Space - Star Cluster | ✅ |
+| [2902512011](https://steamcommunity.com/sharedfiles/filedetails/?id=2902512011) | Real Space - The Infestation | ✅ |
+| [1199002146](https://steamcommunity.com/sharedfiles/filedetails/?id=1199002146) | Reworked Advanced Ascension | ✅ |
+| [3250900527](https://steamcommunity.com/sharedfiles/filedetails/?id=3250900527) | Starbase Extended 3.0 | ✅ |
+| [2972849902](https://steamcommunity.com/sharedfiles/filedetails/?id=2972849902) | Tall White Reborn | ✅ |
+| [3267309850](https://steamcommunity.com/sharedfiles/filedetails/?id=3267309850) | The Abyss Contract: EPOCH | ✅ |
+| [3086143878](https://steamcommunity.com/sharedfiles/filedetails/?id=3086143878) | Tradition UI 4.2~4.0 | ✅ |
+| [3156474398](https://steamcommunity.com/sharedfiles/filedetails/?id=3156474398) | traits + | ✅ |
+| [1623423360](https://steamcommunity.com/sharedfiles/filedetails/?id=1623423360) | UI Overhaul Dynamic | ✅ |
+| [1890399946](https://steamcommunity.com/sharedfiles/filedetails/?id=1890399946) | UI Overhaul Dynamic - Ascension Slots | ⚠️ |
+| [2244483797](https://steamcommunity.com/sharedfiles/filedetails/?id=2244483797) | [United Fleet]Mobile Shipyard | ✅ |
+| [2027015321](https://steamcommunity.com/sharedfiles/filedetails/?id=2027015321) | United Fleet Shipset | ✅ |
+| [2409276081](https://steamcommunity.com/sharedfiles/filedetails/?id=2409276081) | ! Universal Game Rules Patch | ✅ |
+| [1970249743](https://steamcommunity.com/sharedfiles/filedetails/?id=1970249743) | Warship Girls Advisor | ✅ |
+| [899929086](https://steamcommunity.com/sharedfiles/filedetails/?id=899929086) | Warship Girls R Species Mod | ✅ |
+| [2389589691](https://steamcommunity.com/sharedfiles/filedetails/?id=2389589691) | Ancient Empire | 🔧 в роботі (31/38 файлів), у пакеті ще немає |
+| [3424792050](https://steamcommunity.com/sharedfiles/filedetails/?id=3424792050) | 多彩银河+ 多彩事件拓展 个人修复和修改 | ✅ |
+| [3243731913](https://steamcommunity.com/sharedfiles/filedetails/?id=3243731913) | 小狐狸的底层框架 | ✅ |
+| [2752229316](https://steamcommunity.com/sharedfiles/filedetails/?id=2752229316) | 少女前线群星故事集：危机联合扩展 | ✅ |
+| [2824296980](https://steamcommunity.com/sharedfiles/filedetails/?id=2824296980) | 星之誓约扩展 - Eos曙光女神实验室 | ✅ |
+| [3284159548](https://steamcommunity.com/sharedfiles/filedetails/?id=3284159548) | 星球建筑槽位扩建决议 | ✅ |
+| [3261046175](https://steamcommunity.com/sharedfiles/filedetails/?id=3261046175) | 更多主线飞升：物质纪元 | ✅ |
+| [2409022407](https://steamcommunity.com/sharedfiles/filedetails/?id=2409022407) | 更多旗帜 | ✅ |
+| [2949117070](https://steamcommunity.com/sharedfiles/filedetails/?id=2949117070) | SHYNZ Portraits Pack | ✅ |
+| [3160618037](https://steamcommunity.com/sharedfiles/filedetails/?id=3160618037) | 虚空的科技扩展 | ✅ |
+| [3340600231](https://steamcommunity.com/sharedfiles/filedetails/?id=3340600231) | 迷迭香领袖 | ✅ |
+| [3103861276](https://steamcommunity.com/sharedfiles/filedetails/?id=3103861276) | 领袖：不，我不要负面特质！ | ✅ |
+| [2616955720](https://steamcommunity.com/sharedfiles/filedetails/?id=2616955720) | 额外传统 | ✅ |
+| [3242109265](https://steamcommunity.com/sharedfiles/filedetails/?id=3242109265) | 额外领袖特质选项+99 | ✅ |
+| [2841481791](https://steamcommunity.com/sharedfiles/filedetails/?id=2841481791) | 香草科研助手-Vanilla Research Helper | ✅ |
+| [3292390779](https://steamcommunity.com/sharedfiles/filedetails/?id=3292390779) | 虚空的更多星系开局 | ✅ |
 
-55 модів синхронізовано з `stellaris-modpack-dev` (2026-07-16), 5 модів —
-старіші ручні переклади, що передували цьому проєкту.
+## Зворотний зв'язок
 
-## Відомі проблеми
-
-**Planetary Diversity (819148835) виправлено (2026-07-16):** старий
-чернетковий переклад мав 11 повністю відсутніх біомів (65 ключів:
-ash, barnacle, carotene, magma, ravine, silvergrass, sodalite,
-superbloom, supraglacial_lakes, thunder, travertine — в
-`planetarydiversity_planet_classes_l_english.yml` та відповідні
-змінні-посилання в інших файлах модуля), один ключ був перейменований
-з `pd_volcano` на `pd_volcanic` (зіткнення з реальним `pd_volcanic` —
-довелося повернути справжню назву й додати відсутній), два ключі з
-іншого, ще не перекладеного мода (`mod_planet_artisans_unity_produces_add`,
-`mod_planet_bio_trophies_unity_produces_add` з 2389589691;
-`mod_job_trader_per_pop`(`_short`) з 2907350739) помилково опинилися
-в файлах Planetary Diversity — видалено. Наскрізно виправлено
-термінологію: «Гайя»/«Гая» → «Гея», «tidally-замкнений»/«тідально
-заблокований» → «припливно захоплений» (усталений термін проєкту,
-див. glossary.md), кілька суржикових слів («Приспособленість» →
-«Придатність», «насучасшніий» → «найсучасніший», «Металосодержащі» →
-«Металовмісні») та зламаних перемішаних кирилиця/латиниця слів
-(«Кelp» → «Ламінарія»). Знайдено й виправлено зламане посилання
-(`pd_domed_mining_site_3_desc` вказувало на опис moonbase замість
-mining) і кілька випадків неузгодження роду/відмінку («Цей планет
-має» → «Ця планета має» тощо, «Місячну Форпост» → «Місячний Форпост»).
-
-**Dark Blue UI Remake (2411818376) виправлено (2026-07-16):** старий
-чернетковий переклад замінено повним — додано 4 пропущені рядки
-(`TRTE_btn_ldr_ENTRY_common_failtip_mod`, `MUI_option_REROLL_use_unity`,
-`MUI_option_REROLL_use_influence_tip`, `MUI_btn_REROLL_all_tip`),
-переписано 2 рядки з вигаданим текстом, що не відповідав оригіналу
-(`MUI_option_REROLL_use_credits`/`use_influence` посилалися на
-неіснуючі змінні `$@REROLL_credits$`/`$@REROLL_influence$`), виправлено
-синтаксичну помилку з нерозірваними лапками (рядки 90, 96 → «ялинки»),
-одну явну помилку перекладу («Есмінці» замість «Корвети») та одну
-друкарську («Lютий» латиницею замість «Лютий»). Заразом виявлено чужий
-файл `FW_MISC/ATEC_l_english.yml`, що насправді належить окремому моду
-`! Core Framework of Kasako (2466607238)` (залежність Dark Blue UI, сам
-ще не в черзі на переклад) — переміщено у власну підпапку, чернетка там
-неповна (лишився невиправлений англійський/китайський текст), доперекласти
-пізніше.
-
-**Reworked Advanced Ascension (1199002146) виправлено (2026-07-16):**
-найбільший мод у всій паці (~3.6МБ, 3 файли). Старий черновик пропускав
-**98 ключів** — цілі гілки функціоналу відсутні повністю: асцензія
-«Nomadic Storm»/«Movable Inferno» (Залізна чума для кочових імперій),
-модулі станцій Vigilance, гілка «Technological Singularity», категорії
-асцензій, 12 повідомлень взаємовиключності асцензій та інше. Знайдено і
-виправлено критичний баг: **16 ключів** підрозділу `ACADEMY_hall` мали
-одруківку `opiton_` замість `option_` — це повністю ламало відповідні
-рядки локалізації в грі (рушій шукає за точним іменем ключа). Виправлено
-системну помилку перекладу «starships» → «зірки» (замість «кораблі») в
-кількох місцях файлу `AAR_nebula_l_english.yml`. Наскрізно виправлено
-русизм «можем» → «можемо» (42 входження) та термінологію «Гайя»/«Гая» →
-«Гея» (9 входжень). У `AAR_random_l_english.yml` та `AAR_nebula_l_english.yml`
-також дописано пропущені ключі та виправлено одну перейменовану змінну
-(`mod_AAR_smod_sb_NEBULA_res_CAP` → `mod_AAR_smod_cntr_NEBULA_res_CAP`).
-
-`UI Overhaul Dynamic - Ascension Slots (1890399946)` синтаксично чистий,
-але не перевірявся на повноту перекладу.
-
-**Виправлення (2026-07-16):** початкове твердження «ці 6 модів не входять
-до збірки» було помилковим для трьох із них. Перевірено точно за списком
-модів зі збірки (194 моди, файл `no-translate-mods/` у `stellaris-modpack-dev`):
-
-- **Dark Blue UI Remake (2411818376)**, **Planetary Diversity (819148835)**,
-  **Reworked Advanced Ascension (1199002146)** — це реальні моди зі збірки,
-  просто ще не дійшли руки їх перекласти (два з них — найбільші моди в
-  усій паці за обсягом тексту). Додано в чергу `stellaris-modpack-dev`,
-  чернетки з помилками вище будуть замінені повноцінним перекладом у
-  наступних хвилях.
-- **Expanded Stellaris Ascension Perks (1067631798)**,
-  **Galaxy Generation (1998204784)**,
-  **UI Overhaul Dynamic - Ascension Slots (1890399946)** — дійсно **не
-  входять** до збірки з 194 модів. Це залишки окремого ручного перекладу
-  користувача під іншу збірку/сейв. У рамках основного проєкту не
-  допрацьовуються — це окрема задача, якщо колись знадобиться.
-
-## Формат для Steam Workshop
-
-Готовий опис сторінки моду (з BBCode-розміткою Steam) — у файлі
-[`STEAM_DESCRIPTION.bbcode`](./STEAM_DESCRIPTION.bbcode).
+Помітили змішаний українсько-китайський текст, помилку чи зламаний рядок —
+створіть issue або напишіть у коментарях на сторінці мода в Steam Workshop.
